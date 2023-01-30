@@ -1,0 +1,501 @@
+{
+	id: "429E604F85A47F19"
+	order_index: 0
+	title: "Common Crate"
+	icon: "blue_skies:frostbright_chest"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:cobblestone", count: 64, weight: 90 }
+		{ item: "minecraft:bookshelf", count: 4, weight: 90 }
+		{ item: "minecraft:oak_log", count: 32, weight: 90 }
+		{ item: "minecraft:golden_apple", weight: 60 }
+		{ item: "minecraft:cooked_porkchop", count: 16, weight: 90 }
+		{ item: "minecraft:bread", count: 32 }
+		{ item: "minecraft:redstone", count: 16, weight: 80 }
+		{ item: "minecraft:coal", count: 16, weight: 90 }
+		{ item: "minecraft:iron_ingot", count: 16, weight: 90 }
+		{ item: "minecraft:gold_ingot", count: 8, weight: 90 }
+		{ item: "minecraft:diamond", count: 2, weight: 50 }
+		{ item: "minecraft:netherite_ingot", count: 2, weight: 30 }
+		{ item: "minecraft:beacon" }
+		{ item: "minecraft:cake" }
+		{ item: "minecraft:experience_bottle", count: 4 }
+		{ item: "minecraft:iron_horse_armor" }
+		{ item: "minecraft:name_tag", weight: 25 }
+		{ item: "minecraft:nether_star" }
+		{
+			item: {
+				id: "chisel:diamond_chisel"
+				Count: 1b
+				tag: {
+					Damage: 0
+					chiseldata: { }
+				}
+			}
+		}
+		{ item: "immersiveengineering:wirecoil_copper", count: 4 }
+		{ item: "ironchest:iron_to_gold_chest_upgrade" }
+		{ item: "ironchest:gold_to_diamond_chest_upgrade" }
+		{ item: "ironchest:copper_to_iron_chest_upgrade" }
+		{ item: "ironchest:copper_to_silver_chest_upgrade" }
+		{ item: "ironchest:silver_to_gold_chest_upgrade" }
+		{ item: "ironchest:wood_to_copper_chest_upgrade" }
+		{ item: "mysticalagriculture:inferium_essence", count: 16 }
+		{ item: "sophisticatedbackpacks:backpack" }
+		{ item: "sophisticatedbackpacks:iron_backpack" }
+		{ item: "storagedrawers:obsidian_storage_upgrade" }
+		{ item: "storagedrawers:iron_storage_upgrade" }
+		{ item: "structurize:sceptergold" }
+		{ item: "storagedrawers:oak_full_drawers_1", count: 4 }
+		{ item: "bhc:red_heart_canister" }
+		{ item: "pamhc2foodcore:porkjerkyitem", count: 6 }
+		{ item: "pamhc2foodcore:beefjerkyitem", count: 6 }
+		{ item: "pamhc2foodcore:baconcheeseburgeritem", count: 4 }
+		{ item: "pamhc2foodcore:chickenjerkyitem", count: 4 }
+		{ item: "pamhc2foodextended:gourmetporkburgeritem", count: 4 }
+		{ item: "minecraft:ender_chest" }
+		{ item: "minecraft:enchanting_table", weight: 50 }
+		{ item: "minecraft:furnace", weight: 90 }
+		{ item: "minecraft:chest", count: 8, weight: 90 }
+		{ item: "minecraft:glowstone", count: 16, weight: 90 }
+		{ item: "minecraft:hay_block", count: 4, weight: 90 }
+		{ item: "minecraft:obsidian", count: 8, weight: 90 }
+		{ item: "minecraft:lantern", count: 16, weight: 90 }
+		{
+			item: {
+				id: "minecraft:flint_and_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:shears"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:ender_pearl", count: 4 }
+		{ item: "appliedenergistics2:certus_quartz_crystal", count: 16, weight: 20 }
+		{ item: "appliedenergistics2:fluix_crystal", count: 8, weight: 15 }
+		{ item: "minecraft:potato", count: 8 }
+		{ item: "minecraft:carrot", count: 8 }
+		{
+			item: {
+				id: "minecraft:crossbow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:lapis_lazuli", count: 16 }
+		{ item: "minecraft:emerald" }
+		{ item: "minecraft:sticky_piston", count: 2 }
+		{ item: "minecraft:piston", count: 4 }
+		{ item: "minecraft:hopper", count: 4 }
+		{ item: "minecraft:brewing_stand" }
+		{ item: "minecraft:bucket", count: 4 }
+		{ item: "minecraft:water_bucket" }
+		{ item: "minecraft:lava_bucket" }
+		{ item: "naturescompass:naturescompass" }
+		{ item: "minecraft:book", count: 4 }
+		{
+			item: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecolonies:supplycampdeployer", weight: 25 }
+		{ item: "minecolonies:supplychestdeployer", weight: 25 }
+		{ item: "minecraft:red_mushroom", count: 16 }
+		{ item: "minecraft:brown_mushroom", count: 16 }
+		{ item: "minecraft:crying_obsidian", count: 4 }
+		{ item: "minecraft:blaze_rod", count: 8 }
+		{ item: "minecraft:ender_eye" }
+		{ item: "minecraft:bee_nest", count: 2 }
+		{ item: "waystones:waystone", weight: 25 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:power"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:power"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:punch"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:bane_of_arthropods"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:bane_of_arthropods"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:smite"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:smite"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:respiration"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:projectile_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:feather_falling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:fire_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "inventorypets:pet_sponge"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_cow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 45
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{ item: "scalinghealth:enchanted_heart", weight: 15 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 350
+			monster: 10
+		}
+		color: 9607578
+		item_name: "Common Crate"
+		string_id: "common"
+	}
+}

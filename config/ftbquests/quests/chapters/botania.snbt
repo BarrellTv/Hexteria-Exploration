@@ -1,0 +1,1140 @@
+{
+	id: "5C41287AEA134BB0"
+	group: "6FCEA929E492CCB9"
+	order_index: 1
+	filename: "botania"
+	title: "Botania"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Terrasteel Armor"
+			icon: {
+				id: "botania:terrasteel_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 10.0d
+			dependencies: ["1C5525E14E144E4E"]
+			id: "6C0F97DF0B64C2CD"
+			tasks: [
+				{
+					id: "36EF0A909DD9FC94"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18EBD828C06E6A9B"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AE9D595E494B3A8"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1151F0D039EC5681"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "21785F26F4419BE5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+				{
+					id: "35835045FCE65131"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			title: "Manasteel Armor"
+			icon: {
+				id: "botania:manasteel_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: 6.0d
+			dependencies: ["377FA819ECC71C61"]
+			id: "557D08AE866D3217"
+			tasks: [
+				{
+					id: "6FC1A2E6F6C408C4"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E8B36E55997451F"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "59220B8579DEB446"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0EB64374285C94CE"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "54702CF5B0D4CDC0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "75195C14389AE802"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Manaweave Armor"
+			icon: {
+				id: "botania:manaweave_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 7.0d
+			dependencies: ["089E355C767A4139"]
+			id: "5CF3A743F22CF41D"
+			tasks: [
+				{
+					id: "3CD9A2CB0BABC862"
+					type: "item"
+					item: {
+						id: "botania:manaweave_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5EE622221DDBDAED"
+					type: "item"
+					item: {
+						id: "botania:manaweave_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B748583B3EF677C"
+					type: "item"
+					item: {
+						id: "botania:manaweave_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "010DA372F0252193"
+					type: "item"
+					item: {
+						id: "botania:manaweave_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2CE34223CE761F9A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "5197A81876FA94DE"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Elementium Armor"
+			icon: {
+				id: "botania:elementium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 11.5d
+			dependencies: ["65B7A55D5EA88764"]
+			id: "429F5C0FC5CB49D5"
+			tasks: [
+				{
+					id: "04A67B1A46F8F3F1"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "57ADA65B85209E04"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6140B2B54CC64F6D"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13917C5BECA55DB1"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "58055A4C73F6DF75"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+				{
+					id: "4ACFD6BAF1B4E68E"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "gear"
+			size: 1.5d
+			id: "5190E4D70CF98E08"
+			tasks: [{
+				id: "47C6E503137EFF67"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "47687923BA7C6F11"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "54B7E09BE7B433A2"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["77ACC72C4AD358A0"]
+			id: "585E97C744CAD8CE"
+			tasks: [{
+				id: "288572A7E68D03AC"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1B19EF16BE9545DE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "farming"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "15150A9ED66A498B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["This is like using bone meal on the ground and grass growing but the &aFloral Fertilizer&f grows Mystical Flowers used in &2Botania"]
+			dependencies: ["5190E4D70CF98E08"]
+			id: "19AC2DB6FD74FDA4"
+			tasks: [{
+				id: "3B7EFB4D894AED72"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "5E85016A68C5D7BC"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 16
+				}
+				{
+					id: "083CE788A5EFC810"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["598420A29259B627"]
+			id: "041068B11FAE9B5D"
+			tasks: [{
+				id: "03D1D24CFB6D3F78"
+				type: "item"
+				item: "botania:white_petal"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "62E1B424D08BE851"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "farming"
+						}
+					}
+				}
+				{
+					id: "7F90BB7E41FEB9E2"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["5190E4D70CF98E08"]
+			id: "598420A29259B627"
+			tasks: [{
+				id: "5F0F2D676CA83211"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [
+				{
+					id: "63955C34C19E43DF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "04190750D8A8470A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["The Pure Daisy can be used to make Livingwood and Livingrock by placing wood Logs and/or Stone respectively around it; it will take one minute for the conversion to happen. "]
+			dependencies: ["041068B11FAE9B5D"]
+			id: "29E42E18A67B257F"
+			tasks: [{
+				id: "0B3511A49CEFB7FC"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [
+				{
+					id: "122FB857A880BEA9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "farming"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "52991F41D4BC9E41"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["29E42E18A67B257F"]
+			id: "2CDB18E3F5CE4CF8"
+			tasks: [{
+				id: "310A629B87E20CC4"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+			rewards: [
+				{
+					id: "4F09CB7B5E8D37A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "32DDB31A7D834466"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["29E42E18A67B257F"]
+			id: "77ACC72C4AD358A0"
+			tasks: [{
+				id: "7E3733A6CEAC5AE6"
+				type: "item"
+				item: "botania:livingwood"
+			}]
+			rewards: [
+				{
+					id: "3A364FEEA33F23BD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4D4A9CE7C7988B28"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["2CDB18E3F5CE4CF8"]
+			id: "3BB151C9299F8AAE"
+			tasks: [{
+				id: "0D2D468BAB1BF8B8"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [
+				{
+					id: "0A5E08033D5EC933"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "farming"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "741FDA4C16ADFE09"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			dependencies: ["77ACC72C4AD358A0"]
+			id: "4F144844A25E843B"
+			tasks: [{
+				id: "57BB1F53AF73AFC7"
+				type: "item"
+				item: "botania:mana_spreader"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0A3ECB1A390AA294"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "farming"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "2C0D248B0D12C4D1"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: [
+				"The Hydroangeas is of the many mana producing flowers that can be use to generate mana for the mana pool."
+				""
+				"Hydroangeas is one of the easier plants to use in the beginning. Hydroangeas consume water source blocks to generate Mana."
+				""
+				"You could set up a 2x2 or 3x3 infinite water source for the Hydroangeas to use as their source of water."
+			]
+			dependencies: [
+				"2CDB18E3F5CE4CF8"
+				"77ACC72C4AD358A0"
+			]
+			id: "3C8D91D5522D22BF"
+			tasks: [{
+				id: "7A600B4A2F31E2C0"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+			rewards: [
+				{
+					id: "1E2494E29176D81E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "farming"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "59FE8D4BB9523B1A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["3BB151C9299F8AAE"]
+			id: "377FA819ECC71C61"
+			tasks: [{
+				id: "74EEAE7548652D0E"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "3DC44939C2A86791"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "6E118590067F3E33"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			dependencies: ["3BB151C9299F8AAE"]
+			id: "7EBB3D53C7EC2FFE"
+			tasks: [{
+				id: "72002E4BF6D63660"
+				type: "item"
+				item: "botania:mana_pearl"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "638B517503127386"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "2B487A97D97D0BE3"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			dependencies: ["3BB151C9299F8AAE"]
+			id: "25CF914DA3E4C591"
+			tasks: [{
+				id: "33EB1376720E6DDA"
+				type: "item"
+				item: "botania:mana_diamond"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "0B57E2A2EC952CB7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "492A822315E8C3A0"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["3BB151C9299F8AAE"]
+			id: "089E355C767A4139"
+			tasks: [{
+				id: "01F8D099BD4C1A3F"
+				type: "item"
+				item: "botania:mana_string"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "23AD5626C4CAD6EF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "482A8919E3D343B6"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: [
+				"7EBB3D53C7EC2FFE"
+				"2CDB18E3F5CE4CF8"
+			]
+			id: "6A1E8AF7FCC2B920"
+			tasks: [{
+				id: "7CACC2721FC19319"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [
+				{
+					id: "2C52B0DA6166EB6F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "farming"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4D12875BC5BABAFF"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["6A1E8AF7FCC2B920"]
+			id: "139918F2A9C2AF7C"
+			tasks: [
+				{
+					id: "126E6BF7D7EC6FAD"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "086741314C0EBC46"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "31611DC88B96BB2C"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "4AA61AA35D460432"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "409836E92FB364CA"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+			]
+			rewards: [
+				{
+					id: "44C2F1EAF3D9F90E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "7BE4B76A4A0DB537"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "6C7D1D0CBB30976B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "farming"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			dependencies: [
+				"139918F2A9C2AF7C"
+				"377FA819ECC71C61"
+			]
+			id: "4CD35902A0388D0C"
+			tasks: [
+				{
+					id: "2B666960B4804845"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "3BFB6F2CD096C8A1"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "35A401AB6F3FF4C9"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "166180B6BDA66190"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "0AE9B50F1B31622D"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 10.0d
+			dependencies: [
+				"4CD35902A0388D0C"
+				"377FA819ECC71C61"
+				"7EBB3D53C7EC2FFE"
+				"25CF914DA3E4C591"
+			]
+			id: "1C5525E14E144E4E"
+			tasks: [{
+				id: "72CDA23E6DB540CF"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "27DA872BAA06A870"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6D60674D198088BB"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "Portal to Alfheim"
+			x: 4.5d
+			y: 7.0d
+			dependencies: ["77ACC72C4AD358A0"]
+			id: "7CEA63B30890B51F"
+			tasks: [
+				{
+					id: "32282F1B383A8E69"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "5CD0E4CAEE898036"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "599D3D0F827BDF84"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "14D312DE2C216385"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "00A0C2A0564AE693"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "1267C47E0D16A097"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "147FCB9830556F31"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 10.0d
+			dependencies: [
+				"377FA819ECC71C61"
+				"7CEA63B30890B51F"
+			]
+			id: "65B7A55D5EA88764"
+			tasks: [{
+				id: "5BC38EE24A21893C"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "7C26825128D2BC63"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "6944DDCC72923249"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 10.0d
+			dependencies: [
+				"7EBB3D53C7EC2FFE"
+				"7CEA63B30890B51F"
+			]
+			id: "03FE58603F3646DE"
+			tasks: [{
+				id: "683EFB5C93EA3F78"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "688B426878DB58F4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0A28B9E0DC45306E"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 10.0d
+			dependencies: [
+				"25CF914DA3E4C591"
+				"7CEA63B30890B51F"
+			]
+			id: "5D2E332C2FF0AB80"
+			tasks: [{
+				id: "363A6AC4EF4AF983"
+				type: "item"
+				item: "botania:dragonstone"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "14DDDA9DE52F851F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "21930D964BF91CC4"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+	]
+}

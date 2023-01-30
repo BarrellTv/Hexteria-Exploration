@@ -1,0 +1,1503 @@
+{
+	id: "77803B07CB43044E"
+	group: "057C689E28CA5BBB"
+	order_index: 2
+	filename: "minecoloines"
+	title: "Minecoloines"
+	icon: "structurize:sceptergold"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "gear"
+			size: 1.5d
+			id: "4C900E5FCE64C1CB"
+			tasks: [{
+				id: "76FF5D8C3F26E596"
+				type: "item"
+				item: "structurize:sceptergold"
+			}]
+			rewards: [
+				{
+					id: "4078B74E3D172671"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "44B9AFB78CFB7A52"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["4C900E5FCE64C1CB"]
+			id: "3209519B85E1174A"
+			tasks: [{
+				id: "7771446303432916"
+				type: "item"
+				item: "minecolonies:supplycampdeployer"
+			}]
+			rewards: [
+				{
+					id: "4E4DA7D37D25CED1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "200C1137EF9F965C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["4C900E5FCE64C1CB"]
+			id: "3DB029EC52C70FDE"
+			tasks: [{
+				id: "672740E3E4E055A6"
+				type: "item"
+				item: "minecolonies:supplychestdeployer"
+			}]
+			rewards: [
+				{
+					id: "6CAB0281F8490AB0"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "22DACB39733624B9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: [
+				"3DB029EC52C70FDE"
+				"3209519B85E1174A"
+			]
+			id: "336E5F8F7F07D278"
+			tasks: [{
+				id: "099287F7EC946818"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+			rewards: [
+				{
+					id: "150562CCFDCC2FFE"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "54FCEF8726722C60"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "76CB3FF3FF0E2418"
+			tasks: [{
+				id: "611333027984B352"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+			rewards: [
+				{
+					id: "06DCFC99918AE182"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "394897D3B3AB7B92"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "16C564F6C110028F"
+			tasks: [{
+				id: "0C58555D45DE65BF"
+				type: "item"
+				item: "minecolonies:blockhutcook"
+			}]
+			rewards: [
+				{
+					id: "6C34D41394DE7188"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "17714C0FE8FEF0A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "613499013F8F82B0"
+			tasks: [
+				{
+					id: "558098EC6D894602"
+					type: "item"
+					item: "minecolonies:blockhutfarmer"
+				}
+				{
+					id: "189530CAC7B9A7B0"
+					type: "item"
+					item: "minecolonies:blockhutfield"
+				}
+			]
+			rewards: [
+				{
+					id: "437F4A8766789892"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "72714823A5BFC8B9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "5C19278F58FC5764"
+			tasks: [{
+				id: "44C75FAF5520C5C0"
+				type: "item"
+				item: "minecolonies:blockhutlumberjack"
+			}]
+			rewards: [
+				{
+					id: "0A7A913D0BE54680"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "47F495307ACB130A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "3002BBECB99991E1"
+			tasks: [{
+				id: "69E095830A248E27"
+				type: "item"
+				item: "minecolonies:blockhutminer"
+			}]
+			rewards: [
+				{
+					id: "31D284BCA23642A2"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "6FA0CEC37EC31687"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "4E99448EE2166F91"
+			tasks: [{
+				id: "4CD201585A10AC94"
+				type: "item"
+				item: "minecolonies:blockhutguardtower"
+			}]
+			rewards: [
+				{
+					id: "0BD1CFADFD76FEAE"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "6D1162846ADF6670"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["4E99448EE2166F91"]
+			id: "244CF37DD865E978"
+			tasks: [
+				{
+					id: "78EC5A2634E01F7A"
+					type: "item"
+					item: "minecolonies:blockhutbarracks"
+				}
+				{
+					id: "21F59E223E3D3891"
+					type: "item"
+					item: "minecolonies:blockhutbarrackstower"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "08E369C59E110930"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "61EBE7B00A714D42"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["16C564F6C110028F"]
+			id: "6483D9BFD41688A6"
+			tasks: [{
+				id: "0F2CEF92055592AF"
+				type: "item"
+				item: "minecolonies:blockhutbaker"
+			}]
+			rewards: [
+				{
+					id: "25CB340D8BCEC5FE"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "1BC6818E62EF9AB9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "7E63709550DC1CC1"
+			tasks: [{
+				id: "28A59D6AAAFC2949"
+				type: "item"
+				item: "minecolonies:blockhutcitizen"
+			}]
+			rewards: [
+				{
+					id: "0824D31C3FABEC1E"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "3B496A6CA1044A3B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["76CB3FF3FF0E2418"]
+			id: "7A430E3273778175"
+			tasks: [
+				{
+					id: "31D43390F856140F"
+					type: "item"
+					item: "minecolonies:blockhutwarehouse"
+				}
+				{
+					id: "554BC7F629184F15"
+					type: "item"
+					item: "minecolonies:blockhutdeliveryman"
+				}
+			]
+			rewards: [
+				{
+					id: "28BDD1A04067D81F"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "1D2FBD387468237F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			dependencies: ["3002BBECB99991E1"]
+			id: "4FCD5ACA4644894A"
+			tasks: [{
+				id: "4FDB7CF95675F3FB"
+				type: "item"
+				item: "minecolonies:simplequarry"
+			}]
+			rewards: [
+				{
+					id: "069C1948920282BD"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "4FB908A5C96DD37D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 7.5d
+			dependencies: ["4FCD5ACA4644894A"]
+			id: "4AF392E668F34EEF"
+			tasks: [{
+				id: "45AA500630F37BD6"
+				type: "item"
+				item: "minecolonies:mediumquarry"
+			}]
+			rewards: [
+				{
+					id: "6FD1B8A0A79E2AFD"
+					type: "ftbmoney:money"
+					ftb_money: 85L
+				}
+				{
+					id: "67ED665A2F7891A5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "017E8C23AE9600CF"
+			tasks: [{
+				id: "52B4B6E7EE2F4837"
+				type: "item"
+				item: "minecolonies:blockhutcowboy"
+			}]
+			rewards: [
+				{
+					id: "321D12B30A76C602"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "4129860E144A8905"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["017E8C23AE9600CF"]
+			id: "439B6BA4A4B4BFDA"
+			tasks: [{
+				id: "0AD4DCCB1927BCD8"
+				type: "item"
+				item: "minecolonies:blockhutchickenherder"
+			}]
+			rewards: [
+				{
+					id: "30948E1254978ABD"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "5144DDFB648F35C1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["439B6BA4A4B4BFDA"]
+			id: "1C0A962860CABCF7"
+			tasks: [{
+				id: "1AD172AD604465D9"
+				type: "item"
+				item: "minecolonies:blockhutfisherman"
+			}]
+			rewards: [
+				{
+					id: "5673E01F18DA136F"
+					type: "ftbmoney:money"
+					ftb_money: 85L
+				}
+				{
+					id: "0DB9D6C815EA3E5A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			dependencies: ["1C0A962860CABCF7"]
+			id: "0BBE06EDEF0BA037"
+			tasks: [{
+				id: "58D47B139DC6CAFE"
+				type: "item"
+				item: "minecolonies:blockhutswineherder"
+			}]
+			rewards: [
+				{
+					id: "2E7DD31CFB671E0A"
+					type: "ftbmoney:money"
+					ftb_money: 90L
+				}
+				{
+					id: "7172309ECABF1068"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 10.5d
+			dependencies: ["0BBE06EDEF0BA037"]
+			id: "73E2B4094DD46E55"
+			tasks: [{
+				id: "4986776F0984954A"
+				type: "item"
+				item: "minecolonies:blockhutshepherd"
+			}]
+			rewards: [
+				{
+					id: "7FF9EB3DC4B897B0"
+					type: "ftbmoney:money"
+					ftb_money: 95L
+				}
+				{
+					id: "234FEA2D6954FF98"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 12.0d
+			dependencies: ["73E2B4094DD46E55"]
+			id: "53CEE07AC5C1A4D2"
+			tasks: [{
+				id: "6E2FD1072F0873A4"
+				type: "item"
+				item: "minecolonies:blockhutrabbithutch"
+			}]
+			rewards: [
+				{
+					id: "28A773CDE2429BF9"
+					type: "ftbmoney:money"
+					ftb_money: 95L
+				}
+				{
+					id: "6914C4DA1D0078EB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["7E63709550DC1CC1"]
+			id: "7DC47E81850FBC27"
+			tasks: [{
+				id: "0300D06D5E9C5200"
+				type: "item"
+				item: "minecolonies:blockhuttavern"
+			}]
+			rewards: [
+				{
+					id: "6E8C2C7464A6CE63"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "3EBAAC23D8DD9FEE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 9.0d
+			dependencies: ["68767DA17505B468"]
+			id: "47A1E6E355D8B88C"
+			tasks: [{
+				id: "4702F28CCFD7A731"
+				type: "item"
+				item: "minecolonies:blockhuthospital"
+			}]
+			rewards: [
+				{
+					id: "022875D8EEB1A3D8"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "5F808125AE79A5DE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 10.5d
+			dependencies: ["47A1E6E355D8B88C"]
+			id: "4E6D128842B30917"
+			tasks: [{
+				id: "214E283A682556C5"
+				type: "item"
+				item: "minecolonies:blockhutenchanter"
+			}]
+			rewards: [
+				{
+					id: "6DEF7236501B381C"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "0ADE95A3AF5C121D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["7DC47E81850FBC27"]
+			id: "68767DA17505B468"
+			tasks: [{
+				id: "57005DF3177B7A8B"
+				type: "item"
+				item: "minecolonies:blockhutuniversity"
+			}]
+			rewards: [
+				{
+					id: "6AD749CDF63EAF65"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "31B2519E3FEA7607"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 9.0d
+			dependencies: ["68767DA17505B468"]
+			id: "173AAFA716A33C9B"
+			tasks: [{
+				id: "2CBF8E33AF39BA80"
+				type: "item"
+				item: "minecolonies:blockhutlibrary"
+			}]
+			rewards: [
+				{
+					id: "591DFF106A43BA27"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "0B28479EAAA42416"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 10.5d
+			dependencies: ["173AAFA716A33C9B"]
+			id: "1BABE1CA95629155"
+			tasks: [{
+				id: "5F4A5D6D9D619D74"
+				type: "item"
+				item: "minecolonies:blockhutschool"
+			}]
+			rewards: [
+				{
+					id: "1F0FB890EAD60A85"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "027FA06F8115716E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["5C19278F58FC5764"]
+			id: "70757B14D5FEB06F"
+			tasks: [{
+				id: "574153125E1A7E5B"
+				type: "item"
+				item: "minecolonies:blockhutsawmill"
+			}]
+			rewards: [
+				{
+					id: "2E320AFEB50BA386"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "50108A04BDAC758F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 6.0d
+			dependencies: ["3002BBECB99991E1"]
+			id: "6FFD6605DC7991B3"
+			tasks: [{
+				id: "415CCA9F30A71FE2"
+				type: "item"
+				item: "minecolonies:blockhutsmeltery"
+			}]
+			rewards: [
+				{
+					id: "47706721AD9D9580"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "4F42536CE753FFD0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 7.5d
+			dependencies: ["6FCC12F2C77FCDFB"]
+			id: "2F4EBEC6FF564CF1"
+			tasks: [{
+				id: "0F8055FFF7F089B3"
+				type: "item"
+				item: "minecolonies:blockhutblacksmith"
+			}]
+			rewards: [
+				{
+					id: "2B00B74E3D6575A3"
+					type: "ftbmoney:money"
+					ftb_money: 85L
+				}
+				{
+					id: "0D1358840744B072"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 10.5d
+			dependencies: ["252C50E0F2AAB338"]
+			id: "4D938D557170D8B1"
+			tasks: [{
+				id: "19E6CBF076661E55"
+				type: "item"
+				item: "minecolonies:blockhutarchery"
+			}]
+			rewards: [
+				{
+					id: "7F05C694D87949CA"
+					type: "ftbmoney:money"
+					ftb_money: 95L
+				}
+				{
+					id: "0ECBC77E0713A660"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			dependencies: ["7059ECB3537423C7"]
+			id: "252C50E0F2AAB338"
+			tasks: [{
+				id: "478D00A0E39EA8B5"
+				type: "item"
+				item: "minecolonies:blockhutcombatacademy"
+			}]
+			rewards: [
+				{
+					id: "1B578DFE31C9439A"
+					type: "ftbmoney:money"
+					ftb_money: 90L
+				}
+				{
+					id: "51A711A7749597D6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "45E2E80A81A30A3B"
+			tasks: [{
+				id: "52211535B7A02E6E"
+				type: "item"
+				item: "minecolonies:blockhutflorist"
+			}]
+			rewards: [
+				{
+					id: "3DAACA7D3B34ECCC"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "6ACF43D76D0E8357"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 7.5d
+			dependencies: ["6FFD6605DC7991B3"]
+			id: "4C9D718337E3B8B5"
+			tasks: [{
+				id: "0B598327CD717BC3"
+				type: "item"
+				item: "minecolonies:blockhutstonesmeltery"
+			}]
+			rewards: [
+				{
+					id: "0991EFB72DBB932E"
+					type: "ftbmoney:money"
+					ftb_money: 85L
+				}
+				{
+					id: "6A27BC2848579B7D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 6.0d
+			dependencies: ["3002BBECB99991E1"]
+			id: "6FCC12F2C77FCDFB"
+			tasks: [{
+				id: "00C0B709B32E6AFC"
+				type: "item"
+				item: "minecolonies:blockhutstonemason"
+			}]
+			rewards: [
+				{
+					id: "3896D92CAA247BF9"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "6AB2F7DAE55874E3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			dependencies: ["7F7132A493750C31"]
+			id: "454E35E3D5D50DF3"
+			tasks: [{
+				id: "230F1229E7B0A780"
+				type: "item"
+				item: "minecolonies:blockhutsifter"
+			}]
+			rewards: [
+				{
+					id: "6D450F10CE6E3DB1"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "7AE56A3B13F41A68"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			dependencies: ["31181B9C93DC417B"]
+			id: "4EF953C0C58DC4D2"
+			tasks: [{
+				id: "7F01DC8B31B587DE"
+				type: "item"
+				item: "minecolonies:blockhutbeekeeper"
+			}]
+			rewards: [
+				{
+					id: "419CE625B938B990"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "254E34C7EC2E971A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			dependencies: ["613499013F8F82B0"]
+			id: "3C8BC84286CBB74B"
+			tasks: [{
+				id: "044A4BF97116BD9B"
+				type: "item"
+				item: "minecolonies:blockhutplantation"
+			}]
+			rewards: [
+				{
+					id: "419C13C744A5009E"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "034C8C43835887BB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "31181B9C93DC417B"
+			tasks: [{
+				id: "3B6034215B255251"
+				type: "item"
+				item: "minecolonies:blockhutmysticalsite"
+			}]
+			rewards: [
+				{
+					id: "3E506D23BF1D5A06"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "3F2A30B7C824186F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["244CF37DD865E978"]
+			id: "7059ECB3537423C7"
+			tasks: [{
+				id: "3F949B9621943E38"
+				type: "item"
+				item: "minecolonies:blockhutfletcher"
+			}]
+			rewards: [
+				{
+					id: "0EAB78D71804AA96"
+					type: "ftbmoney:money"
+					ftb_money: 85L
+				}
+				{
+					id: "752063EECB1C691E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 7.5d
+			dependencies: ["3C8BC84286CBB74B"]
+			id: "57AFC4699B276D02"
+			tasks: [{
+				id: "5108E1147029BE19"
+				type: "item"
+				item: "minecolonies:blockhutcomposter"
+			}]
+			rewards: [
+				{
+					id: "2C101A2F6E411B57"
+					type: "ftbmoney:money"
+					ftb_money: 85L
+				}
+				{
+					id: "1B3C3F619C74CD3D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 6.0d
+			dependencies: ["45E2E80A81A30A3B"]
+			id: "473ACC4FFE8AA1F3"
+			tasks: [{
+				id: "1B5FF2502CC0263F"
+				type: "item"
+				item: "minecolonies:blockhutdyer"
+			}]
+			rewards: [
+				{
+					id: "52E78B40E8347D24"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+				{
+					id: "7DA4374C5F760E3D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			dependencies: ["336E5F8F7F07D278"]
+			id: "7F7132A493750C31"
+			tasks: [{
+				id: "257E73236CDFD9CE"
+				type: "item"
+				item: "minecolonies:blockhutmechanic"
+			}]
+			rewards: [
+				{
+					id: "29B5622D29D6D150"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "6762F52886B6C5CC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			dependencies: [
+				"4E6D128842B30917"
+				"1BABE1CA95629155"
+			]
+			id: "6EBB764821E7F37B"
+			tasks: [{
+				id: "34977D911995EEC0"
+				type: "item"
+				item: "minecolonies:blockhutgraveyard"
+			}]
+			rewards: [
+				{
+					id: "2E13BDCC5350D866"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "4AF873C3731D5C68"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			dependencies: ["454E35E3D5D50DF3"]
+			id: "5FBE8E9300693524"
+			tasks: [{
+				id: "201709C9EA7C03EF"
+				type: "item"
+				item: "minecolonies:blockhutglassblower"
+			}]
+			rewards: [
+				{
+					id: "3579790FA04AD833"
+					type: "ftbmoney:money"
+					ftb_money: 85L
+				}
+				{
+					id: "2A8B817372910337"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 9.0d
+			dependencies: ["2F4EBEC6FF564CF1"]
+			id: "3C8F136F974FBDD1"
+			tasks: [{
+				id: "27ECA4340DD5B242"
+				type: "item"
+				item: "minecolonies:blockhutcrusher"
+			}]
+			rewards: [
+				{
+					id: "5D3199C71F5ED04C"
+					type: "ftbmoney:money"
+					ftb_money: 90L
+				}
+				{
+					id: "4047204389FC697B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 10.5d
+			dependencies: ["3C8F136F974FBDD1"]
+			id: "6698CEB51D7FC21B"
+			tasks: [{
+				id: "3389798BC2660711"
+				type: "item"
+				item: "minecolonies:blockhutconcretemixer"
+			}]
+			rewards: [
+				{
+					id: "2029C0DA6457D413"
+					type: "ftbmoney:money"
+					ftb_money: 95L
+				}
+				{
+					id: "577E0BE9DD9C14C7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 7.5d
+			dependencies: ["2F4EBEC6FF564CF1"]
+			id: "706F4D0CBC292D34"
+			tasks: [
+				{
+					id: "3B2F6B25D2FEC3EA"
+					type: "item"
+					item: {
+						id: "minecolonies:plate_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43B26E730A99579A"
+					type: "item"
+					item: {
+						id: "minecolonies:plate_armor_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68A2C141879756ED"
+					type: "item"
+					item: {
+						id: "minecolonies:plate_armor_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F38F9F98E1F4EA2"
+					type: "item"
+					item: {
+						id: "minecolonies:plate_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3AA4CEE60A98894F"
+					type: "ftbmoney:money"
+					ftb_money: 85L
+				}
+				{
+					id: "164CD548A4300E70"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+	]
+}

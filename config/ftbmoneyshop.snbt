@@ -1,0 +1,260 @@
+{
+	tabs: [
+		{
+			title: "Farming"
+			icon: "minecraft:oak_sapling"
+			entries: [
+				{
+					item: "minecraft:oak_sapling"
+					buy: 5L
+				}
+				{
+					item: "minecraft:spruce_sapling"
+					buy: 5L
+				}
+				{
+					item: "minecraft:birch_sapling"
+					buy: 5L
+				}
+				{
+					item: "minecraft:jungle_sapling"
+					buy: 5L
+				}
+				{
+					item: "minecraft:acacia_sapling"
+					buy: 5L
+				}
+				{
+					item: "minecraft:dark_oak_sapling"
+					buy: 5L
+				}
+				{
+					item: "minecraft:wheat_seeds"
+					buy: 1L
+				}
+				{
+					item: "minecraft:lily_pad"
+					buy: 1L
+				}
+			]
+		}
+		{
+			title: "Blocks"
+			icon: "minecraft:oak_log"
+			entries: [
+				{
+					item: "minecraft:andesite"
+					buy: 1L
+				}
+				{
+					item: "minecraft:prismarine"
+					buy: 5L
+				}
+				{
+					item: "minecraft:grass_block"
+					buy: 5L
+				}
+				{
+					item: "minecraft:stone"
+					buy: 1L
+				}
+				{
+					item: "minecraft:granite"
+					buy: 1L
+				}
+				{
+					item: "minecraft:diorite"
+					buy: 1L
+				}
+				{
+					item: "minecraft:white_wool"
+					buy: 25L
+				}
+				{
+					item: "minecraft:spruce_log"
+					buy: 2L
+				}
+				{
+					item: "minecraft:sea_lantern"
+					buy: 10L
+				}
+				{
+					item: "minecraft:oak_log"
+					buy: 2L
+				}
+				{
+					item: "minecraft:birch_log"
+					buy: 2L
+				}
+				{
+					item: "minecraft:jungle_log"
+					buy: 2L
+				}
+				{
+					item: "minecraft:acacia_log"
+					buy: 2L
+				}
+				{
+					item: "minecraft:dark_oak_log"
+					buy: 2L
+				}
+				{
+					item: "minecraft:dirt"
+					buy: 1L
+				}
+				{
+					item: "minecraft:obsidian"
+					buy: 150L
+				}
+				{
+					item: "minecraft:glowstone"
+					buy: 10L
+				}
+				{
+					item: "minecraft:nether_bricks"
+					buy: 6L
+				}
+				{
+					item: "minecraft:soul_sand"
+					buy: 5L
+				}
+			]
+		}
+		{
+			title: "Magic Supplies"
+			icon: {
+				id: "botania:mana_bottle"
+				Count: 1b
+				tag: { }
+			}
+			entries: [
+				{
+					item: "botania:pure_daisy"
+					buy: 1L
+				}
+				{
+					item: "botania:hydroangeas"
+					buy: 1L
+				}
+				{
+					item: "minecraft:ender_eye"
+					buy: 1L
+				}
+				{
+					item: "botania:ender_air_bottle"
+					buy: 1L
+				}
+				{
+					item: "quark:bottled_cloud"
+					buy: 1L
+				}
+			]
+		}
+		{
+			title: "Legendary Shop"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "legendary"
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					buy: 2500L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					buy: 5000L
+				}
+				{
+					item: "minecraft:sponge"
+					buy: 350L
+				}
+			]
+		}
+		{
+			title: "Mob Drops"
+			icon: "minecraft:ender_pearl"
+			entries: [
+				{
+					item: "minecraft:ender_pearl"
+					buy: 100L
+				}
+				{
+					item: "minecraft:ink_sac"
+					buy: 4L
+				}
+				{
+					item: "minecraft:rotten_flesh"
+					buy: 1L
+				}
+				{
+					item: "minecraft:gunpowder"
+					buy: 1L
+				}
+				{
+					item: "minecraft:bone"
+					buy: 1L
+				}
+				{
+					item: "minecraft:rabbit_hide"
+					buy: 1L
+				}
+				{
+					item: "minecraft:leather"
+					buy: 1L
+				}
+				{
+					item: "minecraft:string"
+					buy: 1L
+				}
+				{
+					item: "minecraft:porkchop"
+					buy: 1L
+				}
+				{
+					item: "minecraft:cod"
+					buy: 1L
+				}
+				{
+					item: "minecraft:salmon"
+					buy: 1L
+				}
+				{
+					item: "minecraft:beef"
+					buy: 1L
+				}
+				{
+					item: "minecraft:chicken"
+					buy: 1L
+				}
+				{
+					item: "minecraft:rabbit"
+					buy: 1L
+				}
+				{
+					item: "minecraft:mutton"
+					buy: 1L
+				}
+				{
+					item: "minecraft:arrow"
+					buy: 1L
+				}
+			]
+		}
+	]
+}

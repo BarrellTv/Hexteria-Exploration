@@ -1,0 +1,1208 @@
+{
+	id: "6DB707CB1CC0A540"
+	group: "06593D9C585DC715"
+	order_index: 2
+	filename: "the_twilight_forest"
+	title: "The Twilight Forest"
+	icon: "twilightforest:quest_ram_trophy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["70E9D2DB1A6AEA88"]
+			id: "09EDEEA7C4269073"
+			tasks: [{
+				id: "1249459DD3B15EC4"
+				type: "dimension"
+				title: "Visit Dimension: Twilight Forest"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [
+				{
+					id: "26D7208472227F67"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "337FB6388CAF21F9"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["09EDEEA7C4269073"]
+			id: "5A60A223B81AB504"
+			tasks: [
+				{
+					id: "71786ABEA38DB755"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:aqua_affinity"
+							}]
+						}
+					}
+				}
+				{
+					id: "23A6E387536674AB"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "562E0F130F00839E"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "0A27F5AB8E0136F4"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1D440B99BFEFE366"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "65A1CAFC790145C6"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["09EDEEA7C4269073"]
+			id: "44166E94237F00B3"
+			tasks: [
+				{
+					id: "710266EC498E4CA6"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78B0669E341A572B"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C9C2526BAF01DCB"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13FB6D3C19FBCB05"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "632E3CD0AA63B01F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4DDD272C1395CB1A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 10.5d
+			dependencies: ["68C00097AFE1FB31"]
+			id: "68BC7660C263A152"
+			tasks: [
+				{
+					id: "1F5D9FA1AA68AB5F"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "1534E46B07D558C1"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "08272BEDF4170F10"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "1E88C1B6C5A2CCC4"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3F131DD8D87428DF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+				{
+					id: "49AF5DFBFEC24CD5"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["74EECD79689EA799"]
+			id: "7C0915CF513DFA5E"
+			tasks: [
+				{
+					id: "5F021993579CB049"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "5AD24D97D6A116A2"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2A54CD0265540DE7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3C9B53370BFB4441"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["7BD2B6E936EB7E78"]
+			id: "6A9EFC2E6B0F6232"
+			tasks: [
+				{
+					id: "395AC3EFE6745C3A"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FD24633C1C5B20D"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "67C58F6F5AA0E07A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "5B04A723E1B490E8"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			dependencies: [
+				"48C87C8E2D559532"
+				"23C0752E30DD8E6D"
+			]
+			id: "1D923196AA1BEDEA"
+			tasks: [
+				{
+					id: "7F4720C691706A91"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "409D46C3074C1075"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3252FC8898ED598C"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E3990B69EB2222B"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["09EDEEA7C4269073"]
+			id: "7E1D1FAE19CD3D19"
+			tasks: [
+				{
+					id: "4668B81556CEA2D5"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:projectile_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "30FCCFEFA156769B"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "25DA115D217CF7D2"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "1D0C866CA17983C1"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "50106BE37F7FDF9C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4D828FD1A66A7E51"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["09EDEEA7C4269073"]
+			id: "5F220AAE95BC1A6E"
+			tasks: [
+				{
+					id: "6B5CD56B20A863E1"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0452FE7A60195AF5"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4EE09B8F155C5018"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "649A0F95953D00EA"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "177FC2D0DCD6B1E9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4B36029C93F691BF"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "gear"
+			size: 1.5d
+			id: "70E9D2DB1A6AEA88"
+			tasks: [
+				{
+					id: "40BFC6B154E96E03"
+					type: "item"
+					title: "Flowers"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "3B5167BFB44705A9"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+			rewards: [
+				{
+					id: "00B01B2DEB1CFD67"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "6C58F90893522F22"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "64ABEB7000D4333F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "farming"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["09EDEEA7C4269073"]
+			id: "2E4DEB5829C724A9"
+			tasks: [{
+				id: "72C9D3A17CAB2F6F"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+			rewards: [
+				{
+					id: "05B5ECFEAC2CEC0A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "52BC39495AEA6A8A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:naga_trophy"
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["09EDEEA7C4269073"]
+			id: "74EECD79689EA799"
+			tasks: [
+				{
+					id: "2539DBA278AF2CEE"
+					type: "item"
+					item: "twilightforest:naga_trophy"
+				}
+				{
+					id: "560F9DDF9FADAD2E"
+					type: "item"
+					item: "twilightforest:naga_scale"
+				}
+			]
+			rewards: [
+				{
+					id: "7FAA76499322760E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "6F0317427F00D008"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:lich_trophy"
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["74EECD79689EA799"]
+			id: "69A43128B8F3CFAC"
+			tasks: [{
+				id: "2A19569595F85F5C"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [
+				{
+					id: "2DB2DE4E2709ECAF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "4E86842E71CFB5E5"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			description: ["The Twilight Lich drops one of four scepters. So to complete this quest you would have to fight the lich multiple times."]
+			dependencies: ["69A43128B8F3CFAC"]
+			id: "4E7E4904BB72216E"
+			tasks: [
+				{
+					id: "4540051085E25680"
+					type: "item"
+					item: {
+						id: "twilightforest:twilight_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AF4A9D6B5DCD3BA"
+					type: "item"
+					item: {
+						id: "twilightforest:lifedrain_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "242C388558CFC513"
+					type: "item"
+					item: {
+						id: "twilightforest:zombie_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5ECBEACDE0D3DF25"
+					type: "item"
+					item: {
+						id: "twilightforest:shield_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "090A793401789254"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+				{
+					id: "3CE205E9EFE79906"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["69A43128B8F3CFAC"]
+			id: "6D509810A6950B01"
+			tasks: [{
+				id: "22E9D8A8E6C917AE"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [
+				{
+					id: "2EE2C3F978C58EDB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "31041E51CE1FAE05"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:hydra_trophy"
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["6D509810A6950B01"]
+			id: "48C87C8E2D559532"
+			tasks: [{
+				id: "460F0A14802F4671"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [
+				{
+					id: "2B0777A1AE596408"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "6FEF10312CAFA531"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["48C87C8E2D559532"]
+			id: "7BD2B6E936EB7E78"
+			tasks: [{
+				id: "6FE9149B74104031"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [
+				{
+					id: "062A36424A871A24"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "683E76907E53731D"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["7BD2B6E936EB7E78"]
+			id: "23C0752E30DD8E6D"
+			tasks: [{
+				id: "30D6275A81DA0D71"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [
+				{
+					id: "219C272A44A488CA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+				{
+					id: "38220CF918B4B45D"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:yeti_trophy"
+			x: 0.0d
+			y: 10.5d
+			dependencies: ["23C0752E30DD8E6D"]
+			id: "59F44B85DAEF0E4B"
+			tasks: [{
+				id: "4B86ECB0179E668F"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+			rewards: [
+				{
+					id: "2B239613A93E41B4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "559D8CC33CAE3F26"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			dependencies: ["59F44B85DAEF0E4B"]
+			id: "6BFE7E67D1CB9CA4"
+			tasks: [{
+				id: "5997E82C72475DC4"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [
+				{
+					id: "21AD9BB018D538FD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "162139CDC86DB12F"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 12.0d
+			dependencies: ["6BFE7E67D1CB9CA4"]
+			id: "7AC3135D86AE462C"
+			tasks: [
+				{
+					id: "02A1941D97125E6F"
+					type: "item"
+					item: {
+						id: "twilightforest:triple_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D90EEACB3D0B93D"
+					type: "item"
+					item: {
+						id: "twilightforest:seeker_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2B5FD23BDCD65216"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "53D1E0E2563BBB45"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			dependencies: ["59F44B85DAEF0E4B"]
+			id: "68C00097AFE1FB31"
+			tasks: [{
+				id: "3145EEB8E1B9F056"
+				type: "item"
+				item: "twilightforest:alpha_fur"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "1BB45629A32DE12C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0AF163C8CA17DE32"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["48C87C8E2D559532"]
+			id: "4779D8A771FC83A7"
+			tasks: [{
+				id: "3281E1C68594B572"
+				type: "item"
+				item: "twilightforest:hydra_chop"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "79D62A15F51FA208"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "61D86291CA9DFB60"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			description: [
+				"You can now visit the Highlands and you must first visit the Cloud Cottage."
+				""
+				"The Cloud Cottage must be visited to obtain a Giant Pickaxe in order to acquire the Lamp of Cinders to pass through the Thornlands."
+			]
+			dependencies: ["6BFE7E67D1CB9CA4"]
+			id: "0473673E2E81306A"
+			tasks: [{
+				id: "342B4F316038D476"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "45B28C9B840269E9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "710AC0F3651B5615"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 15.0d
+			description: [
+				"After obtaining the Giant Pickaxe you can go the Troll Cave in Highlands to acquire the Lamp of Cinders."
+				""
+				"A point of interest is the Mushroom Vault, which houses multiple Obsidian Vaults and one Giant Obsidian Vault."
+				""
+				"The Giant Obsidian Vault can be mined through with the Giant Pickaxe to acquire the Lamp of Cinders."
+			]
+			dependencies: ["0473673E2E81306A"]
+			id: "50CC19E2EBF7A333"
+			tasks: [{
+				id: "113B07318246876C"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "16AE83A0AC1CC408"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6EACB10CFAEA2A17"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+	]
+}

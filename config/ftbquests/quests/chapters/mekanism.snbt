@@ -1,0 +1,4093 @@
+{
+	id: "612EEFE83E1EDF20"
+	group: "70C4E1FE41CD8F4A"
+	order_index: 2
+	filename: "mekanism"
+	title: "Mekanism"
+	icon: "mekanismgenerators:wind_generator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "4FD30594FF63ECFB"
+			tasks: [
+				{
+					id: "07F03B52E330C622"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_mask"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "620D154E89748E87"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_gown"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "3BF5D303E635615D"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "63A07BED7776BED3"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "30134FC90D7FC1E2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "53B47522CC7E193F"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			dependencies: ["4FD30594FF63ECFB"]
+			id: "1235880E72B22775"
+			tasks: [
+				{
+					id: "586CEAC536DDABBB"
+					type: "item"
+					item: {
+						id: "mekanismtools:steel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "200782E81D39FAAF"
+					type: "item"
+					item: {
+						id: "mekanismtools:steel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41A997118C370E74"
+					type: "item"
+					item: {
+						id: "mekanismtools:steel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7384FA8C175B81B8"
+					type: "item"
+					item: {
+						id: "mekanismtools:steel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "23A1EB9DF9343768"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "35940BF6E2A999B2"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			dependencies: ["4FD30594FF63ECFB"]
+			id: "49E89D7D0EA45B50"
+			tasks: [
+				{
+					id: "263A26A8F16D7B68"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19F60387229172DD"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39F119564E681532"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D0BA8175AB19519"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2BD81701D2606627"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "7C78B05D611BD8CE"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			dependencies: ["4FD30594FF63ECFB"]
+			id: "22C66CCC1BC73560"
+			tasks: [
+				{
+					id: "68EA47285F4E74B2"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A72D90EE6990632"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25489D95661B1C6A"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7040BA30196E489B"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "42EB82DF2C0B0249"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "5A5C4A5DF5970E99"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: ["4FD30594FF63ECFB"]
+			id: "089D7FB93971C058"
+			tasks: [
+				{
+					id: "50803EFCC07330CB"
+					type: "item"
+					item: {
+						id: "mekanismtools:bronze_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5570D720164776B0"
+					type: "item"
+					item: {
+						id: "mekanismtools:bronze_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71A358B0B718850C"
+					type: "item"
+					item: {
+						id: "mekanismtools:bronze_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C3E172515F02A6E"
+					type: "item"
+					item: {
+						id: "mekanismtools:bronze_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2C6D34DE70FE67DE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "33B9E0EA6982DC09"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			dependencies: ["4FD30594FF63ECFB"]
+			id: "7BE7DF0A3EA6C087"
+			tasks: [
+				{
+					id: "56FC2D5D8836E93E"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BA6C4A6D3646758"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55B654E44A6563F7"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1DC431066749BA89"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "63A654E00C8B3934"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "720896CCA87EEF06"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			dependencies: ["4FD30594FF63ECFB"]
+			id: "2CF828613178C0E2"
+			tasks: [
+				{
+					id: "6B5E189D89D0A3F7"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_glowstone_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0438111E897D796F"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_glowstone_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C5945438A200AFA"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_glowstone_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "465F238B63ED0888"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_glowstone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4FF5775A9DC862C5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "4B60DACEAD528453"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			dependencies: [
+				"2CF828613178C0E2"
+				"089D7FB93971C058"
+				"7BE7DF0A3EA6C087"
+				"1235880E72B22775"
+				"49E89D7D0EA45B50"
+				"22C66CCC1BC73560"
+				"4FD30594FF63ECFB"
+			]
+			id: "7DEBA11F043C6404"
+			tasks: [
+				{
+					id: "408BFBA86B1FA631"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_helmet"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "784882AD8A5B8BA2"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_bodyarmor"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "471E3CE3190A1C47"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "1606FFCA95633585"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "75256E3FC1A33E5E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+				{
+					id: "22868AD7A43E6652"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "088BCE1BD702F7F4"
+			tasks: [{
+				id: "6DBD0D859F5FFEC5"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [
+				{
+					id: "011B81CB9F99ADD3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "4E906786F18F2085"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "6FC9FF6AD4AC5A24"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "0386B061246212FC"
+			tasks: [{
+				id: "0F360C62861D1982"
+				type: "item"
+				item: "mekanism:diversion_transporter"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "6110815B98C99B94"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "06CB9780F8FE4A70"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "41763601488FE4D1"
+			tasks: [{
+				id: "0964084FBC3A931B"
+				type: "item"
+				item: "mekanism:restrictive_transporter"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "7C26832500B3F506"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "4B3B6163A067EBBF"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["1646F3FB3FE316BE"]
+			id: "1FC03B542AB3427C"
+			tasks: [{
+				id: "7CCF2F659BF5A028"
+				type: "item"
+				item: "mekanism:basic_logistical_transporter"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "0900C83E58F0736D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "2B4D2AD5B8BEFEBF"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "7957646D84B8673A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["1646F3FB3FE316BE"]
+			id: "7F2502EAE8854472"
+			tasks: [{
+				id: "1E6BF80543936809"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "545A5A143953FD41"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "71F20A5E1EB0C3D9"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "0A6BF0E6867DE070"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["1646F3FB3FE316BE"]
+			id: "483F80E887F36A7C"
+			tasks: [{
+				id: "154C1E017D40ADEB"
+				type: "item"
+				item: "mekanism:basic_pressurized_tube"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "4280EC2FE441A0F4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "02EEA9EDBB97BFEE"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "26ACBC602978A20C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["1646F3FB3FE316BE"]
+			id: "16FDF6C3842414FA"
+			tasks: [{
+				id: "65A6F95E3DB2C7B3"
+				type: "item"
+				item: "mekanism:basic_thermodynamic_conductor"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "70BCB8FC64B5BFF3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0384DAE242A1E78C"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "37EFF7B84611AB52"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "1646F3FB3FE316BE"
+			tasks: [{
+				id: "480A2D316EFC91A6"
+				type: "item"
+				item: "mekanism:basic_mechanical_pipe"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "6CD72CB5CB61DAD7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "09A435326397D80D"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "5A9169B436FBCB3F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			dependencies: ["38D213493A7D71E6"]
+			id: "24C5004EB4C107C0"
+			tasks: [{
+				id: "1165AB1FFD4FAD2B"
+				type: "item"
+				item: "mekanism:elite_logistical_transporter"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "4D23E26D7B8F0CCE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "1E5D1F2019A4AE88"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "4E661B029435F8EA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			dependencies: ["38D213493A7D71E6"]
+			id: "3B3A53D853308480"
+			tasks: [{
+				id: "1B6A09374D99FE0E"
+				type: "item"
+				item: "mekanism:elite_universal_cable"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "454788092A573B10"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "007C8A0771E6794C"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "3E4B8CF37122B41B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -2.0d
+			dependencies: ["38D213493A7D71E6"]
+			id: "1B8F2AAD22C432A8"
+			tasks: [{
+				id: "15C2D433DBA1A16F"
+				type: "item"
+				item: "mekanism:elite_pressurized_tube"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "08E56E67FBA46FA2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "4A8B1406E13B113B"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "6223F2F9AF33AEDB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			dependencies: ["38D213493A7D71E6"]
+			id: "006C13135EC2E22C"
+			tasks: [{
+				id: "51D7E51922B8D645"
+				type: "item"
+				item: "mekanism:elite_thermodynamic_conductor"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "6E375890A6962C9E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "4244524848E8980F"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "06F33E23950291E7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["555105BA3C883E22"]
+			id: "38D213493A7D71E6"
+			tasks: [{
+				id: "22E72AE215EDBD6F"
+				type: "item"
+				item: "mekanism:elite_mechanical_pipe"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "6372D23893678617"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "38177AF807F8ADE9"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "05453BC70C375F82"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["555105BA3C883E22"]
+			id: "6C80FD8D43419E4A"
+			tasks: [{
+				id: "5AB4948C6CA2DB65"
+				type: "item"
+				item: "mekanism:advanced_logistical_transporter"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "01A425B50A2E436B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "0BC4153793B86712"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "004D049495B59D8B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["555105BA3C883E22"]
+			id: "65591908BDFCFDBA"
+			tasks: [{
+				id: "178818705FCB1A1F"
+				type: "item"
+				item: "mekanism:advanced_universal_cable"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "257E23B3D58A2086"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "5814A687CFF0DBD4"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "4CE8521A5231CB10"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["555105BA3C883E22"]
+			id: "6EE8F7A64DB52229"
+			tasks: [{
+				id: "2556194AC26BF7D7"
+				type: "item"
+				item: "mekanism:advanced_pressurized_tube"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "5D779E43CCE24918"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "1E65766F7D75E792"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "43EAD946D05B82E3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			dependencies: ["555105BA3C883E22"]
+			id: "71725642957A4ED2"
+			tasks: [{
+				id: "486525D73B4830C6"
+				type: "item"
+				item: "mekanism:advanced_thermodynamic_conductor"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "3DC2EB377A272F73"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "503B0E03B1CD8771"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "23C59A4134691D7B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["1646F3FB3FE316BE"]
+			id: "555105BA3C883E22"
+			tasks: [{
+				id: "343B3646ADA86C2B"
+				type: "item"
+				item: "mekanism:advanced_mechanical_pipe"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "74070001190CB36D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "360DD733E8BAF386"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "7B0324A62359160B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -1.0d
+			dependencies: ["58137A28155B2A1C"]
+			id: "4A4D0B04A6AAA256"
+			tasks: [{
+				id: "1B899F9CA6563373"
+				type: "item"
+				item: "mekanism:ultimate_logistical_transporter"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "1095D321146135F3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "3F0B4658B895A562"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "1794174835F76096"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -2.0d
+			dependencies: ["58137A28155B2A1C"]
+			id: "17B3BA5C6113D5AD"
+			tasks: [{
+				id: "6C37261F93A96B47"
+				type: "item"
+				item: "mekanism:ultimate_universal_cable"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "488515163F52FCE9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "33E71CA68FC99445"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "3E9BDF5FD2ABE73F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -2.0d
+			dependencies: ["58137A28155B2A1C"]
+			id: "441588C5F6A331E7"
+			tasks: [{
+				id: "211E0F1EA95246EC"
+				type: "item"
+				item: "mekanism:ultimate_pressurized_tube"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "136BA1D7E9594696"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "5A3BFBC3BF4C08A8"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "5A644DACB942EDEF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -1.0d
+			dependencies: ["58137A28155B2A1C"]
+			id: "2E44D1437A559BFE"
+			tasks: [{
+				id: "5BFC7B903BB624A4"
+				type: "item"
+				item: "mekanism:ultimate_thermodynamic_conductor"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "30FE1F2E5E6D3C69"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "306670F95F2D796C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "5D6BEADFEE5267A0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			dependencies: ["38D213493A7D71E6"]
+			id: "58137A28155B2A1C"
+			tasks: [{
+				id: "4887DA45A099EDBF"
+				type: "item"
+				item: "mekanism:ultimate_mechanical_pipe"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "486E2982C05880C8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "4BED587D3210254D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "0D8BBF8925B39376"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "5D497F3E98FA6F87"
+			tasks: [{
+				id: "7FB4F14E6F7CF368"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "0E366FC3F21606B0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "77BC0D2358D22F1B"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "41844FF972E12306"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["5D497F3E98FA6F87"]
+			id: "5792A1EEBC112A0D"
+			tasks: [{
+				id: "3EF1626BC071FA79"
+				type: "item"
+				item: "mekanism:elite_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "0241EFD92F0F6AA1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6CFBECC144123677"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "7472754BA0C4777B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["5792A1EEBC112A0D"]
+			id: "322D4B343173D92F"
+			tasks: [{
+				id: "4DD0A4CD240308B3"
+				type: "item"
+				item: "mekanism:advanced_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "1A77D6163C7D4729"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "187823C726354E0E"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "59DFFBFAFCCA7225"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["322D4B343173D92F"]
+			id: "6FD0AB0DA0BAA6C2"
+			tasks: [{
+				id: "54546D324A320899"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "221F82D6DE1E1351"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "3C8C8BABDBA23CB6"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "42DBE71F478E1355"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "4F52EB17DFE2A81E"
+			tasks: [{
+				id: "40CF0D845C2573AD"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+			rewards: [
+				{
+					id: "36E48803F2841D3E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "15E3D0794C3E4100"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "02C4EABFD878129B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["4F52EB17DFE2A81E"]
+			id: "7CB16FDFB4A2D7C0"
+			tasks: [{
+				id: "5E80E8FA70B12716"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+			rewards: [
+				{
+					id: "4AA1793C5E192C95"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "78DE36225783BF9D"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "1BEFAB81557055F1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "6474754EC7DC0AC0"
+			tasks: [{
+				id: "02FA26EFC016911B"
+				type: "item"
+				item: "mekanism:basic_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "04E40E1E9FEDD84B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "2EF8A29878206840"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "5B6E0F0D7E34EE7B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["6474754EC7DC0AC0"]
+			id: "2FF2D84C0080B706"
+			tasks: [{
+				id: "26043C0E68483EC8"
+				type: "item"
+				item: "mekanism:advanced_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "1B98919B48622090"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6ACB2381362F637F"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "402ABD0B98AF7B15"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["2FF2D84C0080B706"]
+			id: "4D9B1496C373DF76"
+			tasks: [{
+				id: "61F59E0153703B83"
+				type: "item"
+				item: "mekanism:elite_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "3CDE28C81E03A804"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "0B9F1F11EDD0589C"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "25B3740AAE0EB126"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["4D9B1496C373DF76"]
+			id: "7C9AAE99B6DBECCD"
+			tasks: [{
+				id: "46456BC514900575"
+				type: "item"
+				item: "mekanism:ultimate_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "2A4B97B69E8F4198"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "09EB7AA0CEB7FAF3"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "3790628E9B065D56"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "02F5E29A3605BF40"
+			tasks: [{
+				id: "7244FC324E4CC0B7"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [
+				{
+					id: "6874202D25514CDF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "09D007A11CA20FFA"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "3C61BE7BFAD8CABD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "5E84DFCD8DD2BD8D"
+			tasks: [{
+				id: "5C2FB0BB7217C494"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+			rewards: [
+				{
+					id: "4027B4A4A20799D0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "337D2C1E288AB582"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "4641D44A6EF785B2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "238B13CBF3A1057B"
+			tasks: [{
+				id: "0603F6DD35CD35DA"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [
+				{
+					id: "2D3297781FFD8BF8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "5780E701C52C435B"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "6701656017952DFD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "258AF32B69D1FBDA"
+			tasks: [{
+				id: "60BC78D5F33622F3"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [
+				{
+					id: "7989E2B0BE6DC3EE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "64BF5E7E539B23B1"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "14E3521825E677F3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "145A57A22040EC43"
+			tasks: [{
+				id: "235035370D07BBDA"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+			rewards: [
+				{
+					id: "533D092B52217041"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "23D5171F6DE670FE"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "3A889724B08A8933"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "3695CA512C5ABF58"
+			tasks: [{
+				id: "1268990172DD8420"
+				type: "item"
+				item: "mekanism:chemical_washer"
+			}]
+			rewards: [
+				{
+					id: "6AC499491A4A66C7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "29F8E0E4DEA95B8A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "28F06966DF3519B2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "65B1C35CAF5E6308"
+			tasks: [{
+				id: "38AF771694F5DC61"
+				type: "item"
+				item: "mekanism:electric_pump"
+			}]
+			rewards: [
+				{
+					id: "3BDFE265CD3C3E02"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "50A1B72260009549"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "40741E2FC6D706B0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "3D09F603B2DF4C42"
+			tasks: [{
+				id: "7E874FFF8ABF2910"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [
+				{
+					id: "0AC5829ED1C561AB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "63BCB55801E323F1"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "5DA583ED6235ACDE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "10CFDFA73A8FCED5"
+			tasks: [{
+				id: "3212C484986EF7B4"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+			rewards: [
+				{
+					id: "20E2C88BEEF94458"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "77D5B9679A678F38"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "51698686D939D75A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "1D008727EC736DC9"
+			tasks: [{
+				id: "555422AB5FD3FA10"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+			rewards: [
+				{
+					id: "2A26E12609F3C206"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "22AC2A14B7DDD52C"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "66F6C00579D6B270"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "45C4D38D49DD8774"
+			tasks: [{
+				id: "32FF3061F368B2A8"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [
+				{
+					id: "56B1C789B2884DAB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "3F215EA057E07C5F"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "116AAC724B3CE683"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["449DE5F37891929A"]
+			id: "3B6E51ACE88B0503"
+			tasks: [{
+				id: "5A7528C7CA0F1409"
+				type: "item"
+				item: "mekanism:basic_sawing_factory"
+			}]
+			rewards: [
+				{
+					id: "2FEAD93F9FDCB6D4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "61C097B548FDAC1F"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "1040E4FAD6DA7F0D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			dependencies: ["3A88079021C1E646"]
+			id: "280ACAF318DEBE65"
+			tasks: [{
+				id: "0D04C34F6EA5E6FD"
+				type: "item"
+				item: "mekanism:basic_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "2A8D70E98C89C348"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "358AA8564B3D468A"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "07B25A4D10617761"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["7A313F1E1F4B1F3F"]
+			id: "06D224F5C78DB899"
+			tasks: [{
+				id: "6E16C01DB882E827"
+				type: "item"
+				item: "mekanism:basic_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "3B36BDFD053DDA61"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "4BC79CC71AD3BADA"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "39EE16AD87E73B34"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			dependencies: ["04AD6C6198340751"]
+			id: "365AA876137C283F"
+			tasks: [{
+				id: "5A9BE94AD333D937"
+				type: "item"
+				item: "mekanism:basic_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "2105CA97B938C6B7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "4873675FA9B18920"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "31728C4EC477DC1F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			dependencies: ["3C4CEB75C2B77D48"]
+			id: "7FCF13201A551D79"
+			tasks: [{
+				id: "0D629FC92FD55F6F"
+				type: "item"
+				item: "mekanism:basic_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "2D7AAC3D9A6EE218"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1EA1A0AB05823A67"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "0DD9E6E9703F0B84"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["2B92E32EE974D3A9"]
+			id: "52623FCE4B91FFF6"
+			tasks: [{
+				id: "2523DB705452D118"
+				type: "item"
+				item: "mekanism:basic_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "3FC5A606102FC7CB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "2C38E4F654846142"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "693B93689818261C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["7836EBFC92D44FB5"]
+			id: "6DFD7FBACCCC655B"
+			tasks: [{
+				id: "7B53BF1025BE1630"
+				type: "item"
+				item: "mekanism:basic_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "1AAAE9191CA81C8A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "5F3357D500F081A2"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "1E920F27039B93B1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["75392D97F805AFBD"]
+			id: "7D1473BE35CA004D"
+			tasks: [{
+				id: "3EF7F5D987F76108"
+				type: "item"
+				item: "mekanism:basic_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "58688D985B847D08"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "3419C1FBB4957918"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "568C66C7A7F33806"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["3B6E51ACE88B0503"]
+			id: "2BB46E8A84F1C7D5"
+			tasks: [{
+				id: "0BB91871E57E8C8B"
+				type: "item"
+				item: "mekanism:advanced_sawing_factory"
+			}]
+			rewards: [
+				{
+					id: "0583A5064006146E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "1645597AFD70179A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "421098FC92783BDA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["2BB46E8A84F1C7D5"]
+			id: "0F85739586E652A1"
+			tasks: [{
+				id: "7C7FDF00BE00A0AB"
+				type: "item"
+				item: "mekanism:elite_sawing_factory"
+			}]
+			rewards: [
+				{
+					id: "4C70017AB4FA4247"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "3441E64272E5E6C2"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "5FAF886779DDA0AC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			dependencies: ["280ACAF318DEBE65"]
+			id: "7E707133C02AC462"
+			tasks: [{
+				id: "311C2521B3C03AF5"
+				type: "item"
+				item: "mekanism:advanced_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "71D09D7640D77E95"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "779B786B9F3841AD"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "2A0621F5F48150C5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["7E707133C02AC462"]
+			id: "29FB379B7348DE33"
+			tasks: [{
+				id: "1C11462BA0CA7029"
+				type: "item"
+				item: "mekanism:elite_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "308B4AFA192EFDE4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "5556FFF74B946CBD"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "420C80DD2946647D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "449DE5F37891929A"
+			tasks: [{
+				id: "43AA7921DC97B64F"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+			rewards: [
+				{
+					id: "56F6F2B5A0986F3A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "51AAC0F5D8559F75"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "61531EEB2136A6FD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "3A88079021C1E646"
+			tasks: [{
+				id: "4C1558588B8E339B"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+			rewards: [
+				{
+					id: "4D18E0AD6E921C57"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "464891E00892D7C1"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "16AB730891BAF97A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "7A313F1E1F4B1F3F"
+			tasks: [{
+				id: "3301CA33E382DB9D"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [
+				{
+					id: "13C0AAD96A0AFFFB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "38EC1F308AEDC8F4"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "4C698C48F6D21278"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "04AD6C6198340751"
+			tasks: [{
+				id: "2ED7E73E3BB66FE1"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+			rewards: [
+				{
+					id: "40DE34EC0640E162"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1D1E40B35DF1EE7A"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "5F05ADE945225231"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "3C4CEB75C2B77D48"
+			tasks: [{
+				id: "39C548C3DA946AF8"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [
+				{
+					id: "47EDFD344B1CA772"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "34095ADE457BE73C"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "74674E51296CD402"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "2B92E32EE974D3A9"
+			tasks: [{
+				id: "156C1A12BE11AB0D"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			rewards: [
+				{
+					id: "06400D26A783575E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "40C13842ED4FFA6D"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "395B9876EBEB4EB6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "7836EBFC92D44FB5"
+			tasks: [{
+				id: "05DAAFC4E657B7A3"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [
+				{
+					id: "495F3B55D0E4EF35"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1ABEADE2F0077754"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "7B9218DA3C8D709F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["088BCE1BD702F7F4"]
+			id: "75392D97F805AFBD"
+			tasks: [{
+				id: "7EC81A15F095DEE6"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+			rewards: [
+				{
+					id: "18E779DFFFD59C24"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "7095EA8C25D42B7A"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "6C8223D6FEF422DF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			dependencies: ["06D224F5C78DB899"]
+			id: "4643ED33E7704512"
+			tasks: [{
+				id: "1C29CC87C8483F5E"
+				type: "item"
+				item: "mekanism:advanced_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "517BB98B6A12F449"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "12A957CAF51A7D9A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "6E8D3C414B5C7B55"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			dependencies: ["4643ED33E7704512"]
+			id: "4BA61DB75390588F"
+			tasks: [{
+				id: "670630F952D0449A"
+				type: "item"
+				item: "mekanism:elite_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "5445A6F055CDEA40"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "7822FE9D5C2218DB"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "61A463038CF16A52"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			dependencies: ["365AA876137C283F"]
+			id: "560FDD955A154392"
+			tasks: [{
+				id: "2D2EB3A32C127F01"
+				type: "item"
+				item: "mekanism:advanced_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "0A6D8954BBCD4CAE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6EF8324BAA297867"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "00E5821C6FC9746A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			dependencies: ["7FCF13201A551D79"]
+			id: "1C893E66075BA366"
+			tasks: [{
+				id: "6886ABAC2547B93C"
+				type: "item"
+				item: "mekanism:advanced_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "7B4332837E5DEBB6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "7E4E271FE52E7929"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "299872BD639DE5D0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["52623FCE4B91FFF6"]
+			id: "01891F0C628E59EC"
+			tasks: [{
+				id: "53AEEA4DEC4BA1C7"
+				type: "item"
+				item: "mekanism:advanced_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "6CC2FB05BB2FD3BB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "653E406EF4A4A146"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "24E474753DD20F74"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["6DFD7FBACCCC655B"]
+			id: "6A5125296026BB71"
+			tasks: [{
+				id: "6A488A4D80E6FC4B"
+				type: "item"
+				item: "mekanism:advanced_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "57425AB68E2D035D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "74FE81BBD0758A34"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "6D584D55509C91D8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["7D1473BE35CA004D"]
+			id: "4AE24E596C38F5EB"
+			tasks: [{
+				id: "526CB5BD08232D88"
+				type: "item"
+				item: "mekanism:advanced_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "428150ED561BD942"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "0953CF4D4821AE77"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "57D4046238112179"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 6.0d
+			dependencies: ["560FDD955A154392"]
+			id: "5511CE09E9BCDE3C"
+			tasks: [{
+				id: "03A666C67859F9D7"
+				type: "item"
+				item: "mekanism:elite_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "0B1021ACF106D8A8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "2C5932F68C5091DB"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "401A24F444928671"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			dependencies: ["1C893E66075BA366"]
+			id: "03DC9563DC83F178"
+			tasks: [{
+				id: "035AE3F37C1E21E2"
+				type: "item"
+				item: "mekanism:elite_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "4610FEAB5AAF44C9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "6380ADEFC99ACFDA"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "5C56214C9D05FBD5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["01891F0C628E59EC"]
+			id: "19289F1B94D3828C"
+			tasks: [{
+				id: "1AE15741F4CF38A1"
+				type: "item"
+				item: "mekanism:elite_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "67668C4766F6D439"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "2C254CF7F8FC5E0A"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "3E27CD6DF128D09A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["6A5125296026BB71"]
+			id: "7AC6BB3255786298"
+			tasks: [{
+				id: "620711D4A131B0FE"
+				type: "item"
+				item: "mekanism:elite_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "666A88FA93C4623A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "61865A91B450147A"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "274DC727A8EAEEC5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["4AE24E596C38F5EB"]
+			id: "1BB3973ADB2EBAF7"
+			tasks: [{
+				id: "05D4A0391B5F2831"
+				type: "item"
+				item: "mekanism:elite_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "0021C303F0B62872"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "1C449609FEDF00EA"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "2E4F4D756E1B08D1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			dependencies: ["0F85739586E652A1"]
+			id: "304CA0BB9E0637A6"
+			tasks: [{
+				id: "35115BA0CFD0A4E1"
+				type: "item"
+				item: "mekanism:ultimate_sawing_factory"
+			}]
+			rewards: [
+				{
+					id: "6E19969394A431D3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "72D83F67BCCEFB35"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "459D894110CFAFF2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			dependencies: ["29FB379B7348DE33"]
+			id: "6C4530D730AF7C2A"
+			tasks: [{
+				id: "34FAC97AA9CCBE8D"
+				type: "item"
+				item: "mekanism:ultimate_purifying_factory"
+			}]
+			rewards: [
+				{
+					id: "394DDA03D2C5A0B9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "333BBC2C944FBC53"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "00390B27EB2315C3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			dependencies: ["4BA61DB75390588F"]
+			id: "458E3D30DA6FBADB"
+			tasks: [{
+				id: "2421C8C4268EF7FC"
+				type: "item"
+				item: "mekanism:ultimate_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "408C2B5E6989FA17"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "31DE970E002DECA4"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "3BE271FA7A4A90AC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 7.0d
+			dependencies: ["5511CE09E9BCDE3C"]
+			id: "34C6503BEFFE4D30"
+			tasks: [{
+				id: "6836319E4F3CD2E6"
+				type: "item"
+				item: "mekanism:ultimate_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "7746CB6ABF7AE21C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "1C8CE1644EB7D3D0"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "5FA3A71404D49487"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 7.0d
+			dependencies: ["03DC9563DC83F178"]
+			id: "56282221DEC82F94"
+			tasks: [{
+				id: "1C939B498D364868"
+				type: "item"
+				item: "mekanism:ultimate_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "20F8A30837A4B19A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "549A6015FA8A6B6B"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "42E7C9DE0C0C1414"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			dependencies: ["19289F1B94D3828C"]
+			id: "6EFF77E8A398B636"
+			tasks: [{
+				id: "7EEB8CD18B37AF74"
+				type: "item"
+				item: "mekanism:ultimate_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "60793D0257D27A1B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "541F5461CDC6C708"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "757AF1F8C172AB35"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["7AC6BB3255786298"]
+			id: "35C1BE7D86625628"
+			tasks: [{
+				id: "2714551E59CA75BF"
+				type: "item"
+				item: "mekanism:ultimate_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "2C967BC6D92C58FE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "25F3097878AF256C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "08956315B2EA3651"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["1BB3973ADB2EBAF7"]
+			id: "0A6F1208F40036AD"
+			tasks: [{
+				id: "4A81EE52167AE218"
+				type: "item"
+				item: "mekanism:ultimate_injecting_factory"
+			}]
+			rewards: [
+				{
+					id: "2C20A023B1461549"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "6EAD2901145507B5"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "0BFF7A4D3FBBEACB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+	]
+}

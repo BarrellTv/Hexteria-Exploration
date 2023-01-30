@@ -1,0 +1,2958 @@
+{
+	id: "4BEDBFA826A82CB1"
+	group: "0BA05ED86D94F94D"
+	order_index: 1
+	filename: "project_e"
+	title: "Project E"
+	icon: "projectex:final_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -1.0d
+			description: [
+				"Welcome to ProjectE. ProjectE involves the use of EMC or Equivalent Exchange."
+				"The Philosopher's Stone is the key item to get into ProjectE. You won't be able to craft much without it."
+			]
+			id: "3833297A3F751D17"
+			tasks: [{
+				id: "74A2FC7DFAA6AADF"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A6E7CDCF8EC41DF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "2D81D933F8DFE05B"
+					type: "ftbmoney:money"
+					ftb_money: 15000L
+				}
+				{
+					id: "3CE1DE5B33CD60DE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["3833297A3F751D17"]
+			id: "30B12A7C3361E783"
+			tasks: [{
+				id: "5A01086646080488"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [
+				{
+					id: "0C0B7A5FA106560B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6F820C2E8EC59491"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["3833297A3F751D17"]
+			id: "2C478DE4CBDBA2DE"
+			tasks: [{
+				id: "75A7E96EBCFC698D"
+				type: "item"
+				item: "projecte:low_covalence_dust"
+				count: 20L
+			}]
+			rewards: [
+				{
+					id: "5B054941F0B285CA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+				}
+				{
+					id: "089895C987462331"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["2C478DE4CBDBA2DE"]
+			id: "2CC009F668C1AF56"
+			tasks: [{
+				id: "63BB3152D099F23E"
+				type: "item"
+				item: "projecte:medium_covalence_dust"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "71649833A85ACEBD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6F00F161CDA68A49"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["2CC009F668C1AF56"]
+			id: "03F4E73F2524FE8E"
+			tasks: [{
+				id: "7DE74803E6D13C75"
+				type: "item"
+				item: "projecte:high_covalence_dust"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "2CF6A939EB59E26C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "65FDE6BB0DE3DB18"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["2C478DE4CBDBA2DE"]
+			id: "465A93F7813D3F9F"
+			tasks: [{
+				id: "78C60943F8631C90"
+				type: "item"
+				item: {
+					id: "projecte:divining_rod_1"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66BF2D56DE4FD764"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "5023D57423D98041"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: [
+				"2CC009F668C1AF56"
+				"465A93F7813D3F9F"
+			]
+			id: "7D4D184B2E97D23D"
+			tasks: [{
+				id: "4873B9B7D298EE74"
+				type: "item"
+				item: {
+					id: "projecte:divining_rod_2"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D6DF8F1013137A0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "56488BD20CCD804D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: [
+				"03F4E73F2524FE8E"
+				"7D4D184B2E97D23D"
+			]
+			id: "182E4AE66BBF6F94"
+			tasks: [{
+				id: "4CF60712E26FFCE8"
+				type: "item"
+				item: {
+					id: "projecte:divining_rod_3"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69D4ABB717CBEBA5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "42979015127786E3"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: [
+				"2C478DE4CBDBA2DE"
+				"2CC009F668C1AF56"
+				"03F4E73F2524FE8E"
+			]
+			id: "5523ACE763B86E34"
+			tasks: [{
+				id: "405066729C438A1F"
+				type: "item"
+				item: {
+					id: "projecte:repair_talisman"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6295526724B4C1F4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "2D32B8EBFB9D3FA3"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["3833297A3F751D17"]
+			id: "2041021960AE8DDF"
+			tasks: [{
+				id: "4A157509BCB64D96"
+				type: "item"
+				item: "projecte:alchemical_coal"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "1F324874A7913816"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+				}
+				{
+					id: "3C0B1891D65F9420"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["2041021960AE8DDF"]
+			id: "3745CBC33856A3C1"
+			tasks: [{
+				id: "171B3F016A557B20"
+				type: "item"
+				item: "projecte:mobius_fuel"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "0833934167F6897B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "7254B558B64822B3"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["3745CBC33856A3C1"]
+			id: "55E6B16605CF1BE9"
+			tasks: [{
+				id: "7DF29098747CA73E"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0982BBB6D5E24436"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "2716B7A4DD6AF969"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["3833297A3F751D17"]
+			id: "07DA2DB7B8319BBB"
+			tasks: [{
+				id: "601FB5915CA31CB4"
+				type: "item"
+				item: "projecte:interdiction_torch"
+			}]
+			rewards: [
+				{
+					id: "637E9BE20326100B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6DFBB8BF2C3F71DC"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["55E6B16605CF1BE9"]
+			id: "45551898E273B93F"
+			tasks: [{
+				id: "0F154ACE28B07758"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [
+				{
+					id: "5EF968947F9CC5AB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "74769607F7BDAE05"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "4D846318A375525D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			dependencies: ["45551898E273B93F"]
+			id: "54FC2F065455BEF9"
+			tasks: [{
+				id: "58D80637E87F982D"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [
+				{
+					id: "3149D7FF826B9C45"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "74CF1F297A65201A"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "7721D0AF08A9D248"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["3745CBC33856A3C1"]
+			id: "722D1765546C2A44"
+			tasks: [{
+				id: "081F0F6F7F791370"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6501AD0A257B85CE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "3F09EFD314834439"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "373B4DE0E0FD4B18"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["722D1765546C2A44"]
+			id: "43823A2D6FC227BF"
+			tasks: [{
+				id: "0394BA9126FC2F77"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5B8140C2BA85200F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "0A6AFB5075C78D2C"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "0F8DE354BFD4AD86"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["43823A2D6FC227BF"]
+			id: "7A0BA8C752E540D3"
+			tasks: [{
+				id: "27090BA1A7872930"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E0B33C51AC292AF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "1264917535549EB3"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "7FC40196CBE4CF46"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["30B12A7C3361E783"]
+			id: "6B89441DD65531F9"
+			tasks: [{
+				id: "405FD8ED90ADD57D"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+			rewards: [
+				{
+					id: "74CA3AA83D415B2D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "483BBDF8AFC0D53C"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "0C892B16849536C0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Gem Armor"
+			x: -7.0d
+			y: 6.5d
+			dependencies: ["14DDF67D67C05C6C"]
+			id: "74D35A315AEA38A0"
+			tasks: [
+				{
+					id: "32108C73FB853F90"
+					type: "item"
+					item: "projecte:gem_helmet"
+				}
+				{
+					id: "37332DA0A7F88E65"
+					type: "item"
+					item: "projecte:gem_chestplate"
+				}
+				{
+					id: "6B01716AE1FD822F"
+					type: "item"
+					item: "projecte:gem_leggings"
+				}
+				{
+					id: "505624FA4185682B"
+					type: "item"
+					item: "projecte:gem_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "120490848E6096F3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 15
+				}
+				{
+					id: "65966C8AAADF272B"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "616F66D1AA904C68"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Red Matter Armor"
+			x: -2.0d
+			y: 6.5d
+			dependencies: ["54FC2F065455BEF9"]
+			id: "14DDF67D67C05C6C"
+			tasks: [
+				{
+					id: "5E5060A5849AE181"
+					type: "item"
+					item: "projecte:rm_helmet"
+				}
+				{
+					id: "30FD46BDDC3D4EA7"
+					type: "item"
+					item: "projecte:rm_chestplate"
+				}
+				{
+					id: "2D036209D89DF844"
+					type: "item"
+					item: "projecte:rm_leggings"
+				}
+				{
+					id: "5DE6D1CE38C9640E"
+					type: "item"
+					item: "projecte:rm_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "5A05929A28511027"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "2B4CC9BDE2487D11"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "33C598D47BA7D4A6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Dark Matter Armor"
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["45551898E273B93F"]
+			id: "1CD5C82562DC6FC1"
+			tasks: [
+				{
+					id: "6AA05F4819096FE5"
+					type: "item"
+					item: "projecte:dm_helmet"
+				}
+				{
+					id: "7D6FFC18F599D461"
+					type: "item"
+					item: "projecte:dm_chestplate"
+				}
+				{
+					id: "3395894152FCF384"
+					type: "item"
+					item: "projecte:dm_leggings"
+				}
+				{
+					id: "2296B26937B33E41"
+					type: "item"
+					item: "projecte:dm_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "2601D673190A56F1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "11614DFDEB87639A"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "265350F636A020BD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["45551898E273B93F"]
+			id: "3BC4A0FE58FD6CD6"
+			tasks: [
+				{
+					id: "143E149899D563CF"
+					type: "item"
+					item: {
+						id: "projecte:dm_pick"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "54165C171C19E71D"
+					type: "item"
+					item: {
+						id: "projecte:dm_axe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "38B5739F1AB055E8"
+					type: "item"
+					item: {
+						id: "projecte:dm_shovel"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "59CB50831E7C6712"
+					type: "item"
+					item: {
+						id: "projecte:dm_sword"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "417886CB38D9AE12"
+					type: "item"
+					item: {
+						id: "projecte:dm_hoe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "03B13DA187E9F878"
+					type: "item"
+					item: {
+						id: "projecte:dm_shears"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "20CE4FE631A14F0D"
+					type: "item"
+					item: {
+						id: "projecte:dm_hammer"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "379705F51E551912"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "6F64171A36B8FC8B"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "6E5832A7B0B19502"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			dependencies: ["54FC2F065455BEF9"]
+			id: "35097E89888D881F"
+			tasks: [
+				{
+					id: "5136ED04D7869BB1"
+					type: "item"
+					item: {
+						id: "projecte:rm_pick"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "4FC99A9692DB181E"
+					type: "item"
+					item: {
+						id: "projecte:rm_axe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "5BA62E371F780CF8"
+					type: "item"
+					item: {
+						id: "projecte:rm_shovel"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "6EFB5F99FA18DD63"
+					type: "item"
+					item: {
+						id: "projecte:rm_sword"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "1A682FC3EE9394CC"
+					type: "item"
+					item: {
+						id: "projecte:rm_hoe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "257F4887C19DD461"
+					type: "item"
+					item: {
+						id: "projecte:rm_shears"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "0A53752339AF9446"
+					type: "item"
+					item: {
+						id: "projecte:rm_hammer"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0B2874C8553EF39D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "0523831E47F2B8A1"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "5EC3081A0B10A2BE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			dependencies: ["35097E89888D881F"]
+			id: "43B6ED7E1C9053A1"
+			tasks: [{
+				id: "74F8E1F8DE9E3689"
+				type: "item"
+				item: {
+					id: "projecte:rm_morning_star"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "63F0C231DA32DC0D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "16650F16695AF8D3"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "7CF97EE5A82D556A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			dependencies: ["35097E89888D881F"]
+			id: "09201E046B03BC4F"
+			tasks: [{
+				id: "077B38233B60B013"
+				type: "item"
+				item: {
+					id: "projecte:rm_katar"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A6E3FBDD870692B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "45EB873A9E0B3BA8"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "58FDA8F84D1DA84C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["6B89441DD65531F9"]
+			id: "78EB5A03C5EE4518"
+			tasks: [{
+				id: "10334E0115FB1304"
+				type: "item"
+				item: "projectex:arcane_tablet"
+			}]
+			rewards: [
+				{
+					id: "4F599C4F6474ED4F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "05295C4C8819A19D"
+					type: "ftbmoney:money"
+					ftb_money: 20000L
+				}
+				{
+					id: "5B4B8768A81EC0FA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 15
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 8.5d
+			dependencies: ["54FC2F065455BEF9"]
+			id: "0EE62C81C87D0FED"
+			tasks: [{
+				id: "6A4A7364ED0E9693"
+				type: "item"
+				item: "projectex:magenta_matter"
+			}]
+			rewards: [
+				{
+					id: "0714C4818BACA4EC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "0205A38B115247BC"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 8.5d
+			dependencies: ["0EE62C81C87D0FED"]
+			id: "42D28D6E5CC95327"
+			tasks: [{
+				id: "12651DB41B0F7D3C"
+				type: "item"
+				item: "projectex:pink_matter"
+			}]
+			rewards: [
+				{
+					id: "3CEDCD4F7EA358E2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 7
+				}
+				{
+					id: "066EEBA973A2140D"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			dependencies: ["42D28D6E5CC95327"]
+			id: "5684A44344B311AD"
+			tasks: [{
+				id: "2CA6614597F95FFC"
+				type: "item"
+				item: "projectex:purple_matter"
+			}]
+			rewards: [
+				{
+					id: "23C8044B0C8322DA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "51A3E812824922D2"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 8.5d
+			dependencies: ["5684A44344B311AD"]
+			id: "3791A385662530C7"
+			tasks: [{
+				id: "62FD4FFE515774DB"
+				type: "item"
+				item: "projectex:violet_matter"
+			}]
+			rewards: [
+				{
+					id: "2598D329DF523325"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 9
+				}
+				{
+					id: "1BC8C8350E67CE80"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 8.5d
+			dependencies: ["3791A385662530C7"]
+			id: "430A2741C51631E2"
+			tasks: [{
+				id: "525692CCD968EEBF"
+				type: "item"
+				item: "projectex:blue_matter"
+			}]
+			rewards: [
+				{
+					id: "1F11431B3C6114D1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "362CE91092EC9DBC"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 8.5d
+			dependencies: ["430A2741C51631E2"]
+			id: "2E2CA5A1743B69CC"
+			tasks: [{
+				id: "00939737FEC2E775"
+				type: "item"
+				item: "projectex:cyan_matter"
+			}]
+			rewards: [
+				{
+					id: "38F986113AD096CB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 11
+				}
+				{
+					id: "13ADB4E2AE6C49F6"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 8.5d
+			dependencies: ["2E2CA5A1743B69CC"]
+			id: "42E34D554050CFE1"
+			tasks: [{
+				id: "4DBF005C9957B8E2"
+				type: "item"
+				item: "projectex:green_matter"
+			}]
+			rewards: [
+				{
+					id: "6BC4D418AA353C65"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 12
+				}
+				{
+					id: "58A7DFB0A55DF00F"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 8.5d
+			dependencies: ["42E34D554050CFE1"]
+			id: "49175F715985A75F"
+			tasks: [{
+				id: "5A46310B9C928A7D"
+				type: "item"
+				item: "projectex:lime_matter"
+			}]
+			rewards: [
+				{
+					id: "501A9875713F5DB6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 13
+				}
+				{
+					id: "6BF752EA72BA1B36"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 8.5d
+			dependencies: ["49175F715985A75F"]
+			id: "25B3B42954AABE14"
+			tasks: [{
+				id: "7FF4602728E35008"
+				type: "item"
+				item: "projectex:yellow_matter"
+			}]
+			rewards: [
+				{
+					id: "2BD2D7972361BB60"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 14
+				}
+				{
+					id: "1DD0153DAD7FEC97"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 8.5d
+			dependencies: ["25B3B42954AABE14"]
+			id: "4B7AAAB798C2189B"
+			tasks: [{
+				id: "63F4760A7B6126B2"
+				type: "item"
+				item: "projectex:orange_matter"
+			}]
+			rewards: [
+				{
+					id: "31C2076BC263AE6E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 15
+				}
+				{
+					id: "18C197D134D7A627"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 8.5d
+			dependencies: ["4B7AAAB798C2189B"]
+			id: "7AEA1BC07110956C"
+			tasks: [{
+				id: "31E794E815AF0A8C"
+				type: "item"
+				item: "projectex:white_matter"
+			}]
+			rewards: [
+				{
+					id: "1EA1150DD88A53AA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 16
+				}
+				{
+					id: "5E11CDB9982D3BFF"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 8.5d
+			dependencies: ["7AEA1BC07110956C"]
+			id: "5D60BEB6438DC489"
+			tasks: [{
+				id: "6DD2287892560522"
+				type: "item"
+				item: "projectex:fading_matter"
+			}]
+			rewards: [
+				{
+					id: "3CEE05CF8ED3E29B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 17
+				}
+				{
+					id: "26F118B158BBBE48"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			icon: "projectex:basic_power_flower"
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["72163FA41F7875E6"]
+			id: "13FE8F858B4FD7B3"
+			tasks: [
+				{
+					id: "4E70389495288D33"
+					type: "item"
+					item: "projectex:basic_power_flower"
+				}
+				{
+					id: "07635AA6707219D6"
+					type: "item"
+					item: "projectex:basic_relay"
+					count: 6L
+				}
+				{
+					id: "681AD41133A29826"
+					type: "item"
+					item: "projectex:basic_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "51CCA5866918753E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "156F63510BB2CF2E"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			icon: "projectex:dark_power_flower"
+			x: 5.5d
+			y: 6.5d
+			dependencies: [
+				"13FE8F858B4FD7B3"
+				"45551898E273B93F"
+			]
+			id: "3FD9C11946BF1F30"
+			tasks: [
+				{
+					id: "0DF3834F0904C150"
+					type: "item"
+					item: "projectex:dark_power_flower"
+				}
+				{
+					id: "0616D2176B033183"
+					type: "item"
+					item: "projectex:dark_relay"
+					count: 6L
+				}
+				{
+					id: "3FA1AC642B7B2477"
+					type: "item"
+					item: "projectex:dark_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "21F254080E4BD3C3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 7
+				}
+				{
+					id: "7F6CB8B4A529B1ED"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "272DEB11F7191644"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "projectex:magenta_power_flower"
+			x: -0.5d
+			y: 10.5d
+			dependencies: [
+				"0EE62C81C87D0FED"
+				"24BEDF8DCD3BE5D1"
+			]
+			id: "4F03504CF3069A46"
+			tasks: [
+				{
+					id: "106B12017D21AB9F"
+					type: "item"
+					item: "projectex:magenta_power_flower"
+				}
+				{
+					id: "7CD28675A448AD03"
+					type: "item"
+					item: "projectex:magenta_relay"
+					count: 6L
+				}
+				{
+					id: "3D593D7E756BAE27"
+					type: "item"
+					item: "projectex:magenta_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "2D71C30C73805D85"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 9
+				}
+				{
+					id: "39F5C06DC5A76A6C"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "50136CD675BF0BEA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			icon: "projectex:red_power_flower"
+			x: 4.0d
+			y: 8.5d
+			dependencies: [
+				"54FC2F065455BEF9"
+				"3FD9C11946BF1F30"
+			]
+			id: "24BEDF8DCD3BE5D1"
+			tasks: [
+				{
+					id: "35E968C446582034"
+					type: "item"
+					item: "projectex:red_power_flower"
+				}
+				{
+					id: "598F3ED628515D1F"
+					type: "item"
+					item: "projectex:red_relay"
+					count: 6L
+				}
+				{
+					id: "5E0AB1111177FC8F"
+					type: "item"
+					item: "projectex:red_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "38880C495484B966"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "3BA318BA5BDE8F9A"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "29E16565E6F35113"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "projectex:pink_power_flower"
+			x: -1.5d
+			y: 10.5d
+			dependencies: [
+				"42D28D6E5CC95327"
+				"4F03504CF3069A46"
+			]
+			id: "44889CC857C2E497"
+			tasks: [
+				{
+					id: "3460363C6594D2DB"
+					type: "item"
+					item: "projectex:pink_power_flower"
+				}
+				{
+					id: "4CDEBC392E2C8FA4"
+					type: "item"
+					item: "projectex:pink_relay"
+					count: 6L
+				}
+				{
+					id: "602B93DD3A336943"
+					type: "item"
+					item: "projectex:pink_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "61B11D78B92F9239"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "59B9501B6A568041"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "6EF8AED53C2AFACE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "projectex:purple_power_flower"
+			x: -2.5d
+			y: 10.5d
+			dependencies: [
+				"5684A44344B311AD"
+				"44889CC857C2E497"
+			]
+			id: "6A26DD7F2A680387"
+			tasks: [
+				{
+					id: "30C9C62D537863B0"
+					type: "item"
+					item: "projectex:purple_power_flower"
+				}
+				{
+					id: "54E4C42AAF4069AD"
+					type: "item"
+					item: "projectex:purple_relay"
+					count: 6L
+				}
+				{
+					id: "2F7FBF9DDA019B81"
+					type: "item"
+					item: "projectex:purple_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "7F2A03595F34D9C9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 11
+				}
+				{
+					id: "52B29C7CEB792F2D"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "659313C67EFA8041"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			icon: "projectex:violet_power_flower"
+			x: -3.5d
+			y: 10.5d
+			dependencies: [
+				"3791A385662530C7"
+				"6A26DD7F2A680387"
+			]
+			id: "59FEF5F1C8C0A155"
+			tasks: [
+				{
+					id: "670E72DF84391FA5"
+					type: "item"
+					item: "projectex:violet_power_flower"
+				}
+				{
+					id: "13C249AE3980CF79"
+					type: "item"
+					item: "projectex:violet_relay"
+					count: 6L
+				}
+				{
+					id: "63467018CF629760"
+					type: "item"
+					item: "projectex:violet_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "3B5E354E3B72D468"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 12
+				}
+				{
+					id: "3A30442227316C08"
+					type: "ftbmoney:money"
+					ftb_money: 12500L
+				}
+				{
+					id: "3DA98519CD07E402"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "projectex:blue_power_flower"
+			x: -4.5d
+			y: 10.5d
+			dependencies: [
+				"430A2741C51631E2"
+				"59FEF5F1C8C0A155"
+			]
+			id: "67959DC731941C7A"
+			tasks: [
+				{
+					id: "57962ECB49529425"
+					type: "item"
+					item: "projectex:blue_power_flower"
+				}
+				{
+					id: "3C5387A6473CD2CE"
+					type: "item"
+					item: "projectex:blue_relay"
+					count: 6L
+				}
+				{
+					id: "4C49FD4D604833E9"
+					type: "item"
+					item: "projectex:blue_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "6D28A68F792E3E95"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 13
+				}
+				{
+					id: "7CF8EE6C9EC7B1DC"
+					type: "ftbmoney:money"
+					ftb_money: 15000L
+				}
+				{
+					id: "6D5F8F0211AA0778"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "projectex:cyan_power_flower"
+			x: -5.5d
+			y: 10.5d
+			dependencies: [
+				"2E2CA5A1743B69CC"
+				"67959DC731941C7A"
+			]
+			id: "06286C1D7C174F9C"
+			tasks: [
+				{
+					id: "0C3EB4FC38DB55A5"
+					type: "item"
+					item: "projectex:cyan_power_flower"
+				}
+				{
+					id: "42ECCD732D269858"
+					type: "item"
+					item: "projectex:cyan_relay"
+					count: 6L
+				}
+				{
+					id: "1516EF637C7091C6"
+					type: "item"
+					item: "projectex:cyan_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "132B8692721D3590"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 14
+				}
+				{
+					id: "33E7FD7094F4DA76"
+					type: "ftbmoney:money"
+					ftb_money: 17500L
+				}
+				{
+					id: "3A94BC25DC9F5442"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			icon: "projectex:green_power_flower"
+			x: -6.5d
+			y: 10.5d
+			dependencies: [
+				"42E34D554050CFE1"
+				"06286C1D7C174F9C"
+			]
+			id: "5F343DAB12CEA9F4"
+			tasks: [
+				{
+					id: "7F43F80408E20E23"
+					type: "item"
+					item: "projectex:green_power_flower"
+				}
+				{
+					id: "72B6FF8657369C61"
+					type: "item"
+					item: "projectex:green_relay"
+					count: 6L
+				}
+				{
+					id: "70B4068DAF78FB13"
+					type: "item"
+					item: "projectex:green_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "19BD6A3763FB48CD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 15
+				}
+				{
+					id: "2177CF0E337381D6"
+					type: "ftbmoney:money"
+					ftb_money: 20000L
+				}
+				{
+					id: "2E44C8BF037E3D51"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "projectex:lime_power_flower"
+			x: -7.5d
+			y: 10.5d
+			dependencies: [
+				"49175F715985A75F"
+				"5F343DAB12CEA9F4"
+			]
+			id: "332F4E55068BEC18"
+			tasks: [
+				{
+					id: "0D177BC514BB329B"
+					type: "item"
+					item: "projectex:lime_power_flower"
+				}
+				{
+					id: "53DD8C55D319C43E"
+					type: "item"
+					item: "projectex:lime_relay"
+					count: 6L
+				}
+				{
+					id: "6A59D77F60D55ADF"
+					type: "item"
+					item: "projectex:lime_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "3161072D220EA7EC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 16
+				}
+				{
+					id: "65FEF39AC25E2FFD"
+					type: "ftbmoney:money"
+					ftb_money: 22500L
+				}
+				{
+					id: "28784B81AC789DC8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			icon: "projectex:yellow_power_flower"
+			x: -8.5d
+			y: 10.5d
+			dependencies: [
+				"25B3B42954AABE14"
+				"332F4E55068BEC18"
+			]
+			id: "6754B016EC00C1F4"
+			tasks: [
+				{
+					id: "2ECEEC5F012E5C98"
+					type: "item"
+					item: "projectex:yellow_power_flower"
+				}
+				{
+					id: "54C466A3878252D3"
+					type: "item"
+					item: "projectex:yellow_relay"
+					count: 6L
+				}
+				{
+					id: "2E10CDCF90E9AAFC"
+					type: "item"
+					item: "projectex:yellow_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "55D9AF9B5BADF5DE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 17
+				}
+				{
+					id: "0A05E87FFC7BBC4A"
+					type: "ftbmoney:money"
+					ftb_money: 25000L
+				}
+				{
+					id: "1E1E37DACF84612E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 6
+				}
+			]
+		}
+		{
+			icon: "projectex:orange_power_flower"
+			x: -9.5d
+			y: 10.5d
+			dependencies: [
+				"4B7AAAB798C2189B"
+				"6754B016EC00C1F4"
+			]
+			id: "3F5304074DCB0B20"
+			tasks: [
+				{
+					id: "045CB0947C45A9CF"
+					type: "item"
+					item: "projectex:orange_power_flower"
+				}
+				{
+					id: "12282F6A5BC62B8E"
+					type: "item"
+					item: "projectex:orange_relay"
+					count: 6L
+				}
+				{
+					id: "64A219BC5C454955"
+					type: "item"
+					item: "projectex:orange_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "56A1774515A45537"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 18
+				}
+				{
+					id: "198E5772494DD35E"
+					type: "ftbmoney:money"
+					ftb_money: 27500L
+				}
+				{
+					id: "7EDCB317BE64CCDE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 7
+				}
+			]
+		}
+		{
+			icon: "projectex:white_power_flower"
+			x: -10.5d
+			y: 10.5d
+			dependencies: [
+				"7AEA1BC07110956C"
+				"3F5304074DCB0B20"
+			]
+			id: "276B0D1B4CE2B188"
+			tasks: [
+				{
+					id: "284015D1E19468A2"
+					type: "item"
+					item: "projectex:white_power_flower"
+				}
+				{
+					id: "0A56D217BD1E0101"
+					type: "item"
+					item: "projectex:white_relay"
+					count: 6L
+				}
+				{
+					id: "519EFA776353B250"
+					type: "item"
+					item: "projectex:white_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "5D5C4ECE759F66FC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 19
+				}
+				{
+					id: "4021311B5710E103"
+					type: "ftbmoney:money"
+					ftb_money: 30000L
+				}
+				{
+					id: "0995CCC941B6D59C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			icon: "projectex:fading_power_flower"
+			x: -11.5d
+			y: 10.5d
+			dependencies: [
+				"5D60BEB6438DC489"
+				"276B0D1B4CE2B188"
+			]
+			id: "2265E74DD3495AB6"
+			tasks: [
+				{
+					id: "67CDE1269D226EC8"
+					type: "item"
+					item: "projectex:fading_power_flower"
+				}
+				{
+					id: "254C3CCBB1BC253E"
+					type: "item"
+					item: "projectex:fading_relay"
+					count: 6L
+				}
+				{
+					id: "33D995609A9AD3F8"
+					type: "item"
+					item: "projectex:fading_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "572468C67692D155"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 20
+				}
+				{
+					id: "249AF65513BFB506"
+					type: "ftbmoney:money"
+					ftb_money: 32500L
+				}
+				{
+					id: "3BE919E3BE120045"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 9
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			dependencies: ["7A0BA8C752E540D3"]
+			id: "006FB3376374CD57"
+			tasks: [{
+				id: "1F5B77121FED1BAF"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E33072DBB865CE9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "79C5A93820B62CB6"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "6B1F9CEE991F529E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			dependencies: ["006FB3376374CD57"]
+			id: "18D5C90A9AD6F1C0"
+			tasks: [{
+				id: "22695852E2332410"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D73149E42841862"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "56261978C8C9765F"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "789EA276D965C1A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 3.0d
+			dependencies: ["18D5C90A9AD6F1C0"]
+			id: "0D62550E7555A417"
+			tasks: [{
+				id: "69453087522F8D89"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5AD551CCF4E3A006"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "17CC1E7F369D8D72"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "447DB00F96623F83"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			dependencies: ["0D62550E7555A417"]
+			id: "7DCBE631700F6471"
+			tasks: [{
+				id: "6E46E92DF994F73A"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "63A96504A4D0EFF8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 15
+				}
+				{
+					id: "1D9479C403D35E3A"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "2BDC37FB53869A49"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			dependencies: ["7DCBE631700F6471"]
+			id: "426EDE44A9DE74D9"
+			tasks: [{
+				id: "7796A49939212746"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7BC765362F2172B8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 15
+				}
+				{
+					id: "476140903CBFC375"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "53411E70EC5866A5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			dependencies: ["426EDE44A9DE74D9"]
+			id: "0011EC834BEB2634"
+			tasks: [{
+				id: "1E87834F58446122"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "03FD86639284CF85"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 15
+				}
+				{
+					id: "02D718A1728C1121"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "12B8480B0B18B026"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 6.0d
+			dependencies: ["0011EC834BEB2634"]
+			id: "6ACAA2CDA4483BCD"
+			tasks: [{
+				id: "4786048459C6511D"
+				type: "item"
+				item: "projectex:final_star_shard"
+			}]
+			rewards: [
+				{
+					id: "70090D690F1718ED"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 20
+				}
+				{
+					id: "28DEC9D5CAB47314"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "24DA09D76CDFC988"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			icon: "projectex:final_power_flower"
+			x: -14.5d
+			y: 8.5d
+			dependencies: [
+				"6ACAA2CDA4483BCD"
+				"2265E74DD3495AB6"
+			]
+			id: "4E4E9B90EB212CA6"
+			tasks: [
+				{
+					id: "386B7268096FCE02"
+					type: "item"
+					item: "projectex:final_power_flower"
+				}
+				{
+					id: "3888784A7E8294D0"
+					type: "item"
+					item: "projectex:final_relay"
+					count: 6L
+				}
+				{
+					id: "01DB496397AAFE95"
+					type: "item"
+					item: "projectex:final_compressed_collector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4EF42F88DFC4C05B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 25
+				}
+				{
+					id: "75BE3F568AA3E1EF"
+					type: "ftbmoney:money"
+					ftb_money: 35000L
+				}
+				{
+					id: "27CBB8740243A01E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["03F4E73F2524FE8E"]
+			id: "72163FA41F7875E6"
+			tasks: [{
+				id: "3A8FB62ED87DAF37"
+				type: "item"
+				item: "projectex:energy_link"
+			}]
+			rewards: [
+				{
+					id: "1696D80B57434D4F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3920A4D7072BA237"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+	]
+}

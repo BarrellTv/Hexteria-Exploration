@@ -1,0 +1,258 @@
+{
+	"appliedenergistics2:quartz_ore":
+	{
+		"mining": 5
+	},
+	"appliedenergistics2:charged_quartz_ore":
+	{
+		"mining": 5
+	},
+	"#forge:ores/cinnabar":
+	{
+		"mining": 5
+	},
+	"treasure2:topaz_ore":
+	{
+		"mining": 5
+	},
+	"#forge:ores/apatite":
+	{
+		"mining": 10
+	},
+	"#forge:ores/copper":
+	{
+		"mining": 10
+	},
+	"#forge:ores/tin":
+	{
+		"mining": 10
+	},
+	"blue_skies:everdawn_pyrope_ore":
+	{
+		"mining": 10
+	},
+	"blue_skies:everbright_pyrope_ore":
+	{
+		"mining": 10
+	},
+	"#forge:ores/iron":
+	{
+		"mining": 15
+	},
+	"#forge:ores/niter":
+	{
+		"mining": 15
+	},
+	"#forge:ores/lead":
+	{
+		"mining": 15
+	},
+	"#forge:ores/nickel":
+	{
+		"mining": 20
+	},
+	"#forge:ores/osmium":
+	{
+		"mining": 20
+	},
+	"byg:blue_nether_quartz_ore":
+	{
+		"mining": 20
+	},
+	"byg:brimstone_nether_quartz_ore":
+	{
+		"mining": 20
+	},
+	"#forge:ores/quartz":
+	{
+		"mining": 20
+	},
+	"blue_skies:everdawn_aquite_ore":
+	{
+		"mining": 20
+	},
+	"blue_skies:everbright_aquite_ore":
+	{
+		"mining": 20
+	},
+	"blue_skies:ventium_ore":
+	{
+		"mining": 20
+	},
+	"rftoolsbase:dimensionalshard_end":
+	{
+		"mining": 20
+	},
+	"rftoolsbase:dimensionalshard_nether":
+	{
+		"mining": 20
+	},
+	"rftoolsbase:dimensionalshard_overworld":
+	{
+		"mining": 20
+	},
+	"#forge:ores/aluminum":
+	{
+		"mining": 25
+	},
+	"#forge:ores/silver":
+	{
+		"mining": 25
+	},
+	"iceandfire:amythest_ore":
+	{
+		"mining": 25
+	},
+	"blue_skies:falsite_ore":
+	{
+		"mining": 25
+	},
+	"#forge:ores/redstone":
+	{
+		"mining": 30
+	},
+	"#forge:ores/lapis":
+	{
+		"mining": 30
+	},
+	"blue_skies:horizonite_ore":
+	{
+		"mining": 30
+	},
+	"#forge:ores/gold":
+	{
+		"mining": 35
+	},
+	"#forge:ores/zinc":
+	{
+		"mining": 35
+	},
+	"byg:blue_nether_gold_ore":
+	{
+		"mining": 35
+	},
+	"byg:brimstone_nether_gold_ore":
+	{
+		"mining": 35
+	},
+	"mysticalagriculture:soulium_ore":
+	{
+		"mining": 35
+	},
+	"blue_skies:everbright_charoite_ore":
+	{
+		"mining": 35
+	},
+	"blue_skies:everdawn_charoite_ore":
+	{
+		"mining": 35
+	},
+	"#forge:ores/uranium":
+	{
+		"mining": 40
+	},
+	"#forge:ores/yellorite":
+	{
+		"mining": 40
+	},
+	"platinum:platinum_ore":
+	{
+		"mining": 40
+	},
+	"minecraft:obsidian":
+	{
+		"mining": 45
+	},
+	"#forge:ores/diamond":
+	{
+		"mining": 45
+	},
+	"scalinghealth:heart_crystal_ore":
+	{
+		"mining": 45
+	},
+	"blue_skies:everdawn_diopside_ore":
+	{
+		"mining": 45
+	},
+	"blue_skies:everbright_diopside_ore":
+	{
+		"mining": 45
+	},
+	"#forge:ores/emerald":
+	{
+		"mining": 50
+	},
+	"#forge:ores/cobalt":
+	{
+		"mining": 50
+	},
+	"byg:emeraldite_ore":
+	{
+		"mining": 50
+	},
+	"#forge:ores/draconium":
+	{
+		"mining": 55
+	},
+	"#forge:ores/netherite_scrap":
+	{
+		"mining": 60
+	},
+	"byg:pendorite_ore":
+	{
+		"mining": 65
+	},
+	"byg:ametrine_ore":
+	{
+		"mining": 65
+	},
+	"byg:budding_ametrine_ore":
+	{
+		"mining": 65
+	},
+	"minecraft:spawner":
+	{
+		"combat": 5
+	},
+	"oresandmetals:adamantite_ore":
+	{
+		"mining": 35
+	},
+	"oresandmetals:banite_ore":
+	{
+		"mining": 80
+	},
+	"oresandmetals:dark_animica_ore":
+	{
+		"mining": 90
+	},
+	"oresandmetals:drakolith_ore":
+	{
+		"mining": 60
+	},
+	"oresandmetals:light_animica_ore":
+	{
+		"mining": 90
+	},
+	"oresandmetals:mithril_ore":
+	{
+		"mining": 25
+	},
+	"oresandmetals:necrite_ore":
+	{
+		"mining": 70
+	},
+	"oresandmetals:orichalcite_ore":
+	{
+		"mining": 60
+	},
+	"oresandmetals:phasmatite_ore":
+	{
+		"mining": 70
+	},
+	"oresandmetals:runite_ore":
+	{
+		"mining": 50
+	}
+}

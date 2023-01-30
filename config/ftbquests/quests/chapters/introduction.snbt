@@ -1,0 +1,2962 @@
+{
+	id: "7CF19F2936983CF0"
+	group: "057C689E28CA5BBB"
+	order_index: 0
+	filename: "introduction"
+	title: "Introduction"
+	icon: "minecraft:oak_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -4.5d
+			width: 2.5d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/starthere.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: -7.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/wallet.png"
+			hover: [ ]
+			click: "https://www.paypal.com/donate/?hosted_button_id=V3WYJZF97SAZJ"
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/images/info2.png"
+			hover: [ ]
+			click: "https://discord.gg/Ryr8QUAzAq"
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			width: 8.0d
+			height: 4.5d
+			rotation: 0.0d
+			image: "kubejs:textures/images/hexlogo.png"
+			hover: [ ]
+			click: "https://www.hexteriamc.net/"
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Wood"
+			icon: "minecraft:oak_log"
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["346E8F664BB2870B"]
+			id: "7262C7FFB3988677"
+			tasks: [{
+				id: "29DE45F399988229"
+				type: "item"
+				title: "Any Logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3D5F027B1A2D289F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "00CAA08FF84786EC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "gear"
+			description: [
+				"&7Welcome to &d&lHexteria &d&lExploration&r&c!"
+				"&7In This Pack You Will Travel Far And Wide To Beat Every &5Boss&r&c!"
+				"&7You Will Have To Travel Threw The Hexterian World Killing The Dragons That Have Take Over!"
+				"&7You Will Find All The Smart Civilizations Have Perished."
+				"&7It Is Up To You To Build Your Own!"
+			]
+			size: 2.0d
+			id: "346E8F664BB2870B"
+			tasks: [{
+				id: "49118B98AE578E1D"
+				type: "checkmark"
+				title: "Basic Info"
+			}]
+			rewards: [{
+				id: "68086136D46749FB"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Wooden Tools"
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["65775C162034ACEF"]
+			id: "5C8B318046698FD5"
+			tasks: [
+				{
+					id: "48D87E9DE2953391"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25425202D13EAD63"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48452D5A6715AD3C"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "40E98CE658DA444E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "31E171A8EF45CEC8"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "Cobblestone"
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["5C8B318046698FD5"]
+			id: "1DA704730DC4771D"
+			tasks: [{
+				id: "31A66A46A3661510"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "17DCBBF825BC537C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "6E760D5FDA707A77"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["7262C7FFB3988677"]
+			id: "65775C162034ACEF"
+			tasks: [{
+				id: "1B568B224BAAD73D"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [
+				{
+					id: "12BC9CEF5D5FCC48"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "22B98EC5310FB1EB"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "Wooden Sword"
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["65775C162034ACEF"]
+			id: "174DA4F8F532AB3C"
+			tasks: [{
+				id: "7F8D16383F31F79F"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "33DD7CE651DAF16C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "6D901E07F094928F"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "Furnace"
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["1DA704730DC4771D"]
+			id: "2A7B56097F5F47CF"
+			tasks: [{
+				id: "36C19BA6CA01CE3D"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "192B2E921154779C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "6A5A009C43C13383"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "Coal"
+			x: -6.0d
+			y: 6.5d
+			dependencies: ["1DA704730DC4771D"]
+			id: "172269AB4090C8B9"
+			tasks: [{
+				id: "65289E30DBED5C7B"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+			rewards: [
+				{
+					id: "712A6F9D026318E0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "147C116E9E6353EF"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "Stone Tools"
+			icon: {
+				id: "minecraft:stone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -7.0d
+			y: 3.0d
+			dependencies: ["1DA704730DC4771D"]
+			id: "52B53D8979B69C4C"
+			tasks: [
+				{
+					id: "67C1B34C5C7B8F09"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "075DF6EAAEE9E269"
+					type: "item"
+					item: {
+						id: "minecraft:stone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C97239B24B6CA11"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2C79AF351B4917CC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "41B90F846D14B1B1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["174DA4F8F532AB3C"]
+			id: "52C49FFB5DB3C4C0"
+			tasks: [{
+				id: "150ED85F7DA21D1B"
+				type: "item"
+				item: {
+					id: "spartanshields:shield_tower_wood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5DEB253E0F69FDCA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "308D3029A07CE594"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "Mining Lv:15"
+			x: -9.0d
+			y: 6.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "6BCD31350DC75D16"
+			tasks: [
+				{
+					id: "29D5CE049A8C9F92"
+					type: "item"
+					item: "minecraft:iron_ore"
+				}
+				{
+					id: "3C109853AFD708C5"
+					type: "item"
+					item: "thermal:niter"
+				}
+				{
+					id: "0266DFA7A12782F3"
+					type: "item"
+					title: "Lead Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/lead"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "77703B9EB3DD5079"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "5717E18E2F6C5F0D"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			title: "Iron Tools"
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.5d
+			y: 3.0d
+			description: ["This will be the last Minecraft tool you can use. From here on, you will have to use tools from other mods. Tinkers Construct would be a place to start."]
+			dependencies: ["52B53D8979B69C4C"]
+			id: "7DBD392164E49792"
+			tasks: [
+				{
+					id: "6E759DE27ADC17C8"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "340000E3148BF108"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DC87FC2D60D7C6F"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "032F2AC9F04B59E6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "67E5C3252EE51A83"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["65775C162034ACEF"]
+			id: "04E4E068B16D78B0"
+			tasks: [{
+				id: "0B2559B9A3E8E68C"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [
+				{
+					id: "2E717D5502DAA27B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "6665FA44BC927964"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["04E4E068B16D78B0"]
+			id: "6EE0C9EFA5B0A97A"
+			tasks: [{
+				id: "48805DB2F97EDA3B"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "06B555CB2A244F42"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "6E44E7D2A0EDECDE"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["6EE0C9EFA5B0A97A"]
+			id: "4EC4A9F59F3C5C2A"
+			tasks: [{
+				id: "1E2E8E5709040A65"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "5B1F23F20BD2D975"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4F426B2718CEF158"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: [
+				"4EC4A9F59F3C5C2A"
+				"2652812BFDC0D2FB"
+			]
+			id: "2F8F48CDEDAFA9EB"
+			tasks: [{
+				id: "08F0D7793BFAF9E8"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "6D893E1D29FE6144"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "5D1A8E5E6EED1D90"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["2F8F48CDEDAFA9EB"]
+			id: "34AC0CACEC0C04B2"
+			tasks: [{
+				id: "0CA27F2F0A3619AA"
+				type: "item"
+				item: "ironchest:diamond_to_crystal_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "4951E0E6F5B37250"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "19C3A92901B19567"
+					type: "ftbmoney:money"
+					ftb_money: 125L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["2F8F48CDEDAFA9EB"]
+			id: "2246681FFFDA0DDE"
+			tasks: [{
+				id: "3259E7F2A3166B53"
+				type: "item"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "73D1C15EA863C5D4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "42247565917AF6AC"
+					type: "ftbmoney:money"
+					ftb_money: 125L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["04E4E068B16D78B0"]
+			id: "4F8D5AD4D3289EBB"
+			tasks: [{
+				id: "2A1E85AED5371FA3"
+				type: "item"
+				item: "ironchest:wood_to_copper_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "5521D9862D8B9F07"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "46084C6B3243D714"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["4F8D5AD4D3289EBB"]
+			id: "2232907F5733FE0B"
+			tasks: [{
+				id: "1147F0572CCEEBD0"
+				type: "item"
+				item: "ironchest:copper_to_silver_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "185FD4EA41325DD2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "2B0FAF7AB269E471"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["2232907F5733FE0B"]
+			id: "2652812BFDC0D2FB"
+			tasks: [{
+				id: "293D084133CF2595"
+				type: "item"
+				item: "ironchest:silver_to_gold_chest_upgrade"
+			}]
+			rewards: [
+				{
+					id: "5C3A93EC0A3E12D5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "5B44B0A5A878CA8A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["6DC45E9A6F57556D"]
+			id: "6A5292AF17AE89DD"
+			tasks: [{
+				id: "0BEEE9634F6352E6"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "minecraft:diamond_sword"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0617D9537A010CEA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "1B47334251B08095"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["6DC45E9A6F57556D"]
+			id: "72A96FAA656B882D"
+			tasks: [{
+				id: "594DD6F803AA66D8"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "minecraft:diamond_pickaxe"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0FBE1BF884716DCE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "7848E8E981A095D5"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["6DC45E9A6F57556D"]
+			id: "3660F508AC75E7CA"
+			tasks: [{
+				id: "7BFF14306BE8ABFC"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "minecraft:diamond_axe"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "070F6272CD884EEF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "3E7F5B1A9C4F5394"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["6DC45E9A6F57556D"]
+			id: "1138FE8E4BB0F3F1"
+			tasks: [{
+				id: "186FCB5916AE0AC6"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "minecraft:diamond_hoe"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "549672C1D88221A5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "152C834FBAB1E199"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["6DC45E9A6F57556D"]
+			id: "5CCDA58078C904AE"
+			tasks: [{
+				id: "3D91F02954084499"
+				type: "item"
+				item: {
+					id: "computercraft:turtle_normal"
+					Count: 1b
+					tag: {
+						RightUpgrade: "minecraft:diamond_shovel"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "24DB605E738DAE6F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "04EA2702371448FA"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["7B77E05EBFE52F1E"]
+			id: "0F063FADCBF2AFEE"
+			tasks: [{
+				id: "0474951CB704B662"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-165047939
+							1111179579
+							-1773236881
+							-1207642708
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29FE82D4CD4E0F2D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "26F274CD9B88F947"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["7B77E05EBFE52F1E"]
+			id: "3DFC786AAB32AF0D"
+			tasks: [{
+				id: "703C348412C62A3C"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6A1B8A0676C305DE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "2F469030ADE8E1EF"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			id: "7B77E05EBFE52F1E"
+			tasks: [{
+				id: "1D4C4F5D1C3F1FB2"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "008D6263D00ACD8F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "3AD11FA9FB0E43EE"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["7B77E05EBFE52F1E"]
+			id: "141372DC679013F4"
+			tasks: [{
+				id: "2D6441BA75D44BBB"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1412DFC99373AC0D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "19BA476E2C45F007"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["65775C162034ACEF"]
+			id: "16C66711B8AFFFF8"
+			tasks: [{
+				id: "681B14161E425BCF"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [
+				{
+					id: "22440DC2676F2C02"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "684B158F6ECF5D52"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Leather Armor"
+			icon: {
+				id: "minecraft:leather_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["65775C162034ACEF"]
+			id: "219EE2FD5C16BE29"
+			tasks: [
+				{
+					id: "22A60AF534D01452"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03E66CBAD4678541"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14A182CD07165785"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15698AD475FE28A9"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1F8AC06DFAE78360"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "3B261A3014DC0737"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "Chainmail Armor"
+			icon: {
+				id: "minecraft:chainmail_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["219EE2FD5C16BE29"]
+			id: "0F7658DCDAD2CFF4"
+			tasks: [
+				{
+					id: "768EFF2A50D82158"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F241EBDAD6BBAF0"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "779B3599685E6804"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47F755D6CEC25558"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "61FE50A040E5ADCA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "02D6FBFCC3F1E5B8"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Golden Armor"
+			icon: {
+				id: "minecraft:golden_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["219EE2FD5C16BE29"]
+			id: "2ECA8350DAF43CEB"
+			tasks: [
+				{
+					id: "41E622AB17F782AA"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "626248655850DB70"
+					type: "item"
+					item: {
+						id: "minecraft:golden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B19E6EBBC8AE4D4"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6669F99631CF565D"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4C6922F7311498BE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "09AE8DC6DE075EAA"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Iron Armor"
+			icon: {
+				id: "minecraft:iron_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 5.0d
+			dependencies: [
+				"2ECA8350DAF43CEB"
+				"0F7658DCDAD2CFF4"
+			]
+			id: "2AC434ACC801A6FC"
+			tasks: [
+				{
+					id: "5F69DF13A50FBE9A"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E326888A9AF7256"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A4617D5D76B9DA1"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D352FC5C54E5FAF"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2388F191A4DB50DF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "69C261B98A285B0A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Diamond Armor"
+			icon: {
+				id: "minecraft:diamond_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["2AC434ACC801A6FC"]
+			id: "1662AD478009D3BE"
+			tasks: [
+				{
+					id: "2D1B39BAF67CDAC8"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "530B71CE68BFABDB"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B5C3D0E2DCB2D59"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3448A17721C72421"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1F75D7E0165D712C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "027FF26EEF5E0FA2"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			title: "Netherite Armor"
+			icon: {
+				id: "minecraft:netherite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 7.0d
+			dependencies: [
+				"1662AD478009D3BE"
+				"76CF428EAECFB014"
+			]
+			id: "62899DCA86632330"
+			tasks: [
+				{
+					id: "558D9FB11C84748D"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E0DD998F2104DA9"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B266B7293C757D3"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "497ABE823FF1C485"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5B55187C2AEF551A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "0788DDA6DA3A0DC0"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "Neptunium Armor"
+			icon: {
+				id: "aquaculture:neptunium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 6.0d
+			dependencies: ["2AC434ACC801A6FC"]
+			id: "76CF428EAECFB014"
+			tasks: [
+				{
+					id: "47704EE2116904F1"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25CF64CC8A70353A"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F99AA7552DC5FF1"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "268E23814D7C53C3"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "41F2F9B4443EB87C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "550E2D0D91F47457"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			title: "Enchanting"
+			x: -3.0d
+			y: 9.5d
+			dependencies: ["5DFD9E2C01BE0A51"]
+			id: "70A751BC1080332C"
+			tasks: [
+				{
+					id: "349C02820C28EE27"
+					type: "item"
+					item: "minecraft:enchanting_table"
+				}
+				{
+					id: "5EFCA1C56A6062FC"
+					type: "item"
+					item: "minecraft:bookshelf"
+					count: 16L
+				}
+				{
+					id: "4CE8ADB14D481BB2"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+			]
+			rewards: [
+				{
+					id: "3DD2C972F767E5B3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "20BA7CD73848EC69"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["65775C162034ACEF"]
+			id: "4D9EFBD9E45ED72E"
+			tasks: [{
+				id: "41B3FB8805BF963A"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [
+				{
+					id: "260CA438E25B82B0"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "4AB71ED575B7B687"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["4D9EFBD9E45ED72E"]
+			id: "7E219CC18D26CB1A"
+			tasks: [{
+				id: "6EF2E70F32FAB449"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [
+				{
+					id: "367E1DCC71DCF346"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "548981CDB052A03E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			dependencies: ["7E219CC18D26CB1A"]
+			id: "5C3D42E5731E2F22"
+			tasks: [{
+				id: "32D830725FB86E02"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [
+				{
+					id: "269B628E9634534A"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+				{
+					id: "0E2B93B430C11F04"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			dependencies: ["5C3D42E5731E2F22"]
+			id: "5840E9027ABA2FFE"
+			tasks: [{
+				id: "186D68744321EE61"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [
+				{
+					id: "69397B99E5928CA4"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "244A8D5854BCA75C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["5840E9027ABA2FFE"]
+			id: "66503D82CD41CD5F"
+			tasks: [{
+				id: "1F0CBD0E4DB2347A"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [
+				{
+					id: "44FE475C2DE03268"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "4EA6D2788ADF94CC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Mining Lv:30"
+			x: -7.0d
+			y: 9.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "08F20321A881F3D5"
+			tasks: [
+				{
+					id: "1FB5BB9EA8FF1478"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0796A0638BF86BDB"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "5184873CFF9CAB75"
+					type: "item"
+					item: "blue_skies:horizonite_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "206F25CE2FC049EE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "363CB98E9FF2BDB3"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+			]
+		}
+		{
+			title: "Mining Lv:35"
+			x: -6.0d
+			y: 9.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "5D56634F226B1D3F"
+			tasks: [
+				{
+					id: "3B4B72B6EA97C432"
+					type: "item"
+					item: "minecraft:gold_ore"
+				}
+				{
+					id: "47954B91554458C5"
+					type: "item"
+					item: "mysticalagriculture:soulium_dust"
+				}
+				{
+					id: "5A32EC09E35F9B5B"
+					type: "item"
+					title: "Charoite Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "blue_skies:ores/charoite"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7D55B52FAF0F9046"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "200BDDB530B25CB1"
+					type: "ftbmoney:money"
+					ftb_money: 65L
+				}
+			]
+		}
+		{
+			title: "Mining Lv:40"
+			x: -5.0d
+			y: 9.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "67A90D0DCC987C7A"
+			tasks: [
+				{
+					id: "4219C4E7364CEBE0"
+					type: "item"
+					title: "Uranium Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/uranium"
+						}
+					}
+				}
+				{
+					id: "2CFF0F2E56A66B2C"
+					type: "item"
+					item: "platinum:platinum_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "688C888EA6516E35"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "685DD0298F21DEC8"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			title: "Diamond Ore Lv.45"
+			x: -4.0d
+			y: 8.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "5DFD9E2C01BE0A51"
+			tasks: [
+				{
+					id: "78148E205857DA63"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "17518A873427EEB9"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+				{
+					id: "2FCA1DCB471BAF4B"
+					type: "item"
+					item: "blue_skies:diopside_gem"
+				}
+				{
+					id: "5AC99143E8997DDE"
+					type: "item"
+					item: "scalinghealth:heart_crystal_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "763528938DBA11AA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3D91FEC9BBF3EA2D"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+			]
+		}
+		{
+			title: "Emerald Ore Lv.50"
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "23E3FC56BF0E6383"
+			tasks: [
+				{
+					id: "548A6CA54565CB18"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "62680D55EDECF56A"
+					type: "item"
+					item: "tconstruct:cobalt_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "578BD3CC1E23B68C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "2086569B74D89137"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Mining Lv:10"
+			icon: "mekanism:copper_ore"
+			x: -9.0d
+			y: 5.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "23E3A928F86E2054"
+			tasks: [
+				{
+					id: "666E60CE3D44A4C8"
+					type: "item"
+					title: "Copper Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/copper"
+						}
+					}
+				}
+				{
+					id: "3C212D63F39DBFFE"
+					type: "item"
+					title: "Tin Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/tin"
+						}
+					}
+				}
+				{
+					id: "35CC847ADE2B08AA"
+					type: "item"
+					item: "thermal:apatite"
+				}
+				{
+					id: "44916A0C93514A88"
+					type: "item"
+					item: "blue_skies:pyrope_gem"
+				}
+			]
+			rewards: [
+				{
+					id: "0C4C3FB35B32E3BC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "378B5807237A8A0D"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			title: "Mining Lv:5"
+			x: -8.0d
+			y: 4.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "04D18BC3F76C0502"
+			tasks: [
+				{
+					id: "0BB0375613C1947E"
+					type: "item"
+					item: "thermal:cinnabar"
+				}
+				{
+					id: "6A4A14A4477BB3D3"
+					type: "item"
+					item: "treasure2:topaz"
+				}
+				{
+					id: "5975E6B3C80C7D30"
+					type: "item"
+					item: "appliedenergistics2:certus_quartz_crystal"
+				}
+				{
+					id: "4A5C291C77AE4512"
+					type: "item"
+					item: "appliedenergistics2:charged_certus_quartz_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "05C067C80601C098"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "11492EC0A4C31484"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			title: "Mining Lv:25"
+			icon: "thermal:silver_ore"
+			x: -8.0d
+			y: 8.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "7B3094B435CC28C9"
+			tasks: [
+				{
+					id: "0A7E94F04D3454C0"
+					type: "item"
+					title: "Silver Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/silver"
+						}
+					}
+				}
+				{
+					id: "6B01A6E61757B644"
+					type: "item"
+					item: "iceandfire:amythest_gem"
+				}
+				{
+					id: "0681D1D08DB1CD0A"
+					type: "item"
+					title: "Aluminum Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/aluminum"
+						}
+					}
+				}
+				{
+					id: "6763BAFE996FE6E0"
+					type: "item"
+					item: "blue_skies:falsite_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "1A7FFB715A33F4C6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "42C48C97813CFA81"
+					type: "ftbmoney:money"
+					ftb_money: 55L
+				}
+			]
+		}
+		{
+			title: "Mining Lv:20"
+			x: -9.0d
+			y: 7.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "6E4002E06773A342"
+			tasks: [
+				{
+					id: "2178F74DB0B8A978"
+					type: "item"
+					title: "Aquite Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "blue_skies:ores/aquite"
+						}
+					}
+				}
+				{
+					id: "4E122D3409D43E2A"
+					type: "item"
+					title: "Nickel Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/nickel"
+						}
+					}
+				}
+				{
+					id: "574313FB558A078A"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard"
+				}
+				{
+					id: "40B5FD596B0F3C10"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+				{
+					id: "58B7E4A45F326BC7"
+					type: "item"
+					item: "blue_skies:ventium_ore"
+				}
+				{
+					id: "090C34C6EE77AB30"
+					type: "item"
+					title: "Osmium Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/osmium"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E6EFB59FB022DCE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "49BC670E83E76E9E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Mining Lv:60"
+			x: -3.0d
+			y: 5.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "397E60EBBAD52E9D"
+			tasks: [{
+				id: "280CFCAE8A77878B"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+			rewards: [
+				{
+					id: "131A9ACB986A7873"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3C1E78486BB30E2A"
+					type: "ftbmoney:money"
+					ftb_money: 110L
+				}
+			]
+		}
+		{
+			title: "Mining Lv:55"
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["172269AB4090C8B9"]
+			id: "4C108F8A2DC9AAA8"
+			tasks: [{
+				id: "0B0D64E6E4084B1B"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+			}]
+			rewards: [
+				{
+					id: "074A8AD525AB437C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "10332348354D1166"
+					type: "ftbmoney:money"
+					ftb_money: 105L
+				}
+			]
+		}
+		{
+			title: "First Reactor 7x7"
+			x: -9.5d
+			y: -2.5d
+			dependencies: ["7F9D12AB607E6DF7"]
+			id: "6E93EB560D15ABDE"
+			tasks: [
+				{
+					id: "16241E83D558A40B"
+					type: "item"
+					item: "biggerreactors:reactor_control_rod"
+					count: 5L
+				}
+				{
+					id: "54FCB14053A90A90"
+					type: "item"
+					item: "biggerreactors:reactor_fuel_rod"
+					count: 25L
+				}
+				{
+					id: "28F37B9EFA8595F6"
+					type: "item"
+					item: "biggerreactors:reactor_casing"
+					count: 114L
+				}
+				{
+					id: "37BA9FAFA3EE8FD9"
+					type: "item"
+					item: "biggerreactors:reactor_glass"
+					count: 95L
+				}
+				{
+					id: "7EEA035D1A5304D0"
+					type: "item"
+					item: "biggerreactors:reactor_access_port"
+					count: 2L
+				}
+				{
+					id: "5C760BB6592F8DCE"
+					type: "item"
+					item: "biggerreactors:reactor_power_tap"
+				}
+				{
+					id: "529AA8D10A755CC5"
+					type: "item"
+					title: "8 Buckets Of Water"
+					item: "minecraft:water_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "3577267F97D82F4D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "7ECCB6907CCFFE57"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -2.5d
+			dependencies: ["24648C406E65672C"]
+			id: "7F9D12AB607E6DF7"
+			tasks: [{
+				id: "57D50B6DBF18D44F"
+				type: "item"
+				item: "biggerreactors:reactor_terminal"
+			}]
+			rewards: [
+				{
+					id: "0710BEA96087E291"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4060F5600C774FFB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			id: "24648C406E65672C"
+			tasks: [{
+				id: "01C38DDC3A1C6877"
+				type: "item"
+				item: "biggerreactors:graphite_ingot"
+			}]
+			rewards: [{
+				id: "2BE4A7D2E80CA004"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			id: "6DC45E9A6F57556D"
+			tasks: [{
+				id: "3C4CA7674FDEB2DF"
+				type: "item"
+				item: "computercraft:turtle_normal"
+			}]
+			rewards: [
+				{
+					id: "35905E16633E5F29"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "79656BD779E58A98"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			dependencies: ["2A7B56097F5F47CF"]
+			id: "61BACCBE7196CADE"
+			tasks: [{
+				id: "5BF841AB8B271813"
+				type: "item"
+				item: "ironfurnaces:upgrade_iron"
+			}]
+			rewards: [
+				{
+					id: "6D2B149060074AEF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3DE5AC5F27D73A1B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 1.0d
+			dependencies: ["61BACCBE7196CADE"]
+			id: "3AE0ECEA6A72687A"
+			tasks: [{
+				id: "74EC0BEF3D057BD7"
+				type: "item"
+				item: "ironfurnaces:upgrade_gold"
+			}]
+			rewards: [
+				{
+					id: "76FAB9F34731AE8C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1D40A35524508CCC"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 1.0d
+			dependencies: ["3AE0ECEA6A72687A"]
+			id: "6988F9FA255D2B25"
+			tasks: [{
+				id: "4B6DB56D1FBE2A3E"
+				type: "item"
+				item: "ironfurnaces:upgrade_diamond"
+			}]
+			rewards: [
+				{
+					id: "3417B69967AAC3B2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "5EE861A9FCBD44B7"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 1.0d
+			dependencies: ["6988F9FA255D2B25"]
+			id: "12CD016EE7B73701"
+			tasks: [{
+				id: "160DEDCE1245B65D"
+				type: "item"
+				item: "ironfurnaces:upgrade_emerald"
+			}]
+			rewards: [
+				{
+					id: "7D4A2C6FD3E2312C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "13E2633619F8BBDB"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 1.0d
+			dependencies: ["12CD016EE7B73701"]
+			id: "48AE663E8C163B11"
+			tasks: [{
+				id: "7F77E9DEFC438FA9"
+				type: "item"
+				item: "ironfurnaces:upgrade_obsidian"
+			}]
+			rewards: [
+				{
+					id: "52CC77568D055720"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "771A7E18E6B850B0"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 1.0d
+			dependencies: ["48AE663E8C163B11"]
+			id: "2849EA014EE17E12"
+			tasks: [{
+				id: "557CF6F13C330D8B"
+				type: "item"
+				item: "ironfurnaces:upgrade_netherite"
+			}]
+			rewards: [
+				{
+					id: "2D7565B47BF5D845"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "5624C0B96199C3EE"
+					type: "ftbmoney:money"
+					ftb_money: 125L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			dependencies: ["2A7B56097F5F47CF"]
+			id: "73D46103EBBF27CB"
+			tasks: [{
+				id: "42ECB3EAF27FE4ED"
+				type: "item"
+				item: "ironfurnaces:upgrade_copper"
+			}]
+			rewards: [
+				{
+					id: "7AA03203BE437F40"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "5E19B13787E6D108"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 2.0d
+			dependencies: ["73D46103EBBF27CB"]
+			id: "760882EB76065FFE"
+			tasks: [{
+				id: "4FC071FDD34E8F76"
+				type: "item"
+				item: "ironfurnaces:upgrade_silver"
+			}]
+			rewards: [
+				{
+					id: "727E0902BAB1B8A4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "53661815F203642E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			dependencies: ["760882EB76065FFE"]
+			id: "53724250FD84FA23"
+			tasks: [{
+				id: "1FEF92753DC189C3"
+				type: "item"
+				item: "ironfurnaces:upgrade_gold2"
+			}]
+			rewards: [
+				{
+					id: "73ED457CA72FC1ED"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "2479EF24F0754823"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["65775C162034ACEF"]
+			id: "70F23AC73A54A42F"
+			tasks: [{
+				id: "2D6785E7916A0E73"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [{
+				id: "12ACF8E24778247C"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["70F23AC73A54A42F"]
+			id: "0DECC2FF21BC71C4"
+			tasks: [
+				{
+					id: "1C5F365B5F27B086"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+				{
+					id: "1F8236227B6457DB"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+				{
+					id: "1C8338E0C50B837D"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+				{
+					id: "0861B2696FE9EBE8"
+					type: "item"
+					item: "cookingforblockheads:cow_jar"
+				}
+				{
+					id: "2C37BE9E6912C6BD"
+					type: "item"
+					item: "cookingforblockheads:heating_unit"
+				}
+				{
+					id: "08E57393AE739CA2"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+				{
+					id: "53C56DB6A9FD555F"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+				{
+					id: "4EA61BA23C4E151A"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+			]
+			rewards: [
+				{
+					id: "1E36F88D9FA16FC3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "4BCFCEE7A6BDBD6D"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1662 @@
+{
+	id: "1379B997FA676D90"
+	group: "70C4E1FE41CD8F4A"
+	order_index: 0
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	icon: "immersiveengineering:workbench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["0F9855A6D2E5850A"]
+			id: "1D60BF85E942D2E8"
+			tasks: [
+				{
+					id: "05FB3F421B3AB4D4"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D6FF1127864CFF6"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "59D0B1F0370E3AA7"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01E95DAB6A4489E1"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "519AB110A3224277"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "14A9EBA2AABADE36"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["0F9855A6D2E5850A"]
+			id: "4F41EDF5216FB79F"
+			tasks: [
+				{
+					id: "6F6FC370B0377911"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_steel_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "497021B89102C486"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_steel_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "08BD40F128E51E13"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_steel_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "59C37FC9CA25DC3E"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_steel_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "193EC85D56B07CBA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "22805B54B18CD097"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["594A1A81700711D2"]
+			id: "326E84C7FE78849D"
+			tasks: [
+				{
+					id: "5EA6B6D0071D23DD"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "2F9032E4E1343CEC"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "1BFE7CEE83FDB228"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0B68094B2956330A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["0B1F53CCD475982B"]
+			id: "1D98C1DAFC5F2676"
+			tasks: [
+				{
+					id: "2EE01882BFF37D03"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "3D62D89D473BA6EB"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "59A86C0497BEA08B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "6C5258F02BD9F619"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			dependencies: ["23C6F3528786EF19"]
+			id: "3353F33920B1E969"
+			tasks: [
+				{
+					id: "65763B7A26741D41"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+				}
+				{
+					id: "50C7CA539937A89F"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "39C456D0F4E357A1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "556D000A79057210"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "2D42BD1D8F16FBFF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "gear"
+			size: 1.5d
+			id: "0F9855A6D2E5850A"
+			tasks: [
+				{
+					id: "75D7E496CA7A97AE"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4238A716EF466226"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FAB9679FECDE309"
+					type: "item"
+					item: "immersiveengineering:screwdriver"
+				}
+			]
+			rewards: [
+				{
+					id: "3C3381C3FD44EB19"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+				}
+				{
+					id: "4D48FAF95456AA92"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			dependencies: ["1620061BC856101B"]
+			id: "3D5C002100E3DD2E"
+			tasks: [
+				{
+					id: "00C160E779E65D07"
+					type: "item"
+					item: "immersiveengineering:connector_bundled"
+				}
+				{
+					id: "35481C5A34727FDC"
+					type: "item"
+					item: "immersiveengineering:connector_redstone"
+				}
+				{
+					id: "5AB997AFCBECE8B7"
+					type: "item"
+					item: "immersiveengineering:connector_probe"
+				}
+			]
+			rewards: [
+				{
+					id: "2C4A1E921A9EE04C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "29588BF88D2349A7"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["092F2F4C90A3C0D9"]
+			id: "1641CA263BF08CC7"
+			tasks: [{
+				id: "760105365124F182"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "479476506950DC95"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "7DE905457149AABF"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["0F9855A6D2E5850A"]
+			id: "092F2F4C90A3C0D9"
+			tasks: [{
+				id: "74E4C95482359B58"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "71888DB4D6C50562"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "32DFA0663BA77742"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["4A47FEE1BF77E7F9"]
+			id: "72424B242AA26497"
+			tasks: [
+				{
+					id: "020AEC1F3D1E829A"
+					type: "item"
+					item: "immersiveengineering:treated_post"
+				}
+				{
+					id: "11D6AC46502C2C28"
+					type: "item"
+					item: "immersiveengineering:treated_wallmount"
+				}
+			]
+			rewards: [
+				{
+					id: "44736097778A962C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "668DF9FBFB5C5A1F"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["72424B242AA26497"]
+			id: "2F5FB2B69CCC6C78"
+			tasks: [
+				{
+					id: "536A371D8ACE498A"
+					type: "item"
+					item: "immersiveengineering:alu_post"
+				}
+				{
+					id: "78E4527F5DB4B047"
+					type: "item"
+					item: "immersiveengineering:alu_wallmount"
+				}
+			]
+			rewards: [
+				{
+					id: "53F068ACC3A1AD2D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "483C9C56C8613F58"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["2F5FB2B69CCC6C78"]
+			id: "4BE978D933F4CE9A"
+			tasks: [
+				{
+					id: "45968D41139B7D4E"
+					type: "item"
+					item: "immersiveengineering:steel_post"
+				}
+				{
+					id: "1F98FD9B7416BAF5"
+					type: "item"
+					item: "immersiveengineering:steel_wallmount"
+				}
+			]
+			rewards: [
+				{
+					id: "2A88A3A93B66BE42"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "212BDFFE8C1822F6"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["0F9855A6D2E5850A"]
+			id: "23A113070ACB0B55"
+			tasks: [{
+				id: "08013B62E4E3EB4E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:buzzsaw"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2C65EBC335307E97"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1FCBF32BFE8CED4B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "149AF22601719889"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["0F9855A6D2E5850A"]
+			id: "0F133694AD730653"
+			tasks: [{
+				id: "244C2DFDE0E9ED5A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3D767D4D30B230D6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "70D3C8B3491535A4"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "05A6DD0D89502276"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["0F9855A6D2E5850A"]
+			id: "1AEFDDBC50CFB045"
+			tasks: [
+				{
+					id: "4014DC9E5AD0EB9F"
+					type: "item"
+					item: {
+						id: "immersiveengineering:skyhook"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 2
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7F69C43555974478"
+					type: "item"
+					item: "immersiveengineering:connector_structural"
+				}
+				{
+					id: "3D8AE2DC3B357A67"
+					type: "item"
+					item: "immersiveengineering:wirecoil_structure_steel"
+				}
+			]
+			rewards: [
+				{
+					id: "3A931A66D4653ADB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "489E29DDA262892D"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["326E84C7FE78849D"]
+			id: "7370269C557CC90D"
+			tasks: [{
+				id: "08236BFF04854459"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [
+				{
+					id: "5EE7A5AEB50905D8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "63D9DA7D317B771E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["1D98C1DAFC5F2676"]
+			id: "2F480DA53B9743B9"
+			tasks: [{
+				id: "4B6A54139676DE02"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			rewards: [
+				{
+					id: "453DDD1A7BCAC504"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "46DCA01B6614B8E1"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["3353F33920B1E969"]
+			id: "2AC09457887F6BFC"
+			tasks: [{
+				id: "326243CADA715EAD"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [
+				{
+					id: "79198C72EE78BA8D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "3C911B0ADA946B80"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "1849AFFB7F81F1B6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["092F2F4C90A3C0D9"]
+			id: "0B4E064F9CE46790"
+			tasks: [
+				{
+					id: "09835D628769EBF0"
+					type: "item"
+					item: "immersiveengineering:workbench"
+				}
+				{
+					id: "4407B39F38E166BE"
+					type: "item"
+					item: "immersiveengineering:circuit_table"
+				}
+			]
+			rewards: [
+				{
+					id: "3894411046D2B30B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "2728EFF7ACFC86F8"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["18A581FA6DF91FB5"]
+			id: "14147D2D8D0A17C5"
+			tasks: [{
+				id: "67AF89256626F290"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			rewards: [
+				{
+					id: "56C9C619E11AF008"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "0E390BFF911B43C3"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["0F9855A6D2E5850A"]
+			id: "18A581FA6DF91FB5"
+			tasks: [{
+				id: "4CAE60962E8FE9E8"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [
+				{
+					id: "7FDD1110003D80F9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "3796C0613498F429"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["18A581FA6DF91FB5"]
+			id: "308CF9ADF7D95DB5"
+			tasks: [{
+				id: "0F61CF11B8663428"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			rewards: [
+				{
+					id: "4ABAB5A23309D3AC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "1C398CB41948DE91"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["4A47FEE1BF77E7F9"]
+			id: "594A1A81700711D2"
+			tasks: [{
+				id: "1A27F298307BF71F"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+			rewards: [
+				{
+					id: "44A06F05A5925491"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "423D0C53908AE392"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["594A1A81700711D2"]
+			id: "0B1F53CCD475982B"
+			tasks: [{
+				id: "230B405A6BF08F24"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+			}]
+			rewards: [
+				{
+					id: "7BE51BF19E866704"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "0408517A1F50DE8B"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["0B1F53CCD475982B"]
+			id: "23C6F3528786EF19"
+			tasks: [{
+				id: "1E48BA0792181E95"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+			}]
+			rewards: [
+				{
+					id: "601FE52278DD41CD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "126FE038CCD4344C"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "57D3191EED134D14"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["23C6F3528786EF19"]
+			id: "1620061BC856101B"
+			tasks: [{
+				id: "2F0FB66439C079BC"
+				type: "item"
+				item: "immersiveengineering:wirecoil_redstone"
+			}]
+			rewards: [
+				{
+					id: "4FD84D5C902B6476"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "5F1E6BD19D4D76A9"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "42931A6F8FD7F5E6"
+			tasks: [{
+				id: "58CA89C758890DD7"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+			rewards: [
+				{
+					id: "7E0796824E04668E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4784473F408B6A43"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "789FF3A09B535923"
+			tasks: [{
+				id: "7B9B4C21675BA43E"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+			rewards: [
+				{
+					id: "66699984418275C2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "7B3BBDE0D107E041"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "71C503613C0D5B26"
+			tasks: [{
+				id: "6FAAC3795D6A9936"
+				type: "item"
+				item: "immersiveengineering:furnace_heater"
+			}]
+			rewards: [
+				{
+					id: "67D8426E18735DD3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "2E5ABC072AB6D28E"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "5159C85A2FB9459D"
+			tasks: [{
+				id: "3D0FD20983502F13"
+				type: "item"
+				item: "immersiveengineering:generator"
+			}]
+			rewards: [
+				{
+					id: "06166CA9FAB5C196"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "3B6B2DC3EF2EAD90"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "764644245640C08C"
+			tasks: [{
+				id: "39F0D3FFAD3E1B0C"
+				type: "item"
+				item: "immersiveengineering:radiator"
+			}]
+			rewards: [
+				{
+					id: "295FFDBE0BD045AF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "012ADF69CEC31705"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "1101BE221358B68C"
+			tasks: [{
+				id: "121461C5AE7D4FC8"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+			rewards: [
+				{
+					id: "7FE5B5DCE10E537F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "7BC2BE65BB5E6FA3"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "6B1189BD04FDD69E"
+			tasks: [
+				{
+					id: "435282AFB54526D0"
+					type: "item"
+					item: "immersiveengineering:fluid_pump"
+				}
+				{
+					id: "22A103D378DDBAE0"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "5ECA7222B0B250E3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "78437DADC9576D9D"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["594A1A81700711D2"]
+			id: "4DBC7F29AC5B90EB"
+			tasks: [{
+				id: "046B7EF85F720A2E"
+				type: "item"
+				item: "immersiveengineering:transformer"
+			}]
+			rewards: [
+				{
+					id: "3923346EAD42316D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "79946744DA61BDCE"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			dependencies: ["1620061BC856101B"]
+			id: "3740711D8C0978C4"
+			tasks: [{
+				id: "6761668C88DC9C37"
+				type: "item"
+				item: "immersiveengineering:redstone_breaker"
+			}]
+			rewards: [
+				{
+					id: "05D8815E39C66046"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "15079B53AF6E0C5E"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["23C6F3528786EF19"]
+			id: "52F00232AD4B9C1F"
+			tasks: [{
+				id: "72AE224F3B437E28"
+				type: "item"
+				item: "immersiveengineering:transformer_hv"
+			}]
+			rewards: [
+				{
+					id: "2A20BBF93914898A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "3ACFCB6773C727C7"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "17B9F63E1925A412"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["594A1A81700711D2"]
+			id: "167888B78235F7A1"
+			tasks: [{
+				id: "2A91E2D4AB56E978"
+				type: "item"
+				item: "immersiveengineering:breaker_switch"
+			}]
+			rewards: [
+				{
+					id: "5EF94F3BCE1200F2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "4F7DA536F7F45F5C"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["594A1A81700711D2"]
+			id: "1E8000B9DACD5CED"
+			tasks: [{
+				id: "1805121CF89B6F48"
+				type: "item"
+				item: "immersiveengineering:current_transformer"
+			}]
+			rewards: [
+				{
+					id: "126831E12B5D2F25"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "2D3EA756BD6BE727"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["594A1A81700711D2"]
+			id: "34AB39C152182A1F"
+			tasks: [{
+				id: "2ED5B9EA2DAC0CF9"
+				type: "item"
+				item: "immersiveengineering:electric_lantern"
+			}]
+			rewards: [
+				{
+					id: "7C0473B9C59ED88F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "01BD0BEE2BEF6216"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "4A47FEE1BF77E7F9"
+			tasks: [{
+				id: "1F67EEC81392A1B7"
+				type: "item"
+				item: "immersiveposts:postbase"
+			}]
+			rewards: [
+				{
+					id: "15C2734AF8FD894E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+				}
+				{
+					id: "4E6CADD9B776A3A5"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["0F9855A6D2E5850A"]
+			id: "4836BAE8D8C76C46"
+			tasks: [{
+				id: "74404840D77C0F73"
+				type: "item"
+				item: {
+					id: "immersiveengineering:drill"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "754C82DC465C2EAC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "29539939BC9ECF90"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "7FEB7077F14AAD3F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "34F5B2450F8E4A1D"
+			tasks: [{
+				id: "66676D1E5E7F1A9E"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+			rewards: [
+				{
+					id: "6DF35575467065DF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "653EAAB9580595D6"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "4B200B3F4081663A"
+			tasks: [{
+				id: "517D1A983568C1D7"
+				type: "item"
+				item: "immersiveengineering:turret_gun"
+			}]
+			rewards: [
+				{
+					id: "56661D840A09DAE2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "3E2BB8E2705F5663"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["0B4E064F9CE46790"]
+			id: "6DE8D948CB590E2D"
+			tasks: [{
+				id: "3CB918F1373F528F"
+				type: "item"
+				item: "immersiveengineering:turret_chem"
+			}]
+			rewards: [
+				{
+					id: "27757C5B7735509A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "36D8B4A53F13D20B"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["0F9855A6D2E5850A"]
+			id: "228CC58144A60B5E"
+			tasks: [{
+				id: "02EFE1CAA5BC7D04"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [
+				{
+					id: "698D418CF12499BD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "03ABFEB45E2CECD3"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+	]
+}

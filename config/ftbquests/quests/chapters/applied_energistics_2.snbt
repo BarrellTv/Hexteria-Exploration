@@ -1,0 +1,1814 @@
+{
+	id: "5F4116DEAEEF2B20"
+	group: "70C4E1FE41CD8F4A"
+	order_index: 3
+	filename: "applied_energistics_2"
+	title: "Applied Energistics 2"
+	icon: "appliedenergistics2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["4260858BADDF7D90"]
+			id: "3E010482CCC23CD9"
+			tasks: [{
+				id: "4F71357B1AE25C1C"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+			rewards: [
+				{
+					id: "3D37448163AC96F2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+				}
+				{
+					id: "1453A275F1F9E9A6"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: [
+				"104D9987297D8C00"
+				"3E010482CCC23CD9"
+			]
+			id: "358EC489EE572B6F"
+			tasks: [
+				{
+					id: "318D2D0E8E6294D3"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor_press"
+				}
+				{
+					id: "69B55083D6CB5DBE"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor_press"
+				}
+				{
+					id: "73249AEFC7A4E891"
+					type: "item"
+					item: "appliedenergistics2:logic_processor_press"
+				}
+				{
+					id: "7DCA7E3F98910DCB"
+					type: "item"
+					item: "appliedenergistics2:silicon_press"
+				}
+			]
+			rewards: [
+				{
+					id: "18C724A76FC09E22"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "6FE31F1D2D7A8006"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["358EC489EE572B6F"]
+			id: "7A62309472F1C7C6"
+			tasks: [{
+				id: "4F2E1CFCBDC00D06"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:name_press"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "652A7F2D49FCB272"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "6AB16BA265BE8B74"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["358EC489EE572B6F"]
+			id: "5C957157A995C587"
+			tasks: [{
+				id: "2CB9616314E3F134"
+				type: "item"
+				item: "appliedenergistics2:silicon"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "3D7FCE471DBC6168"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4B6DB7CA78B21A42"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "gear"
+			size: 1.5d
+			id: "4260858BADDF7D90"
+			tasks: [{
+				id: "7997EE838A87346F"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+			rewards: [
+				{
+					id: "368AC0873A6DE969"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "49903C91BA41E5F5"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["4260858BADDF7D90"]
+			id: "104D9987297D8C00"
+			tasks: [
+				{
+					id: "48504623C6C752BD"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "622526768DFE1D0B"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+			rewards: [
+				{
+					id: "1A5581455D67FAFE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+				}
+				{
+					id: "5F166D5B155261EE"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["7C1E8F205D96CC66"]
+			id: "48D074B54EF491A1"
+			tasks: [{
+				id: "483530E7F8E3B67A"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+			rewards: [
+				{
+					id: "09347B54DE156F84"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "4A5E80C6E48F792A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "61F7B1A8DBF5A6F3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			dependencies: ["733ED989641575AC"]
+			id: "2361A6C67B3B8993"
+			tasks: [{
+				id: "2E3A1D5FE95E0390"
+				type: "item"
+				item: "appliedenergistics2:fluix_glass_cable"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "6F799A691EE015B4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "50DFDFA12FAC9293"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "4A9CCBB4EB948E3B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["2361A6C67B3B8993"]
+			id: "778050E8D94EE3CD"
+			tasks: [{
+				id: "286FDC29D78E99FD"
+				type: "item"
+				item: "appliedenergistics2:blue_smart_cable"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "5D0234E4828E5131"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "2F6AB71912067CC9"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "5EAC70B94EBA30C6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["778050E8D94EE3CD"]
+			id: "2496DBFEA714F8FF"
+			tasks: [{
+				id: "3CBA7259B7B83832"
+				type: "item"
+				item: "appliedenergistics2:blue_smart_dense_cable"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "30E1C39ADF8D8388"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "4E3D9DF55EE7FE0C"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "28BD3D5E4F086235"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["7C1E8F205D96CC66"]
+			id: "044A8AAADCC923A4"
+			tasks: [
+				{
+					id: "2B1AD5FC8A01497E"
+					type: "item"
+					item: "appliedenergistics2:security_station"
+				}
+				{
+					id: "5D39F96C2EA5D0CC"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:biometric_card"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "73A12152EC199734"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "606579C37F6C37BF"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "4B74BE224EAD7533"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["044A8AAADCC923A4"]
+			id: "1BA8657CC62AEFCB"
+			tasks: [
+				{
+					id: "5B905FCAAD190BAE"
+					type: "item"
+					item: "appliedenergistics2:wireless_access_point"
+				}
+				{
+					id: "19C8E4C6D9F48BB5"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:wireless_terminal"
+						Count: 1b
+						tag: {
+							internalCurrentPower: 1600000.0d
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "51BE26983CB51050"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "7B6B1868DB3B81BD"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "3126285543F344A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "8x Processor"
+			x: 0.0d
+			y: 4.0d
+			dependencies: [
+				"3FB0D2A1424E85A5"
+				"1570387498C62458"
+			]
+			id: "7C1E8F205D96CC66"
+			tasks: [
+				{
+					id: "13156232A28C66D6"
+					type: "item"
+					item: "appliedenergistics2:logic_processor"
+					count: 8L
+				}
+				{
+					id: "5270B64F42862BB1"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor"
+					count: 8L
+				}
+				{
+					id: "51F49C3CF61E82A8"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "44FD5D531D194176"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "1493201C0FC2AA6A"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "03FE132A199E40FD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["358EC489EE572B6F"]
+			id: "1570387498C62458"
+			tasks: [{
+				id: "5C17A6BCE8C735C1"
+				type: "item"
+				item: "appliedenergistics2:charger"
+			}]
+			rewards: [
+				{
+					id: "36B52472755C3E1A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "1831E1E6129FF8DF"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			dependencies: [
+				"38ABBBC766F4D99D"
+				"3E4160849E354D68"
+			]
+			id: "544642F2EA532681"
+			tasks: [{
+				id: "713371FC91720EBC"
+				type: "item"
+				item: "appliedenergistics2:molecular_assembler"
+			}]
+			rewards: [
+				{
+					id: "5197C73EE3CC45E3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "148E0024F6CA920E"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "5474FCE3B7671434"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["358EC489EE572B6F"]
+			id: "3FB0D2A1424E85A5"
+			tasks: [{
+				id: "39ACF830FBEF720D"
+				type: "item"
+				item: "appliedenergistics2:quartz_growth_accelerator"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "5062D2FCB30708D0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "511F5A2088D6E570"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "225D5DFB1CEB4715"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["544642F2EA532681"]
+			id: "5D46406E5C92F5CF"
+			tasks: [{
+				id: "4D4E3BA42724F0D7"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
+			}]
+			rewards: [
+				{
+					id: "2CF87CAB1804FBB9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "588F70B6A474FA7A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "5A53405205D354AD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			dependencies: ["544642F2EA532681"]
+			id: "7F821BDB63B162A0"
+			tasks: [{
+				id: "1312811BD5366C8A"
+				type: "item"
+				item: "appliedenergistics2:crafting_accelerator"
+			}]
+			rewards: [
+				{
+					id: "47C7A5D6ADE8EACE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "207F2506DDA4B9D7"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "67662A5B93C8F4B3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			dependencies: [
+				"7F821BDB63B162A0"
+				"5D46406E5C92F5CF"
+			]
+			id: "3B73910CE9A804E9"
+			tasks: [{
+				id: "413511D0C06EF719"
+				type: "item"
+				item: "appliedenergistics2:1k_crafting_storage"
+			}]
+			rewards: [
+				{
+					id: "2EB2673C3AD8FC70"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "74EA1BA7874D3FA7"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "1DF51FFFCBACAC0B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 4.0d
+			dependencies: ["3B73910CE9A804E9"]
+			id: "0A8EB5752A0287CE"
+			tasks: [{
+				id: "75D52A39C4F4DBA4"
+				type: "item"
+				item: "appliedenergistics2:4k_crafting_storage"
+			}]
+			rewards: [
+				{
+					id: "346392A6765A4DF2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "19E90B5563A10CDC"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "09AB06E2195D3C04"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			dependencies: ["0A8EB5752A0287CE"]
+			id: "218A0A82E2E3258C"
+			tasks: [{
+				id: "5DBEAB3B3FCA1775"
+				type: "item"
+				item: "appliedenergistics2:16k_crafting_storage"
+			}]
+			rewards: [
+				{
+					id: "521FBEB1050302FF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "793B074895F5B7B5"
+					type: "ftbmoney:money"
+					ftb_money: 450L
+				}
+				{
+					id: "5BF9DA9CCEBCCDEE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 4.0d
+			dependencies: ["218A0A82E2E3258C"]
+			id: "140CD0ADAA1A1ECB"
+			tasks: [{
+				id: "0196CC8A14FADABC"
+				type: "item"
+				item: "appliedenergistics2:64k_crafting_storage"
+			}]
+			rewards: [
+				{
+					id: "03F438B0397D4128"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "308AEF62C63A917E"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "61A035B99DB31AFA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["5C957157A995C587"]
+			id: "4A148DEDFABFDAE2"
+			tasks: [{
+				id: "72B5D8879A7047CD"
+				type: "item"
+				item: "appliedenergistics2:basic_card"
+			}]
+			rewards: [
+				{
+					id: "67DABC9B330D7784"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "173818A96375B9D2"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "4740EAB347BF3904"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["5C957157A995C587"]
+			id: "5E458A317D8BEB59"
+			tasks: [{
+				id: "4CBD5CCE03FF87DF"
+				type: "item"
+				item: "appliedenergistics2:advanced_card"
+			}]
+			rewards: [
+				{
+					id: "595487F9C0AB389D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "073516A6A68CF5E9"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "05F5C44395605529"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["4A148DEDFABFDAE2"]
+			id: "74A29380399A6097"
+			tasks: [{
+				id: "386A6A9199EB89F5"
+				type: "item"
+				item: "appliedenergistics2:crafting_card"
+			}]
+			rewards: [
+				{
+					id: "2B75EA8F06EA655F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4CDFD56C56D37691"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "57787FEB77B156D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["4A148DEDFABFDAE2"]
+			id: "61A4BD114F36BE2D"
+			tasks: [{
+				id: "15C896154217E3BF"
+				type: "item"
+				item: "appliedenergistics2:capacity_card"
+			}]
+			rewards: [
+				{
+					id: "52B6BB64B9FE3BE7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "7648ED4886E550D3"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "46BAD6684A8BEC49"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["4A148DEDFABFDAE2"]
+			id: "20EF1CD334D2AAD3"
+			tasks: [{
+				id: "1998A46D40572E01"
+				type: "item"
+				item: "appliedenergistics2:redstone_card"
+			}]
+			rewards: [
+				{
+					id: "61219939DF21EABA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "06BE5785359764CB"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "302ACA36DA10471E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["5E458A317D8BEB59"]
+			id: "7402271A3F07608B"
+			tasks: [{
+				id: "1CBA607DD01FDFCD"
+				type: "item"
+				item: "appliedenergistics2:speed_card"
+			}]
+			rewards: [
+				{
+					id: "14961812ED4B124C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "62232F917B9740BF"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "0DAFD1F9690EF86D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["5E458A317D8BEB59"]
+			id: "0C4F5143D9CD1987"
+			tasks: [{
+				id: "670EA07A812C4CAD"
+				type: "item"
+				item: "appliedenergistics2:fuzzy_card"
+			}]
+			rewards: [
+				{
+					id: "0F3CD872B4F9B73E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "72DD12E5F01CD1FD"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "27DCB850E4915759"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["5E458A317D8BEB59"]
+			id: "1E3A6505E3648C0E"
+			tasks: [{
+				id: "0F40A06ACFC4B62A"
+				type: "item"
+				item: "appliedenergistics2:inverter_card"
+			}]
+			rewards: [
+				{
+					id: "4C3D98B891A56C66"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6886732BC0BA2407"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "26AA99B1ABB260FC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["1BA8657CC62AEFCB"]
+			id: "067952CDB26FC85F"
+			tasks: [
+				{
+					id: "18061987EE9085B4"
+					type: "item"
+					item: "appliedenergistics2:quantum_link"
+				}
+				{
+					id: "0560C051416EB294"
+					type: "item"
+					item: "appliedenergistics2:quantum_ring"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "6FB0F1CB150BE43E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "42881F4F49E14228"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "6C0189E37703FAC8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["733ED989641575AC"]
+			id: "7DA5B74B1C218CF5"
+			tasks: [{
+				id: "2DC36187F9A88E40"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+			rewards: [
+				{
+					id: "564DB9015740A812"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4822983FE31BEB93"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "130285A6344037D6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			dependencies: ["7DA5B74B1C218CF5"]
+			id: "09468A0E09F126D9"
+			tasks: [
+				{
+					id: "5C6B44F29CBD8E8A"
+					type: "item"
+					item: "appliedenergistics2:crafting_terminal"
+				}
+				{
+					id: "022805569BCA470A"
+					type: "item"
+					item: "appliedenergistics2:fluid_terminal"
+				}
+				{
+					id: "2E3F777D7384853A"
+					type: "item"
+					item: "appliedenergistics2:interface_terminal"
+				}
+				{
+					id: "5818DBE6A5B83363"
+					type: "item"
+					item: "appliedenergistics2:pattern_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "5A50E1130D2E040F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "2970683DBBC0A77B"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "61C9281D8B794C97"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["48D074B54EF491A1"]
+			id: "38ABBBC766F4D99D"
+			tasks: [{
+				id: "4D745E959C96E4D1"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "259246FA87B90557"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "737C6754303872A8"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "587882F1A3CAD581"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["38ABBBC766F4D99D"]
+			id: "5B5D3E006F38F374"
+			tasks: [{
+				id: "1386F539C4D65229"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "5BAE0D07A64EB38C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6FE91126A305BBB3"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "62AA809EA957F3C0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["5B5D3E006F38F374"]
+			id: "4E831746EFCB4A9D"
+			tasks: [{
+				id: "536868638A007538"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0852B8E6774F27E7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "4E89747DCC61CCC7"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "086042CBBD9AE63C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			dependencies: ["4E831746EFCB4A9D"]
+			id: "3F11D13BEA888AF3"
+			tasks: [{
+				id: "7FA247730F75BD28"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "5C86497E7E3E867F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "6EF4D8DEC9460A32"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["48D074B54EF491A1"]
+			id: "3E4160849E354D68"
+			tasks: [{
+				id: "462F4551FB695FCC"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "53A70C81278901E5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0F36E37B25DE75CE"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "636901708E630EB0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["3E4160849E354D68"]
+			id: "5A027A18A6582FFE"
+			tasks: [{
+				id: "4D672E14D6278057"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "02C1D73AAE3523F8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "2641F648E3CAC4B6"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "5634C23F1229BE3E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["5A027A18A6582FFE"]
+			id: "2E70C31102D376FA"
+			tasks: [{
+				id: "7D1ABD191ABB7253"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "37CB806B6FE299CE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "7C47D11E556ED321"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "719548E8E4DF7983"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["2E70C31102D376FA"]
+			id: "7487199422F60F72"
+			tasks: [{
+				id: "72C1E1E1D0471683"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "325526B33582AE7B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "490CE5D76B0F98DA"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "32EB31AA529E6C6F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["7C1E8F205D96CC66"]
+			id: "733ED989641575AC"
+			tasks: [
+				{
+					id: "00C620387078884B"
+					type: "item"
+					item: "appliedenergistics2:energy_acceptor"
+				}
+				{
+					id: "26FCDB3EC97B06F1"
+					type: "item"
+					item: "appliedenergistics2:controller"
+				}
+			]
+			rewards: [
+				{
+					id: "5B4807C4B8679EBD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "7C96A2B850B749F8"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "798D652404FCEEC6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+	]
+}

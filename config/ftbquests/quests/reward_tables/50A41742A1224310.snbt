@@ -1,0 +1,285 @@
+{
+	id: "50A41742A1224310"
+	order_index: 5
+	title: "EMC Lottery"
+	icon: "endergetic:poise_trapped_chest"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:gold_ingot", count: 64, weight: 600 }
+		{ item: "minecraft:netherite_ingot", count: 8, weight: 200 }
+		{ item: "minecraft:coal", count: 64, weight: 1000 }
+		{ item: "minecraft:ender_pearl", count: 64, weight: 300 }
+		{ item: "minecraft:blaze_rod", count: 64, weight: 400 }
+		{ item: "minecraft:ghast_tear", count: 64, weight: 200 }
+		{ item: "minecraft:gold_nugget", count: 64, weight: 800 }
+		{ item: "extendedcrafting:crystaltine_ingot", count: 64, weight: 300 }
+		{ item: "draconicevolution:draconium_block", count: 32, weight: 100 }
+		{ item: "minecraft:iron_ingot", count: 64, weight: 800 }
+		{ item: "minecraft:diamond", count: 64, weight: 400 }
+		{
+			item: {
+				id: "appliedenergistics2:64k_storage_cell"
+				Count: 1b
+				tag: { }
+			}
+			weight: 100
+		}
+		{ item: "botania:terrasteel_ingot", count: 64, weight: 200 }
+		{ item: "botania:manasteel_ingot", count: 64, weight: 400 }
+		{ item: "botania:elementium_ingot", count: 64, weight: 200 }
+		{ item: "botania:gaia_ingot", count: 64, weight: 100 }
+		{ item: "draconicevolution:draconium_ingot", count: 64, weight: 400 }
+		{ item: "draconicevolution:awakened_draconium_ingot", count: 64, weight: 100 }
+		{ item: "extendedcrafting:enhanced_ender_ingot", count: 64, weight: 100 }
+		{ item: "mysticalagriculture:inferium_block", count: 64, weight: 200 }
+		{ item: "extendedcrafting:black_iron_ingot", count: 64, weight: 100 }
+		{ item: "thermal:enderium_ingot", count: 64, weight: 100 }
+		{ item: "extendedcrafting:luminessence", count: 64, weight: 300 }
+		{ item: "minecraft:ender_chest", count: 64, weight: 200 }
+		{ item: "minecraft:enchanting_table", count: 64, weight: 200 }
+		{ item: "minecraft:sponge", count: 64, weight: 600 }
+		{ item: "minecraft:diamond_block", count: 64, weight: 200 }
+		{ item: "minecraft:emerald_block", count: 64, weight: 100 }
+		{ item: "minecraft:bookshelf", count: 64, weight: 800 }
+		{ item: "minecraft:glowstone", count: 64, weight: 600 }
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:aluminum"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:bronze"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:coal"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:copper"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:diamond"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:electrum"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:emerald"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:glowstone"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:invar"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:iron"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:lapis_lazuli"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:lead"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:nickel"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:platinum"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:redstone"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:silver"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:steel"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:tin"
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:uranium"
+				}
+			}
+			weight: 4
+		}
+		{ item: "extendedcrafting:ultimate_singularity" }
+		{ item: "ironchest:crystal_chest", count: 64, weight: 250 }
+		{ item: "iceandfire:dragonsteel_fire_ingot", count: 64, weight: 200 }
+		{ item: "iceandfire:dragonsteel_ice_ingot", count: 64, weight: 200 }
+		{ item: "iceandfire:dragonsteel_lightning_ingot", count: 64, weight: 200 }
+		{ item: "thermal:lumium_ingot", count: 64, weight: 400 }
+		{ item: "tconstruct:seared_bricks", count: 64, weight: 600 }
+		{ item: "tconstruct:seared_glass", count: 64, weight: 500 }
+		{ item: "pamhc2foodcore:basiccheeseburgeritem", count: 64, weight: 750 }
+		{ item: "pamhc2foodcore:grilledcheeseitem", count: 64, weight: 750 }
+		{ item: "pamhc2foodextended:meatystirfryitem", count: 64, weight: 750 }
+		{ item: "pamhc2foodextended:breakfastburritoitem", count: 64, weight: 750 }
+		{ item: "pamhc2foodextended:pancakesitem", count: 64, weight: 750 }
+		{ item: "pamhc2foodextended:frosteddonutitem", count: 64, weight: 750 }
+		{ item: "pamhc2foodextended:sugarcookieitem", count: 64, weight: 750 }
+		{ item: "pamhc2trees:bananaitem", count: 64, weight: 750 }
+		{ item: "minecraft:snow_block", count: 64, weight: 1000 }
+		{ item: "minecraft:packed_ice", count: 64, weight: 1000 }
+		{ item: "minecraft:hay_block", count: 64, weight: 1000 }
+		{ item: "minecraft:dark_prismarine", count: 64, weight: 750 }
+		{ item: "minecraft:prismarine_bricks", count: 64, weight: 750 }
+		{ item: "minecraft:prismarine", count: 64, weight: 750 }
+		{ item: "minecraft:jukebox", count: 64, weight: 1000 }
+		{ item: "minecraft:chest", count: 64, weight: 1000 }
+		{ item: "minecraft:obsidian", count: 64, weight: 750 }
+		{ item: "minecraft:soul_sand", count: 64, weight: 1000 }
+		{ item: "minecraft:magma_block", count: 64, weight: 1000 }
+		{ item: "minecraft:grass_block", count: 64, weight: 1000 }
+		{ item: "minecraft:mycelium", count: 64, weight: 1000 }
+		{ item: "minecraft:end_stone", count: 64, weight: 1000 }
+		{ item: "minecraft:nether_bricks", count: 64, weight: 1000 }
+		{ item: "minecraft:purpur_block", count: 64, weight: 1000 }
+		{ item: "minecraft:sea_lantern", count: 64, weight: 1000 }
+		{ item: "minecraft:crying_obsidian", count: 64, weight: 750 }
+		{ item: "minecraft:gilded_blackstone", count: 64, weight: 1000 }
+		{ item: "minecraft:shulker_box", weight: 750 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 6881420
+		item_name: "Emc Lottery"
+		glow: 1b
+		string_id: "emclottery"
+	}
+}

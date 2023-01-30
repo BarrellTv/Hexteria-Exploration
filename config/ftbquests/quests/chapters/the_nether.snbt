@@ -1,0 +1,521 @@
+{
+	id: "16408C5E3FC777B8"
+	group: "06593D9C585DC715"
+	order_index: 0
+	filename: "the_nether"
+	title: "The Nether"
+	icon: "minecraft:nether_bricks"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Visit Dimension: The Nether"
+			x: 0.0d
+			y: -0.5d
+			shape: "gear"
+			size: 1.5d
+			id: "428D2A3C805984A9"
+			tasks: [{
+				id: "4C0BD83D295260E8"
+				type: "dimension"
+				title: "The Nether"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "6B435419579286B5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "1D9401519221292F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Netherrack"
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["428D2A3C805984A9"]
+			id: "1B6697157D4EC01A"
+			tasks: [{
+				id: "09AA110012A71673"
+				type: "item"
+				item: "minecraft:netherrack"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "0AC9997BE4D30CC5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "186FD1ABC34F3C55"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["1B6697157D4EC01A"]
+			id: "38A00EE05AE4BEC8"
+			tasks: [{
+				id: "51E16868D206AC16"
+				type: "kill"
+				entity: "minecraft:strider"
+				value: 15L
+			}]
+			rewards: [
+				{
+					id: "4F299F43A375D7D2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "31F006E9E2164D36"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["1B6697157D4EC01A"]
+			id: "1C2444C8DDF8F4DF"
+			tasks: [
+				{
+					id: "1B46C6CA8CC12A58"
+					type: "item"
+					item: "minecraft:basalt"
+					count: 32L
+				}
+				{
+					id: "0CBE655CD4CFE3DD"
+					type: "item"
+					item: "minecraft:blackstone"
+					count: 32L
+				}
+				{
+					id: "575E8F5CCC1B8C6D"
+					type: "item"
+					item: "mysticalagriculture:soulstone"
+					count: 32L
+				}
+				{
+					id: "27A37C23557A7EBB"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "7892BC99CDEBBBE2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6F25EC31B59CDB57"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["1B6697157D4EC01A"]
+			id: "11964A12A40D6A22"
+			tasks: [{
+				id: "15DA5ECF4048D0FC"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "1144A964E906A5DE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "0BB07825BE73AFF1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Find Structure: Minecraft Fortress"
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["1C2444C8DDF8F4DF"]
+			id: "41809F2B921BEFA6"
+			tasks: [{
+				id: "37BF3557A2698A37"
+				type: "structure"
+				title: "Minecraft Fortress"
+				structure: "minecraft:fortress"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["41809F2B921BEFA6"]
+			id: "3E6416C0AB25571A"
+			tasks: [{
+				id: "3624566FAA82DD66"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "273431C109B127CE"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "6B0E5401598663C7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["41809F2B921BEFA6"]
+			id: "6DB3DF8FBE85FDC6"
+			tasks: [{
+				id: "05C1A2315CB2BBA8"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "7DA3F8EDFA15AB58"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "22038024620E9227"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["41809F2B921BEFA6"]
+			id: "7770377961897548"
+			tasks: [
+				{
+					id: "4BC9A03DCB0D9D9E"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "4F896B91CCCDD158"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "6EF49C699AF276FB"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "48746BE8672899B8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["11964A12A40D6A22"]
+			id: "0B894FD88CE8BA44"
+			tasks: [{
+				id: "3BCEBD4B21B35B91"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "4B7E9B416FD846A8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "1AFE812E5F978C14"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["517A1E2E34EB401C"]
+			id: "59CFD036FA9AC960"
+			tasks: [
+				{
+					id: "7F92322D95115571"
+					type: "item"
+					item: "minecraft:crimson_stem"
+					count: 32L
+				}
+				{
+					id: "0D2DD556DE24EBB2"
+					type: "item"
+					item: "minecraft:shroomlight"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "16809578276D8FEA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4A59B057159D1DB3"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Find Structure: Bastion Remnant"
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["1B6697157D4EC01A"]
+			id: "5EB03B4496FB9A5A"
+			tasks: [{
+				id: "3D8F72A124A662CA"
+				type: "structure"
+				title: "Bastion Remnant"
+				structure: "minecraft:bastion_remnant"
+			}]
+			rewards: [
+				{
+					id: "74D276EDE1B74973"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4525AB5C463034DD"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["5EB03B4496FB9A5A"]
+			id: "2EFC44EE6D3673DF"
+			tasks: [{
+				id: "1565D5EC04B83CEB"
+				type: "kill"
+				entity: "minecraft:piglin"
+				value: 25L
+			}]
+			rewards: [
+				{
+					id: "365DFC9A5A4084AB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "10824C1281926AD4"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Visit Biome: Crimson Forest"
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["1B6697157D4EC01A"]
+			id: "517A1E2E34EB401C"
+			tasks: [{
+				id: "62E12B44C482269B"
+				type: "biome"
+				title: "Crimson Forest"
+				biome: "minecraft:crimson_forest"
+			}]
+			rewards: [
+				{
+					id: "08C290502D76AADD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "415A624C73E57360"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "Visit Biome: Warped Forest"
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["1B6697157D4EC01A"]
+			id: "571858AE295E4E66"
+			tasks: [{
+				id: "001F21A1A0F7CD90"
+				type: "biome"
+				title: "Warped Forest"
+				biome: "minecraft:warped_forest"
+			}]
+			rewards: [
+				{
+					id: "6D168A57D37258C2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "4F5846618CA01D5B"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["571858AE295E4E66"]
+			id: "066D0B8D3185770A"
+			tasks: [{
+				id: "4A0E019DD51425B5"
+				type: "item"
+				item: "minecraft:warped_stem"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "5E2DF7A6DB512AF0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "37842D0B4AB39167"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+	]
+}

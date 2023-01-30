@@ -1,0 +1,2466 @@
+{
+	id: "50AA3481D5CC2E34"
+	group: "70C4E1FE41CD8F4A"
+	order_index: 4
+	filename: "thermal_expanison"
+	title: "Thermal Expanison"
+	icon: "thermal:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 1.0d
+			shape: "gear"
+			size: 1.5d
+			id: "53FC74A6D0C52D66"
+			tasks: [{
+				id: "2FB41C03BDB575F7"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			rewards: [
+				{
+					id: "50DBB07A3C62A89D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+				{
+					id: "2472A9F5A81238CF"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			id: "272A1A574460706A"
+			tasks: [{
+				id: "79F8AC44DC4F4DA4"
+				type: "item"
+				item: "thermal:lightning_grenade"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "4962F31A5C8BFF2D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "28059D8C6132F815"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			id: "098D82543AB8A33A"
+			tasks: [{
+				id: "5DE585775F9D25A8"
+				type: "item"
+				item: "thermal:glowstone_grenade"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "311465B840E8A08E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "4911625DE02CD7D8"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			id: "2186BBB91CA080CE"
+			tasks: [{
+				id: "0C3B9E8FB037524A"
+				type: "item"
+				item: "thermal:explosive_grenade"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "33A523FF5A686AB9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "74BA151F60312124"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			id: "217F66C65DB606A0"
+			tasks: [{
+				id: "7967C9A7622AD0EB"
+				type: "item"
+				item: "thermal:redstone_grenade"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "01A17F891E0CD992"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "0551D6FE80E7EFB7"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			id: "7ABA4802EFD6656A"
+			tasks: [{
+				id: "17D30E9E29FC8246"
+				type: "item"
+				item: "thermal:slime_grenade"
+			}]
+			rewards: [
+				{
+					id: "79AB8ADD338E103F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "73CE9AAEE17FB51F"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			id: "3B4B73769533E5FF"
+			tasks: [{
+				id: "6A27BBD9E69C9A2B"
+				type: "item"
+				item: "thermal:ice_grenade"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "620668606AC96FBB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "19210F62213C5D41"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			id: "54E7F7591599A206"
+			tasks: [{
+				id: "1DA33019D89F8FEE"
+				type: "item"
+				item: "thermal:fire_grenade"
+			}]
+			rewards: [
+				{
+					id: "6AE91B33CCBF8532"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "3D4FD895AE4F8EC0"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			id: "46AA578C9345A75B"
+			tasks: [{
+				id: "44BC02AC4A3A3FDE"
+				type: "item"
+				item: "thermal:ender_grenade"
+			}]
+			rewards: [
+				{
+					id: "327602BB64B1A50E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "01EC91FD8D1671EA"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			id: "70808AE90A062E6B"
+			tasks: [{
+				id: "0DB3CC74297C4BA0"
+				type: "item"
+				item: "thermal:phyto_grenade"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "6D38DB99325F4553"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "11F1478E7FA6FE7C"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "1ECE9259A2BCA13F"
+			tasks: [{
+				id: "39A240D41A415B56"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [
+				{
+					id: "09604EA61157E47B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "23EA17189A32D3B1"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "2D061B4A7CDB3FB4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "0DC9C7BB6F324F0C"
+			tasks: [{
+				id: "2C76E8870A7AAB2B"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [
+				{
+					id: "126771B477425F5E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "36DFF9FD657711DB"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "258A0566161396E4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "56B68F0BC54304D6"
+			tasks: [{
+				id: "5B997E13682F4B98"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [
+				{
+					id: "72C500448F2B915A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "604794897755700A"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "22B0BB4C65B72D11"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "67B096372AF2FE8B"
+			tasks: [{
+				id: "5CE9A24D6D7C44EB"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [
+				{
+					id: "60EDA5F5B2C7705E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "7C9DC0E16BEE5835"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "6861DF9D291F3020"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "1962012441120EAA"
+			tasks: [{
+				id: "455F1549A7915585"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [
+				{
+					id: "0AB56BE6109D78F2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "21AA95B9285446DD"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "3ED3A06AE980251F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "17EF919EFA340733"
+			tasks: [{
+				id: "5E29DFE543387374"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [
+				{
+					id: "4823D1CD4AF67D1D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "3A2102DE0D491A1C"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "4F9E815560F12E80"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "2D737B93D8C8DD8E"
+			tasks: [{
+				id: "3A5B1D55DCE18FF9"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			rewards: [
+				{
+					id: "2A8F17FE409C6F7C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "203FFFE8DADEC357"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "68F2605AE8ADB738"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "30A8078F56A9CC7D"
+			tasks: [{
+				id: "21D7616F10D901F0"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [
+				{
+					id: "59B8415C1EF42E64"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "6632DD1FEAAE8BB3"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "2CE210F19DCBEC7F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "40F0C79ADF9F02DF"
+			tasks: [{
+				id: "659641E2C22241D3"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "6EC42E49390C8A9C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "1D7311AA61962956"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "4CF5E0B5AB2D5DE0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "02B4987DE19D3B72"
+			tasks: [{
+				id: "022815741BFF3B96"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [
+				{
+					id: "587F501328D387F1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "586B80BF482CD086"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "3D8D34032F1731A9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "69E33E48A03D76C1"
+			tasks: [{
+				id: "60DDFE5FEF413115"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [
+				{
+					id: "6D0C4E1F84EC07DB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "35BD35F855BA5BCC"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "31D889E88305CDC3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "7A73224D977EA1B5"
+			tasks: [{
+				id: "1533E7072B5C72BD"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [
+				{
+					id: "33AF5FE196F96492"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "4CC0FF0C4A7A54BF"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "758E51FA00B1B5B3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "06050D93CB7C45B7"
+			tasks: [{
+				id: "7C3F4707AEA6561C"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [
+				{
+					id: "2158AE4DCB1F93D9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "5B16DA494D21E64B"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "1A352479B2E1CF48"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "55FB065BD2EED410"
+			tasks: [{
+				id: "73B28801BFB07A38"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [
+				{
+					id: "666AC365A97CCCD4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "0F4D1F2B8DB7B069"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "357CFD0A04B50A4B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["1ECE9259A2BCA13F"]
+			id: "6C2BB3BC20BB371A"
+			tasks: [{
+				id: "499B613C89235E7F"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [
+				{
+					id: "36D85E09EF126332"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "74EC18ADB227E096"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "7D661B734175D304"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			id: "093E406D6309359B"
+			tasks: [{
+				id: "3F737AC9E8EA5806"
+				type: "item"
+				item: "thermal:earth_grenade"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "12A002AE51D0E433"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+				{
+					id: "455FAF095A0A6CBB"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["6656379D2091FE2C"]
+			id: "6D46E4B995A0BD7C"
+			tasks: [{
+				id: "5921732235FB0B07"
+				type: "item"
+				item: "thermal:dynamo_compression"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "0F54ECC77E25426A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "19A8E12B8C57CA31"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "18DFE807CDABB759"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			dependencies: ["6656379D2091FE2C"]
+			id: "1FE379FABEDF4315"
+			tasks: [{
+				id: "1CBF6B18B8C26353"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "3ACFD69B3CE28F9D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "7C4206598B42C378"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "12D67D720C4640B0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["6656379D2091FE2C"]
+			id: "033FA3B262456940"
+			tasks: [{
+				id: "1675A785C1C519BD"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "575A0D5984CC1E66"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6FE110DFC98751CA"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "58CDE1A82EA9AE0F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["6656379D2091FE2C"]
+			id: "24F83E3EA99F0581"
+			tasks: [{
+				id: "179906AC95DF8269"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "3C177A18B4DDFF75"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "43E17C8C72D1667B"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "592D2956301A773D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["6656379D2091FE2C"]
+			id: "357CC0C42EEC70F5"
+			tasks: [{
+				id: "3E8ED34D47FF5DC7"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "0E6868E3A723532A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4F1E199132F44B66"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "4DA5B728E58690A8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "6656379D2091FE2C"
+			tasks: [{
+				id: "17D099E323AC31BC"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "6363AC5205BB938C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "31461B037131175E"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "72A8BF3200D8665A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			dependencies: ["6656379D2091FE2C"]
+			id: "58CD992395E5F64B"
+			tasks: [{
+				id: "54B70A441A0DB060"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "37DB3C60A1E25B01"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "67E88AEF4061CCF9"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "2EE0060C1AD89D84"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "3CA38D119D324B45"
+			tasks: [{
+				id: "5CA0CDD85E5DF3D9"
+				type: "item"
+				item: "thermal:satchel"
+			}]
+			rewards: [
+				{
+					id: "59BEA6D41C513D09"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "36410D03F177D3BA"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "1CDBFD8C7512D081"
+			tasks: [{
+				id: "52B95E055B9EA361"
+				type: "item"
+				item: {
+					id: "thermal:potion_quiver"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "41EE0D8E91897143"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "01E9ADE87ED89EA7"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "38B6EA3C4AA8BFBC"
+			tasks: [{
+				id: "6607642025EE5964"
+				type: "item"
+				item: {
+					id: "thermal:potion_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "77C6C765B06943B6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "7BDFE574F538B9E7"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "351520596BB4C443"
+			tasks: [{
+				id: "1F8ABEFD5FEE36E5"
+				type: "item"
+				item: {
+					id: "thermal:fluid_reservoir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "58C84F899CCC0D78"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "3143D6CE7FFB7E26"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "5AA167FE2AAEF379"
+			tasks: [{
+				id: "67109F4E9B62BBF9"
+				type: "item"
+				item: "thermal:lock"
+			}]
+			rewards: [
+				{
+					id: "48D2CFEA55511925"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "4532667FCDA660C0"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			id: "7D2001A6564DA6C5"
+			tasks: [{
+				id: "20A647AF7E4205A2"
+				type: "item"
+				item: "thermal:redstone_tnt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "2BA708C83805A32C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "16E27AABC19F4844"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			id: "23B772D13D982678"
+			tasks: [{
+				id: "229253FA4442E03E"
+				type: "item"
+				item: "thermal:slime_tnt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "56C8A2F066F1C91D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1A204743A39AE52E"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			id: "5CE695BD7FE986A5"
+			tasks: [{
+				id: "6B7F9506D87E297C"
+				type: "item"
+				item: "thermal:earth_tnt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "63FF156EB9A2086C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "03F4F2EFAD63757D"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			id: "6DFE3D97C2094417"
+			tasks: [{
+				id: "4A363F8F7192881E"
+				type: "item"
+				item: "thermal:fire_tnt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "577F33C3A1A086CB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "7A3930EE40C11068"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			id: "24C72E9839CE91D5"
+			tasks: [{
+				id: "27C9828B8F47D363"
+				type: "item"
+				item: "thermal:ender_tnt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "471294642808B1C8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "77CA19D5D90D8224"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			id: "2D9B37207ECB0099"
+			tasks: [{
+				id: "2C2088408EEC371F"
+				type: "item"
+				item: "thermal:glowstone_tnt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "2481E2C013381A0F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "3D1B863EB9BC1AA0"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			id: "5689CC9E8067C351"
+			tasks: [{
+				id: "27786CC2EF4382C5"
+				type: "item"
+				item: "thermal:ice_tnt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "3733A31FFD7B5099"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "40A35FD711D37D08"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			id: "6D4B3990056EC55E"
+			tasks: [{
+				id: "42BA604D0FDAE5C3"
+				type: "item"
+				item: "thermal:lightning_tnt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "0A35C2660CC67759"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "645C598889C76A0C"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			id: "65D29975A753442D"
+			tasks: [{
+				id: "4EA08FB425287A47"
+				type: "item"
+				item: "thermal:phyto_tnt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "08F4E11E20935C73"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0AE8A5FD6643BA07"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			dependencies: ["1FE379FABEDF4315"]
+			id: "1782B6187F4C1C8D"
+			tasks: [{
+				id: "2DD7D8B4342124F0"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "683C262DD02DE4BB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6C575329FC446035"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "391DD6FBA1AAE645"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["1FE379FABEDF4315"]
+			id: "592ED9970C772EDD"
+			tasks: [{
+				id: "12A70C9196258DC2"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "397B96C30D8BD5C9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "0AD9D76257952D3D"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "29797AA6DBF6F7A3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "5FFD687852FBA2F0"
+			tasks: [{
+				id: "4EDDC8B1F9B16989"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+			rewards: [
+				{
+					id: "65CF901D8ABA7AD9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "78B7269FFA44FEAD"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "52D7C9E2A5A37F1F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "6DD078671ED66B60"
+			tasks: [{
+				id: "0AA0977F0BE8E4CC"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+			rewards: [
+				{
+					id: "799E0F5AC17FFCA4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "2286AFF41DFD2ABB"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "0A7EF54A9DFFDDDD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "3E111457FECEA0E7"
+			tasks: [{
+				id: "2D619B32F024A1DD"
+				type: "item"
+				item: "thermal:device_hive_extractor"
+			}]
+			rewards: [
+				{
+					id: "6DB28B2BA061091B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "1D5B737DE914CF51"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "51757348D74C8F28"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "1FA81EEE5B03BEED"
+			tasks: [{
+				id: "43706B7DBF9E8F97"
+				type: "item"
+				item: "thermal:device_soil_infuser"
+			}]
+			rewards: [
+				{
+					id: "0E7336F52F2B3DAB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "1BE4F8FB6F1FE7D4"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "71E2BF3CAD0EE3FB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "6FB8771FF24A9561"
+			tasks: [{
+				id: "16A382C881B16F46"
+				type: "item"
+				item: "thermal:device_fisher"
+			}]
+			rewards: [
+				{
+					id: "782B7A37DE60C036"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4447A688FE679F36"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "69A9F1900FEE7934"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "5BC44318C78703CB"
+			tasks: [{
+				id: "4D7F0E89EB14DA50"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			rewards: [
+				{
+					id: "01FC38FD3CCE7B02"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4424B82AD059134E"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "499E302C7579D163"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "7821855FA47DD1A2"
+			tasks: [{
+				id: "581FFE32B91B95EF"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			rewards: [
+				{
+					id: "06668F28FEE9FC91"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "36D4F2B01DD03CC2"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "5AFF5EF319DE1A8B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "5F406038E37B37DA"
+			tasks: [{
+				id: "5FD08BB82BCA210D"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+			rewards: [
+				{
+					id: "2F420E7B51893BFB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "1FA2DBDE08717D28"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "29D067CEF6317F6E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "6987AB4A11DFEFC1"
+			tasks: [{
+				id: "34F92CDA5488F20E"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [
+				{
+					id: "58A06A3524E0F132"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "18F28378A43084DC"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "3EC51E82F6983B29"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "4D4D407FD39024F5"
+			tasks: [{
+				id: "0DEFE4560387D102"
+				type: "item"
+				item: "thermal:device_nullifier"
+			}]
+			rewards: [
+				{
+					id: "5C9B829B68DA5D54"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "00E88E952C4941CF"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "1BC1D6FDE800A8B6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["53FC74A6D0C52D66"]
+			id: "4AE59D33005A992B"
+			tasks: [{
+				id: "7C259CB029B5CAF7"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+			rewards: [
+				{
+					id: "7C8544B9F8474420"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "44A850FDAB0272AC"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "468F9A8E1EFAFED8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "2DDDB420395E0D59"
+			tasks: [
+				{
+					id: "442D33DF800C470D"
+					type: "item"
+					item: {
+						id: "thermal:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "403405AE590FCA89"
+					type: "item"
+					item: {
+						id: "thermal:diving_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2879C3AC3412C381"
+					type: "item"
+					item: {
+						id: "thermal:diving_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "667245D9199F46D4"
+					type: "item"
+					item: {
+						id: "thermal:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "010D1907D5371FBB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "202CD76266E2D6C1"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			id: "1FF16F45DAF5E16F"
+			tasks: [
+				{
+					id: "667DB03ACCEF88BC"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65F5567830BF4BE0"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "653C387AFD818D8C"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "279D9735919830AD"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4AB044E49493B26A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "31A0A14AC6B37605"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			id: "069B7B191CE13891"
+			tasks: [
+				{
+					id: "4BEA0D7C3ED34800"
+					type: "item"
+					item: {
+						id: "thermal:beekeeper_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "293A664AEE2B88CD"
+					type: "item"
+					item: {
+						id: "thermal:beekeeper_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F9BCF3ECA09A8EA"
+					type: "item"
+					item: {
+						id: "thermal:beekeeper_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "051A58B93D55BE8E"
+					type: "item"
+					item: {
+						id: "thermal:beekeeper_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "240D28B865AB5D04"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "7632F026FB88FEAE"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+	]
+}

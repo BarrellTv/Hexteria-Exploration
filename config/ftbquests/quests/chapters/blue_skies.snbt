@@ -1,0 +1,853 @@
+{
+	id: "6D931A6F7F8380C4"
+	group: "06593D9C585DC715"
+	order_index: 1
+	filename: "blue_skies"
+	title: "Blue Skies"
+	icon: "blue_skies:snowcap_mushroom"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Visit Dimension: Everbright"
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["1E54EAE565CF5A83"]
+			id: "067B69F71B69AD06"
+			tasks: [{
+				id: "194E29801F4EDC45"
+				type: "dimension"
+				title: "Blue Skies: Everbright"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [
+				{
+					id: "4B832BA5D261D818"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "20694E58E955F5EF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "blue_skies:horizonite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["1E54EAE565CF5A83"]
+			id: "061B8B2A23154A3B"
+			tasks: [
+				{
+					id: "121011104EAC8486"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F16176AA77BBFAF"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "664FB310F2AAE0BB"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7FF880D2FCAA0870"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "038584A495200170"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "1D065212C39DA7A2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "blue_skies:charoite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["1E54EAE565CF5A83"]
+			id: "617227F4692079CD"
+			tasks: [
+				{
+					id: "4A1EA80A29FA993A"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F118BED37077D9F"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F3401BC9D3D1F6D"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A36F6A06CBFF54D"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4B455086627B0BA1"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "19F0B8E78446DA74"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "blue_skies:diopside_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["1E54EAE565CF5A83"]
+			id: "09DB56910C77FE90"
+			tasks: [
+				{
+					id: "14F033D6DCEC3797"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "38939DB6A1282EB1"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2AEA9CF6661FEB64"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "21E3B0EA343E6157"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1A2863BDABEEECAE"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "14C14D946E626077"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "blue_skies:pyrope_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["1E54EAE565CF5A83"]
+			id: "475733BF3C5AB332"
+			tasks: [
+				{
+					id: "1B512226D7FC32C7"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E17720AF5A8FD1A"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BFE188941C7860F"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4360A8A7B0F9E58B"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0181C551C6ADD499"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "28CE4C9CE4D14C5E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "blue_skies:aquite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["1E54EAE565CF5A83"]
+			id: "72EECD0E7506ADFC"
+			tasks: [
+				{
+					id: "249C5C992F3C4F89"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CF672571BB4E9D9"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "217D3E6781D528A6"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5027619A499E7028"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "43369DD0F159BF60"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "0E9343DD698CE9B9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "blue_skies:shadow_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["1E54EAE565CF5A83"]
+			id: "67A97E693CA1FB94"
+			tasks: [
+				{
+					id: "21996612FADCA980"
+					type: "item"
+					item: {
+						id: "blue_skies:shadow_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "744F113B9CB31E4B"
+					type: "item"
+					item: {
+						id: "blue_skies:shadow_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D4FB633F8E4C7E9"
+					type: "item"
+					item: {
+						id: "blue_skies:shadow_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71017E5B85512908"
+					type: "item"
+					item: {
+						id: "blue_skies:shadow_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4579D8D96C32DB49"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "45DAFEC536B1B6C5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: [
+				"The Blinding Dungeon Key is use to activate the Blinding Keystone which is used to start the Alchemist or Starlit Crusher fight."
+				"Can be obtain by right clicking the keystone in either dimension . Doing this will unlock a new trade with the Gatekeeper to purchase the key. The key can also be found in the chest in the boss tower."
+			]
+			dependencies: ["1E54EAE565CF5A83"]
+			id: "352EAAC6CEF2BEBF"
+			tasks: [{
+				id: "27623DF6D7EB19B8"
+				type: "item"
+				item: "blue_skies:blinding_key"
+			}]
+			rewards: [
+				{
+					id: "678CDD12C4449963"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "3C70D97E25A82F7F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			description: [
+				"Can be obtained after defeating the Starlit Crusher and it is used to open up the Nature Dungeon."
+				"&aNature Dungeon can only be found in the Everbright."
+			]
+			dependencies: [
+				"352EAAC6CEF2BEBF"
+				"0AF86C362922BDFB"
+			]
+			id: "3D5394B2F0E27AC7"
+			tasks: [{
+				id: "5C325A537302B343"
+				type: "item"
+				item: "blue_skies:nature_key"
+			}]
+			rewards: [
+				{
+					id: "75803A9B701D4DF3"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "709BC9264D4B3CA5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: [
+				"Can be obtained after defeating the Alchemist and it is used to open up the Poison Dungeon. "
+				"&dPoison Dungeon can only be found in the Everdawn."
+			]
+			dependencies: [
+				"352EAAC6CEF2BEBF"
+				"2F5832422F671DBA"
+			]
+			id: "762FD5D3EC61E4E9"
+			tasks: [{
+				id: "4E825C1B366DBF88"
+				type: "item"
+				item: "blue_skies:poison_key"
+			}]
+			rewards: [
+				{
+					id: "502F18A05324483B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "3079CBA48F1C66D0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "blue_skies:blue_journal"
+			x: 0.0d
+			y: -1.0d
+			shape: "gear"
+			description: [
+				"Find the Gatekeeper, you can find the houses spawning in either plains, mountains, or most snowy biomes. Trade a book with Gatekeeper to obtain his journal. "
+				"You can use the Zeal Lighter for both the Everbright and Everdawn portal frames."
+				"You should check around the Gatekeeper's home as they have an unlit portal frame somewhere."
+				"As you progress through the mod, other trades may become available, so it’s worth checking his offers after reaching certain milestones."
+			]
+			size: 1.5d
+			id: "1E54EAE565CF5A83"
+			tasks: [
+				{
+					id: "2E685C3D746ECE33"
+					type: "item"
+					item: "blue_skies:blue_journal"
+				}
+				{
+					id: "34D5EB19B3683542"
+					type: "item"
+					item: {
+						id: "blue_skies:zeal_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0C97A59BD8F9507E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "5F6DC0ADC207E8FE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Visit Dimension: Everdawn"
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["1E54EAE565CF5A83"]
+			id: "2BC2A08453642BD3"
+			tasks: [{
+				id: "4B1A77DB61517EA1"
+				type: "dimension"
+				title: "Blue Skies: Everdawn"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [
+				{
+					id: "2EE46E6088F87EF2"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "5CEBEF34F052249B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["2BC2A08453642BD3"]
+			id: "2F5832422F671DBA"
+			tasks: [{
+				id: "31F6BCC7C7E1760C"
+				type: "kill"
+				title: "Kill the Alchemist"
+				entity: "blue_skies:alchemist"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3D2F9728BDC60295"
+					type: "ftbmoney:money"
+					ftb_money: 125L
+				}
+				{
+					id: "1BB412DDAB3767AA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["067B69F71B69AD06"]
+			id: "0AF86C362922BDFB"
+			tasks: [{
+				id: "014B569D5FD729E7"
+				type: "kill"
+				title: "Kill the Summoner"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0C7DEAD66D95E632"
+					type: "ftbmoney:money"
+					ftb_money: 125L
+				}
+				{
+					id: "3F8AC4E3BED682F7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["762FD5D3EC61E4E9"]
+			id: "340DF24E5097AD39"
+			tasks: [{
+				id: "7F7AC9544D50BC01"
+				type: "item"
+				item: "blue_skies:alchemy_table"
+			}]
+			rewards: [
+				{
+					id: "44230B1B9B4FBE62"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "2F31B1FA1E2C33FC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["762FD5D3EC61E4E9"]
+			id: "4001E37CAAF1DD5F"
+			tasks: [{
+				id: "020533FBEF60680F"
+				type: "kill"
+				entity: "blue_skies:arachnarch"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "74AD0FA903646AEB"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "633E68FA2CC1BBF4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			dependencies: ["3D5394B2F0E27AC7"]
+			id: "2B1D6912943D45D4"
+			tasks: [{
+				id: "2C83F27F267A1FC2"
+				type: "kill"
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "76B421F4557BF18F"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "585FC7D049514B54"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+	]
+}

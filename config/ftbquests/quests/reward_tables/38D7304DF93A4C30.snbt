@@ -1,0 +1,233 @@
+{
+	id: "38D7304DF93A4C30"
+	order_index: 6
+	title: "Tech Box"
+	icon: "mekanism:personal_chest"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "mekanism:basic_energy_cube" }
+		{ item: "mekanism:elite_energy_cube" }
+		{ item: "mekanism:advanced_energy_cube" }
+		{ item: "mekanism:ultimate_energy_cube" }
+		{ item: "mekanismgenerators:solar_generator" }
+		{ item: "mekanismgenerators:advanced_solar_generator" }
+		{ item: "mekanism:basic_infusing_factory" }
+		{ item: "mekanism:advanced_infusing_factory" }
+		{ item: "mekanism:digital_miner" }
+		{ item: "mekanism:basic_sawing_factory" }
+		{ item: "mekanism:advanced_sawing_factory" }
+		{ item: "mekanism:basic_purifying_factory" }
+		{ item: "mekanism:advanced_purifying_factory" }
+		{ item: "mekanism:basic_crushing_factory" }
+		{ item: "mekanism:advanced_crushing_factory" }
+		{ item: "mekanism:basic_combining_factory" }
+		{ item: "mekanism:advanced_combining_factory" }
+		{ item: "mekanism:basic_enriching_factory" }
+		{ item: "mekanism:advanced_enriching_factory" }
+		{ item: "mekanism:basic_smelting_factory" }
+		{ item: "mekanism:advanced_smelting_factory" }
+		{ item: "mekanism:basic_compressing_factory" }
+		{ item: "mekanism:advanced_compressing_factory" }
+		{ item: "mekanism:basic_injecting_factory" }
+		{ item: "mekanism:advanced_injecting_factory" }
+		{ item: "immersivepetroleum:gasoline_bucket" }
+		{ item: "immersivepetroleum:diesel_bucket" }
+		{ item: "immersivepetroleum:oil_bucket" }
+		{
+			item: {
+				id: "ironjetpacks:wood_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironjetpacks:copper_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironjetpacks:stone_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironjetpacks:bronze_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironjetpacks:iron_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironjetpacks:silver_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironjetpacks:electrum_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironjetpacks:gold_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironjetpacks:invar_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "buildinggadgets:gadget_building"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "buildinggadgets:gadget_copy_paste"
+				Count: 1b
+				tag: {
+					mode: 0b
+					template_id: [I;
+						-513486190
+						-1899805234
+						-1147341608
+						-1645547413
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "buildinggadgets:gadget_destruction"
+				Count: 1b
+				tag: {
+					overlay: 1b
+					fuzzy: 1b
+				}
+			}
+		}
+		{ item: "thermal:dynamo_stirling" }
+		{ item: "thermal:dynamo_compression" }
+		{ item: "thermal:dynamo_magmatic" }
+		{ item: "thermal:dynamo_numismatic" }
+		{ item: "thermal:dynamo_lapidary" }
+		{ item: "thermal:dynamo_disenchantment" }
+		{ item: "thermal:dynamo_gourmand" }
+		{ item: "thermal:lock" }
+		{ item: "mekanism:restrictive_transporter", count: 16 }
+		{ item: "mekanism:diversion_transporter", count: 16 }
+		{ item: "thermal:wrench" }
+		{ item: "ironjetpacks:ultimate_coil", count: 2 }
+		{ item: "ironjetpacks:ultimate_coil" }
+		{ item: "ironjetpacks:elite_coil", count: 3 }
+		{ item: "ironjetpacks:elite_coil", count: 2 }
+		{ item: "ironjetpacks:advanced_coil", count: 5 }
+		{ item: "ironjetpacks:advanced_coil", count: 3 }
+		{ item: "ironjetpacks:basic_coil", count: 10 }
+		{ item: "ironjetpacks:basic_coil", count: 5 }
+		{ item: "mekanism:alloy_atomic", count: 2 }
+		{ item: "mekanism:ultimate_universal_cable", count: 8 }
+		{ item: "mekanism:ultimate_mechanical_pipe", count: 8 }
+		{ item: "mekanism:ultimate_logistical_transporter", count: 8 }
+		{ item: "mekanism:ultimate_thermodynamic_conductor", count: 8 }
+		{ item: "mekanism:ultimate_pressurized_tube", count: 8 }
+		{ item: "mekanism:alloy_reinforced", count: 3 }
+		{ item: "mekanism:alloy_reinforced", count: 2 }
+		{ item: "mekanism:alloy_infused", count: 12 }
+		{ item: "mekanism:alloy_infused", count: 8 }
+		{ item: "mekanism:ultimate_control_circuit", count: 2 }
+		{ item: "mekanism:ultimate_control_circuit" }
+		{ item: "mekanism:elite_control_circuit", count: 3 }
+		{ item: "mekanism:elite_universal_cable", count: 16 }
+		{ item: "mekanism:elite_mechanical_pipe", count: 16 }
+		{ item: "mekanism:elite_logistical_transporter", count: 16 }
+		{ item: "mekanism:elite_thermodynamic_conductor", count: 16 }
+		{ item: "mekanism:elite_pressurized_tube", count: 16 }
+		{ item: "mekanism:elite_control_circuit", count: 2 }
+		{ item: "mekanism:advanced_control_circuit", count: 5 }
+		{ item: "mekanism:advanced_control_circuit", count: 3 }
+		{ item: "mekanism:basic_control_circuit", count: 10 }
+		{ item: "mekanism:basic_control_circuit", count: 5 }
+		{ item: "thermal:redstone_servo", count: 4 }
+		{ item: "thermal:redstone_servo", count: 2 }
+		{ item: "mekanism:advanced_universal_cable", count: 24 }
+		{ item: "mekanism:advanced_mechanical_pipe", count: 24 }
+		{ item: "mekanism:advanced_logistical_transporter", count: 24 }
+		{ item: "mekanism:advanced_thermodynamic_conductor", count: 24 }
+		{ item: "mekanism:advanced_pressurized_tube", count: 24 }
+		{ item: "thermal:rf_coil", count: 4 }
+		{ item: "thermal:rf_coil", count: 2 }
+		{ item: "immersiveengineering:connector_lv", count: 2 }
+		{ item: "immersiveengineering:connector_lv_relay", count: 2 }
+		{ item: "immersiveengineering:connector_mv", count: 2 }
+		{ item: "immersiveengineering:connector_mv_relay", count: 2 }
+		{ item: "immersiveengineering:connector_hv", count: 2 }
+		{ item: "mekanism:basic_universal_cable", count: 32 }
+		{ item: "mekanism:basic_mechanical_pipe", count: 32 }
+		{ item: "mekanism:basic_logistical_transporter", count: 32 }
+		{ item: "mekanism:basic_thermodynamic_conductor", count: 32 }
+		{ item: "mekanism:basic_pressurized_tube", count: 32 }
+		{ item: "immersiveengineering:connector_hv_relay", count: 2 }
+		{ item: "immersiveengineering:electric_lantern", count: 3 }
+		{ item: "immersiveengineering:electric_lantern", count: 2 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 11119017
+		item_name: "Tech Box"
+		string_id: "techbox"
+	}
+}

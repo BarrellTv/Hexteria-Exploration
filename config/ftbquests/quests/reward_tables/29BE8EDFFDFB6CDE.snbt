@@ -1,0 +1,135 @@
+{
+	id: "29BE8EDFFDFB6CDE"
+	order_index: 4
+	title: "farming"
+	icon: "blue_skies:frostbright_chest"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "cookingforblockheads:brown_kitchen_floor", count: 64 }
+		{ item: "cookingforblockheads:white_kitchen_floor", count: 64 }
+		{ item: "cookingforblockheads:black_kitchen_floor", count: 64 }
+		{ item: "cookingforblockheads:blue_kitchen_floor", count: 64 }
+		{ item: "cookingforblockheads:pink_kitchen_floor", count: 64 }
+		{ item: "cookingforblockheads:cabinet", count: 4 }
+		{ item: "cookingforblockheads:hanging_corner", count: 4 }
+		{ item: "cookingforblockheads:counter", count: 4 }
+		{ item: "cookingforblockheads:spice_rack", count: 2 }
+		{ item: "cookingforblockheads:fruit_basket", count: 2 }
+		{ item: "cookingforblockheads:corner", count: 2 }
+		{ item: "cookingforblockheads:tool_rack", count: 2 }
+		{ item: "cookingforblockheads:heating_unit" }
+		{ item: "cookingforblockheads:crafting_book" }
+		{ item: "cookingforblockheads:preservation_chamber" }
+		{ item: "pamhc2foodcore:cuttingboarditem" }
+		{ item: "cookingforblockheads:recipe_book" }
+		{ item: "cookingforblockheads:ice_unit" }
+		{ item: "cookingforblockheads:cow_jar" }
+		{ item: "mysticalagriculture:nature_seeds", count: 2 }
+		{ item: "mysticalagriculture:dye_seeds", count: 2 }
+		{ item: "mysticalagriculture:nether_seeds", count: 2 }
+		{ item: "mysticalagriculture:coal_seeds", count: 2 }
+		{ item: "mysticalagriculture:coral_seeds", count: 2 }
+		{ item: "mysticalagriculture:honey_seeds", count: 2 }
+		{ item: "mysticalagriculture:pig_seeds", count: 2 }
+		{ item: "mysticalagriculture:chicken_seeds", count: 2 }
+		{ item: "mysticalagriculture:cow_seeds", count: 2 }
+		{ item: "mysticalagriculture:aluminum_seeds" }
+		{ item: "mysticalagriculture:sulfur_seeds", count: 2 }
+		{ item: "mysticalagriculture:silicon_seeds", count: 2 }
+		{ item: "mysticalagriculture:rubber_seeds", count: 2 }
+		{ item: "mysticalagriculture:turtle_seeds", count: 2 }
+		{ item: "mysticalagriculture:slime_seeds", count: 2 }
+		{ item: "mysticalagriculture:fish_seeds", count: 2 }
+		{ item: "mysticalagriculture:squid_seeds", count: 2 }
+		{ item: "mysticalagriculture:sheep_seeds", count: 2 }
+		{ item: "mysticalagriculture:copper_seeds", count: 2 }
+		{ item: "mysticalagriculture:saltpeter_seeds", count: 2 }
+		{ item: "mysticalagriculture:apatite_seeds", count: 2 }
+		{ item: "mysticalagriculture:mystical_flower_seeds", count: 2 }
+		{ item: "mysticalagriculture:marble_seeds", count: 2 }
+		{ item: "mysticalagriculture:limestone_seeds", count: 2 }
+		{ item: "mysticalagriculture:basalt_seeds", count: 2 }
+		{ item: "mysticalagriculture:iron_seeds" }
+		{ item: "mysticalagriculture:ice_seeds", count: 2 }
+		{ item: "mysticalagriculture:wood_seeds", count: 2 }
+		{ item: "mysticalagriculture:dirt_seeds", count: 2 }
+		{ item: "mysticalagriculture:stone_seeds", count: 2 }
+		{ item: "mysticalagriculture:inferium_seeds", count: 2 }
+		{ item: "mysticalagriculture:fire_seeds", count: 2 }
+		{ item: "mysticalagriculture:water_seeds", count: 2 }
+		{ item: "mysticalagriculture:earth_seeds", count: 2 }
+		{ item: "mysticalagriculture:air_seeds", count: 2 }
+		{ item: "mysticalagriculture:nether_quartz_seeds" }
+		{ item: "mysticalagriculture:tin_seeds" }
+		{ item: "mysticalagriculture:bronze_seeds" }
+		{ item: "mysticalagriculture:zinc_seeds" }
+		{ item: "mysticalagriculture:brass_seeds" }
+		{ item: "mysticalagriculture:silver_seeds" }
+		{ item: "mysticalagriculture:lead_seeds" }
+		{ item: "mysticalagriculture:graphite_seeds" }
+		{ item: "mysticalagriculture:blizz_seeds" }
+		{ item: "mysticalagriculture:blitz_seeds" }
+		{ item: "mysticalagriculture:certus_quartz_seeds" }
+		{ item: "mysticalagriculture:sky_stone_seeds" }
+		{ item: "mysticalagriculture:ironwood_seeds" }
+		{ item: "mysticalagriculture:steeleaf_seeds" }
+		{ item: "mysticalagriculture:manasteel_seeds" }
+		{ item: "mysticalagriculture:pig_iron_seeds" }
+		{ item: "mysticalagriculture:slimesteel_seeds" }
+		{ item: "mysticalagriculture:tinkers_bronze_seeds" }
+		{ item: "mysticalagriculture:basalz_seeds" }
+		{ item: "mysticalagriculture:gold_seeds" }
+		{ item: "mysticalagriculture:lapis_lazuli_seeds" }
+		{ item: "mysticalagriculture:end_seeds" }
+		{ item: "mysticalagriculture:experience_seeds" }
+		{ item: "mysticalagriculture:blaze_seeds" }
+		{ item: "mysticalagriculture:ghast_seeds" }
+		{ item: "mysticalagriculture:enderman_seeds" }
+		{ item: "mysticalagriculture:steel_seeds" }
+		{ item: "mysticalagriculture:nickel_seeds" }
+		{ item: "mysticalagriculture:rabbit_seeds" }
+		{ item: "mysticalagriculture:spider_seeds" }
+		{ item: "mysticalagriculture:creeper_seeds" }
+		{ item: "mysticalagriculture:skeleton_seeds" }
+		{ item: "mysticalagriculture:zombie_seeds" }
+		{ item: "mysticalagriculture:prismarine_seeds" }
+		{ item: "mysticalagriculture:obsidian_seeds" }
+		{ item: "mysticalagriculture:redstone_seeds" }
+		{ item: "mysticalagriculture:glowstone_seeds" }
+		{ item: "mysticalagriculture:constantan_seeds" }
+		{ item: "mysticalagriculture:electrum_seeds" }
+		{ item: "mysticalagriculture:invar_seeds" }
+		{ item: "mysticalagriculture:mithril_seeds" }
+		{ item: "mysticalagriculture:tungsten_seeds" }
+		{ item: "mysticalagriculture:titanium_seeds" }
+		{ item: "mysticalagriculture:uranium_seeds" }
+		{ item: "mysticalagriculture:chrome_seeds" }
+		{ item: "mysticalagriculture:ruby_seeds" }
+		{ item: "mysticalagriculture:fluix_seeds" }
+		{ item: "mysticalagriculture:fiery_ingot_seeds" }
+		{ item: "mysticalagriculture:knightmetal_seeds" }
+		{ item: "mysticalagriculture:refined_obsidian_seeds" }
+		{ item: "mysticalagriculture:refined_glowstone_seeds" }
+		{ item: "mysticalagriculture:sapphire_seeds" }
+		{ item: "mysticalagriculture:signalum_seeds" }
+		{ item: "mysticalagriculture:lumium_seeds" }
+		{ item: "mysticalagriculture:fluorite_seeds" }
+		{ item: "mysticalagriculture:osmium_seeds" }
+		{ item: "mysticalagriculture:elementium_seeds" }
+		{ item: "mysticalagriculture:rose_gold_seeds" }
+		{ item: "mysticalagriculture:cobalt_seeds" }
+		{ item: "mysticalagriculture:hop_graphite_seeds" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 5176323
+		item_name: "Farming Crate"
+		string_id: "farming"
+	}
+}

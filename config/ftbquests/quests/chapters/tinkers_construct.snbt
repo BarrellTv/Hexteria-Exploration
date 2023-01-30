@@ -1,0 +1,860 @@
+{
+	id: "1272F33F2F1B59CA"
+	group: "057C689E28CA5BBB"
+	order_index: 1
+	filename: "tinkers_construct"
+	title: "Tinkers Construct"
+	icon: {
+		id: "tconstruct:cleaver"
+		Count: 1b
+		tag: {
+			tic_multipliers: {
+				"tconstruct:mining_speed": 0.25f
+				"tconstruct:attack_damage": 1.5f
+				"tconstruct:durability": 3.5f
+			}
+			tic_stats: {
+				"tconstruct:attack_speed": 0.85499996f
+				"tconstruct:mining_speed": 1.3499999f
+				"tconstruct:attack_damage": 7.8374996f
+				"tconstruct:harvest_level": 4.0f
+				"tconstruct:durability": 3118.5f
+			}
+			tic_broken: 0b
+			HideFlags: 3
+			tic_modifiers: [
+				{
+					name: "tconstruct:overslime"
+					level: 4s
+				}
+				{
+					name: "tconstruct:severing"
+					level: 2s
+				}
+				{
+					name: "tconstruct:overlord"
+					level: 4s
+				}
+				{
+					name: "tconstruct:silky_aoe_shears"
+					level: 1s
+				}
+				{
+					name: "tconstruct:two_handed"
+					level: 1s
+				}
+			]
+			tic_materials: [
+				"tconstruct:queens_slime"
+				"tconstruct:queens_slime"
+				"tconstruct:queens_slime"
+				"tconstruct:queens_slime"
+			]
+			Damage: 0
+			tic_volatile_data: {
+				"tconstruct:overslime_cap": 3292
+				"tconstruct:overslime_friend": 1b
+			}
+			tic_persistent_data: {
+				abilities: 1
+				upgrades: 2
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["186524CC6C1EC7BE"]
+			id: "4EC8DB525225CD2A"
+			tasks: [{
+				id: "4197CA928BBBB788"
+				type: "item"
+				icon: "tconstruct:smeltery_controller"
+				item: "tconstruct:smeltery_controller"
+			}]
+			rewards: [
+				{
+					id: "251ACD88FF8FE47B"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "1724E4A5931C60F4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["186524CC6C1EC7BE"]
+			id: "0EAC0BD4046C76F7"
+			tasks: [
+				{
+					id: "54DC64A05177EF39"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_log"
+						}
+					}
+				}
+				{
+					id: "21457625C9EDBEDE"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "21360BD805B25A26"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "43CDC52332D8F4C3"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "7DF5753E3DE1FD2D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["0EAC0BD4046C76F7"]
+			id: "36FDFCBB5FF209B9"
+			tasks: [{
+				id: "583F92DAA3BD4EE8"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "tconstruct:rose_gold_block"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4FC863B3DF42F139"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+				{
+					id: "3A457E93DF105A30"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["0EAC0BD4046C76F7"]
+			id: "59AFBB5581DF4B4F"
+			tasks: [
+				{
+					id: "2BBF339D3B50C11A"
+					type: "item"
+					item: "tconstruct:tinkers_chest"
+				}
+				{
+					id: "21550985D20B213A"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "41B76545D1C5F447"
+					type: "item"
+					item: "tconstruct:cast_chest"
+				}
+			]
+			rewards: [
+				{
+					id: "037B69E682CEB052"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+				{
+					id: "720DFD677431A8D8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["4EC8DB525225CD2A"]
+			id: "2E6478D0A87CB910"
+			tasks: [
+				{
+					id: "73171CEC6F74D71F"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 32L
+				}
+				{
+					id: "59D951C917626439"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "3CBE23DD28A71062"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "03F71D1C9A8AD0A0"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "5FA1E7B9812EF453"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "3262220B77F599A0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["0EAC0BD4046C76F7"]
+			id: "7AB12A5609D670C0"
+			tasks: [{
+				id: "6297911F8D432247"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
+			rewards: [
+				{
+					id: "1A78C9AC9FC2FCE1"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "5E2406154F77FF05"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["7AB12A5609D670C0"]
+			id: "4B70E6FAC000EF91"
+			tasks: [
+				{
+					id: "5F39762601507F45"
+					type: "item"
+					item: "tconstruct:small_axe_head_cast"
+				}
+				{
+					id: "3BFCE8EC339E3752"
+					type: "item"
+					item: "tconstruct:pickaxe_head_cast"
+				}
+				{
+					id: "468D3073AED359B2"
+					type: "item"
+					item: "tconstruct:tool_handle_cast"
+				}
+				{
+					id: "09ED542ACBA49377"
+					type: "item"
+					item: "tconstruct:tool_binding_cast"
+				}
+			]
+			rewards: [
+				{
+					id: "5C7B3E821ECD2A48"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "12175CC240F45136"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["36FDFCBB5FF209B9"]
+			id: "45B13077AC8E97AF"
+			tasks: [
+				{
+					id: "184AB1D0F4D90978"
+					type: "item"
+					item: "tconstruct:hammer_head_cast"
+				}
+				{
+					id: "08126653F74649EE"
+					type: "item"
+					item: "tconstruct:broad_blade_cast"
+				}
+				{
+					id: "404B4EF7638B4F4A"
+					type: "item"
+					item: "tconstruct:large_plate_cast"
+				}
+				{
+					id: "59172406A86AC3C7"
+					type: "item"
+					item: "tconstruct:rod_cast"
+				}
+			]
+			rewards: [
+				{
+					id: "1ACA5DC49529545E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "1CC70DAC74C8D67E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["186524CC6C1EC7BE"]
+			id: "3A3F6BA5DC62F646"
+			tasks: [
+				{
+					id: "47B0C3594DE4143A"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 110.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "0F3A985133416774"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 160.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "5B07D5E7B05FC12D"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 150.0f
+								"tconstruct:armor": 4.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "4DE151782FC7C320"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 130.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "76A5DFCE8D0A5405"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "503BD211F6716953"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["186524CC6C1EC7BE"]
+			id: "1A7B75BF8AA62E64"
+			tasks: [
+				{
+					id: "3A195B85D0576FDC"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 567.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:blaze_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:firebreath"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:blazing_bone"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "406AE77C8674A895"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 672.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [{
+								name: "tconstruct:wings"
+								level: 1s
+							}]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:elyta": 1b
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "6076D17E856FD19E"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 630.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:pockets"
+									level: 1s
+								}
+								{
+									name: "tconstruct:protection"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:total_item_slots": 9
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "51481017E8CFC0D9"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4818C01B6600D126"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "487ACC0E4D46457F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["186524CC6C1EC7BE"]
+			id: "50BF72628309A7D5"
+			tasks: [
+				{
+					id: "7FCC4058E4D8C07C"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 330.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+					}
+				}
+				{
+					id: "7410B28C59C7BECA"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 480.0f
+								"tconstruct:armor": 7.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+					}
+				}
+				{
+					id: "41505B9D2A139230"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 450.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+					}
+				}
+				{
+					id: "63FBA166EF8EA8B4"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 390.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0429BB1273EA43EC"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "671EA2F44251989E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Getting Started With Tinkers"
+			icon: "tconstruct:seared_melter"
+			x: -1.5d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "186524CC6C1EC7BE"
+			tasks: [
+				{
+					id: "0B89CA6118573DB3"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "18AE6F1B131D8C8E"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "6EDB44DC7367C4B2"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+			rewards: [
+				{
+					id: "71812CC04B672285"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "312CCD26E53AEF4D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare"
+						}
+					}
+				}
+				{
+					id: "7A55B358F52BD334"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+	]
+}

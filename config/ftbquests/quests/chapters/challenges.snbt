@@ -1,0 +1,522 @@
+{
+	id: "392E111CCDAB3427"
+	group: "0BA05ED86D94F94D"
+	order_index: 2
+	filename: "challenges"
+	title: "Challenges"
+	icon: "draconicadditions:chaos_heart"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Starting The Challenges Cost A Fee!"
+			x: -0.5d
+			y: 0.0d
+			id: "59802C8C515BBB6D"
+			tasks: [{
+				id: "129BB214046CA1BE"
+				type: "ftbmoney:money"
+				value: 1000L
+			}]
+			rewards: [{
+				id: "6C3F3B7FD688876D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "epic"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			dependencies: ["603DA2D00F93056F"]
+			id: "61AA6112EDBDF90F"
+			tasks: [{
+				id: "5066C1BE5C62052C"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 10000
+			}]
+			rewards: [
+				{
+					id: "4EDD7A8614430BBE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6F5034334AD47600"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "0E6FDF5CAA73EC12"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["59802C8C515BBB6D"]
+			id: "52FE937A86F9CFCF"
+			tasks: [{
+				id: "11FB94324DAA266A"
+				type: "questsadditions:time"
+				title: "Reach 6 Hours Of Playtime"
+				elapsedTime: 21600L
+			}]
+			rewards: [{
+				id: "4CFC674D73BDA968"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "epic"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "PMMO Levels"
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["59802C8C515BBB6D"]
+			id: "48D16C302AFDB0D9"
+			tasks: [
+				{
+					id: "7E49A6DDA2D3AAC8"
+					type: "pmmo:skill"
+					skill: "combat"
+					requiredLevel: 25.0d
+				}
+				{
+					id: "7238FF99448FBAB0"
+					type: "pmmo:skill"
+					skill: "mining"
+					requiredLevel: 25.0d
+				}
+				{
+					id: "635084020A55979E"
+					type: "pmmo:skill"
+					skill: "endurance"
+					requiredLevel: 25.0d
+				}
+				{
+					id: "2105A38A6DC52885"
+					type: "pmmo:skill"
+					skill: "building"
+					requiredLevel: 25.0d
+				}
+				{
+					id: "4DC951CD2EA3A2B9"
+					type: "pmmo:skill"
+					skill: "crafting"
+					requiredLevel: 25.0d
+				}
+				{
+					id: "6E0ADECB6973E875"
+					type: "pmmo:skill"
+					skill: "excavation"
+					requiredLevel: 25.0d
+				}
+				{
+					id: "50B5E5221763307D"
+					type: "pmmo:skill"
+					skill: "farming"
+					requiredLevel: 25.0d
+				}
+				{
+					id: "129230BD2264F883"
+					type: "pmmo:skill"
+					skill: "woodcutting"
+					requiredLevel: 25.0d
+				}
+				{
+					id: "3A500534E6C1A028"
+					type: "pmmo:skill"
+					skill: "agility"
+					requiredLevel: 25.0d
+				}
+			]
+			rewards: [{
+				id: "5DB28F291825F7A3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "epic"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["59802C8C515BBB6D"]
+			id: "667F27666579C374"
+			tasks: [{
+				id: "267E108CC01B946A"
+				type: "forge_energy"
+				value: 500000L
+			}]
+			rewards: [{
+				id: "4BEB9E150844BC70"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "epic"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["17655FE790247D5E"]
+			id: "0492AD52CBA6B5C3"
+			tasks: [{
+				id: "48D70EF414F41B99"
+				type: "forge_energy"
+				value: 1000000L
+			}]
+			rewards: [{
+				id: "7E0059D2AC784652"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "legendary"
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["603DA2D00F93056F"]
+			id: "24FD65AA5CD34B79"
+			tasks: [{
+				id: "6B8AA0E4673BD97B"
+				type: "forge_energy"
+				value: 10000000L
+			}]
+			rewards: [{
+				id: "7FDA1B802EBD0973"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "legendary"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.5d
+			dependencies: ["24FD65AA5CD34B79"]
+			id: "63145114BE250B41"
+			tasks: [{
+				id: "00DEB3BF13E3D257"
+				type: "forge_energy"
+				value: 50000000L
+			}]
+			rewards: [{
+				id: "7BBCAD2ADA50CC6B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "legendary"
+					}
+				}
+				count: 15
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["17655FE790247D5E"]
+			id: "02D6EE1C39DCD1D3"
+			tasks: [{
+				id: "0620BCDC8391D016"
+				type: "questsadditions:time"
+				title: "1 Day Of Ontime"
+				elapsedTime: 86400L
+			}]
+			rewards: [{
+				id: "6B41EC3C4DFA3F38"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "legendary"
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: [
+				"667F27666579C374"
+				"52FE937A86F9CFCF"
+				"48D16C302AFDB0D9"
+			]
+			id: "17655FE790247D5E"
+			tasks: [{
+				id: "14CB96389D4BA01E"
+				type: "ftbmoney:money"
+				value: 15000L
+			}]
+			rewards: [{
+				id: "605DF81103646AAD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "legendary"
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			dependencies: [
+				"0492AD52CBA6B5C3"
+				"02D6EE1C39DCD1D3"
+				"5B3899163051359C"
+			]
+			id: "603DA2D00F93056F"
+			tasks: [{
+				id: "185FFA720B588F65"
+				type: "ftbmoney:money"
+				value: 45000L
+			}]
+			rewards: [{
+				id: "290063416A8DA421"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "legendary"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.5d
+			dependencies: ["603DA2D00F93056F"]
+			id: "794A28D3595CF3E4"
+			tasks: [{
+				id: "1AB7591226450069"
+				type: "kill"
+				icon: "draconicadditions:chaos_heart"
+				entity: "draconicevolution:draconic_guardian"
+				value: 2L
+			}]
+			rewards: [{
+				id: "5BFB7DABB37C6AA1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "legendary"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "PMMO Levels"
+			x: 0.5d
+			y: 4.5d
+			dependencies: ["17655FE790247D5E"]
+			id: "5B3899163051359C"
+			tasks: [
+				{
+					id: "19244B5122667D68"
+					type: "pmmo:skill"
+					skill: "combat"
+					requiredLevel: 50.0d
+				}
+				{
+					id: "1EE0D0EF2E3ADE0C"
+					type: "pmmo:skill"
+					skill: "mining"
+					requiredLevel: 50.0d
+				}
+				{
+					id: "63D36BAC798C9A58"
+					type: "pmmo:skill"
+					skill: "endurance"
+					requiredLevel: 50.0d
+				}
+				{
+					id: "3B872D136924F335"
+					type: "pmmo:skill"
+					skill: "building"
+					requiredLevel: 50.0d
+				}
+				{
+					id: "7E6726432EFC60EE"
+					type: "pmmo:skill"
+					skill: "crafting"
+					requiredLevel: 50.0d
+				}
+				{
+					id: "1D7CE4EA18D20214"
+					type: "pmmo:skill"
+					skill: "excavation"
+					requiredLevel: 50.0d
+				}
+				{
+					id: "69A2B90D48DAD807"
+					type: "pmmo:skill"
+					skill: "farming"
+					requiredLevel: 50.0d
+				}
+				{
+					id: "6C794002EDFD400E"
+					type: "pmmo:skill"
+					skill: "woodcutting"
+					requiredLevel: 50.0d
+				}
+				{
+					id: "2FEAEE9B29C87490"
+					type: "pmmo:skill"
+					skill: "agility"
+					requiredLevel: 50.0d
+				}
+			]
+			rewards: [{
+				id: "0E80C69314D62F48"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "legendary"
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			title: "PMMO Levels"
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["603DA2D00F93056F"]
+			id: "10BF644E90BAE3B7"
+			tasks: [
+				{
+					id: "5E0AC144A431DE9D"
+					type: "pmmo:skill"
+					skill: "combat"
+					requiredLevel: 100.0d
+				}
+				{
+					id: "133E36BA2D920393"
+					type: "pmmo:skill"
+					skill: "mining"
+					requiredLevel: 100.0d
+				}
+				{
+					id: "032C64B1CE3B3209"
+					type: "pmmo:skill"
+					skill: "endurance"
+					requiredLevel: 100.0d
+				}
+				{
+					id: "19C0A0A3E412CD10"
+					type: "pmmo:skill"
+					skill: "building"
+					requiredLevel: 100.0d
+				}
+				{
+					id: "6A2E3D3A2E1A09DA"
+					type: "pmmo:skill"
+					skill: "crafting"
+					requiredLevel: 100.0d
+				}
+				{
+					id: "41DEF2C77CCC7345"
+					type: "pmmo:skill"
+					skill: "excavation"
+					requiredLevel: 100.0d
+				}
+				{
+					id: "65ECF3B4BFAA803E"
+					type: "pmmo:skill"
+					skill: "farming"
+					requiredLevel: 100.0d
+				}
+				{
+					id: "3BF61F7192E972DB"
+					type: "pmmo:skill"
+					skill: "woodcutting"
+					requiredLevel: 100.0d
+				}
+				{
+					id: "734954953ED36811"
+					type: "pmmo:skill"
+					skill: "agility"
+					requiredLevel: 100.0d
+				}
+			]
+			rewards: [{
+				id: "3596BE7B4F2AE6B8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "legendary"
+					}
+				}
+				count: 10
+			}]
+		}
+	]
+}

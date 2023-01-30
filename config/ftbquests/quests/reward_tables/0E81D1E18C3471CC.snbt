@@ -1,0 +1,447 @@
+{
+	id: "0E81D1E18C3471CC"
+	order_index: 3
+	title: "Rare"
+	icon: "blue_skies:bluebright_chest"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:experience_bottle", count: 8, weight: 50 }
+		{ item: "minecraft:golden_apple", count: 4 }
+		{ item: "minecraft:beacon" }
+		{ item: "minecraft:nether_star" }
+		{ item: "minecraft:redstone", count: 32, weight: 50 }
+		{ item: "minecraft:gold_ingot", count: 16, weight: 50 }
+		{ item: "minecraft:iron_ingot", count: 32, weight: 50 }
+		{ item: "minecraft:diamond", count: 4, weight: 25 }
+		{ item: "minecraft:diamond", count: 2 }
+		{ item: "minecraft:netherite_ingot", count: 2 }
+		{ item: "minecraft:netherite_ingot", count: 4 }
+		{ item: "minecraft:coal", count: 32, weight: 50 }
+		{ item: "minecraft:ender_eye", count: 2 }
+		{ item: "minecraft:emerald", count: 2 }
+		{ item: "minecraft:ender_pearl", count: 8 }
+		{ item: "minecraft:lapis_lazuli", count: 32, weight: 50 }
+		{ item: "sophisticatedbackpacks:iron_backpack" }
+		{ item: "sophisticatedbackpacks:gold_backpack" }
+		{ item: "ironchest:wood_to_iron_chest_upgrade" }
+		{ item: "ironchest:diamond_to_crystal_chest_upgrade" }
+		{ item: "ironchest:gold_to_diamond_chest_upgrade" }
+		{ item: "ironchest:iron_to_gold_chest_upgrade" }
+		{ item: "waystones:waystone", count: 2 }
+		{ item: "waystones:waystone" }
+		{ item: "minecraft:obsidian", count: 8, weight: 50 }
+		{ item: "minecraft:chest", count: 16, weight: 50 }
+		{ item: "bhc:red_heart_canister", count: 2 }
+		{ item: "bhc:red_heart_canister" }
+		{ item: "bhc:red_heart", count: 2 }
+		{ item: "bhc:red_heart" }
+		{ item: "bhc:yellow_heart" }
+		{ item: "bhc:green_heart" }
+		{ item: "bhc:heart_amulet" }
+		{ item: "scalinghealth:heart_crystal" }
+		{ item: "minecraft:ender_chest", weight: 50 }
+		{ item: "minecraft:enchanting_table", weight: 50 }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "scalinghealth:enchanted_heart", count: 2 }
+		{ item: "scalinghealth:enchanted_heart" }
+		{
+			item: {
+				id: "botania:magnet_ring"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "appliedenergistics2:1k_storage_cell"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "appliedenergistics2:4k_storage_cell"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "appliedenergistics2:1k_fluid_storage_cell"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "appliedenergistics2:4k_fluid_storage_cell"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:blaze_rod", count: 16, weight: 50 }
+		{
+			item: {
+				id: "inventorypets:pet_sponge"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_cow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "common"
+				}
+			}
+			count: 2
+			weight: 25
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "common"
+				}
+			}
+			weight: 50
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:fire_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:feather_falling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:projectile_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:respiration"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:sweeping"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:smite"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:looting"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:frost_walker"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:depth_strider"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:bane_of_arthropods"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:punch"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:power"
+					}]
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 50
+			monster: 200
+		}
+		color: 4366837
+		item_name: "Rare Crate"
+		string_id: "rare"
+	}
+}

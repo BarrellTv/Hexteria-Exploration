@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "057C689E28CA5BBB", title: "Basics" }
+		{ id: "06593D9C585DC715", title: "Dimensions" }
+		{ id: "6FCEA929E492CCB9", title: "Magical" }
+		{ id: "70C4E1FE41CD8F4A", title: "Tech" }
+		{ id: "0BA05ED86D94F94D", title: "Extreme Tech" }
+	]
+}

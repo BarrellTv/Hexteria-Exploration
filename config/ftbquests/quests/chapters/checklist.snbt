@@ -1,0 +1,753 @@
+{
+	id: "700AFE2CFAA25D94"
+	group: "057C689E28CA5BBB"
+	order_index: 3
+	filename: "checklist"
+	title: "Checklist"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "projectex:final_star"
+			x: -4.0d
+			y: 4.0d
+			shape: "hexagon"
+			dependencies: ["4BEDBFA826A82CB1"]
+			size: 2.0d
+			id: "10A7472B960952AD"
+			tasks: [{
+				id: "6D410178119D7E03"
+				type: "checkmark"
+				title: "Finish ProjectE"
+			}]
+			rewards: [
+				{
+					id: "242A7E4D5C9A2787"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 15
+				}
+				{
+					id: "7E71BE8486063602"
+					type: "ftbmoney:money"
+					ftb_money: 100000L
+				}
+				{
+					id: "35F0855A68F76E19"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			icon: "minecraft:oak_log"
+			x: -6.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["7CF19F2936983CF0"]
+			size: 2.0d
+			id: "49CAD2D0999E37FD"
+			tasks: [{
+				id: "55F901A1274C007D"
+				type: "checkmark"
+				title: "Finish Introduction"
+			}]
+			rewards: [
+				{
+					id: "0EDA732E9E0BD7DB"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "0822401DEB7F6D25"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "minecraft:nether_bricks"
+			x: -5.0d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["16408C5E3FC777B8"]
+			size: 2.0d
+			id: "38D645010CCF9B43"
+			tasks: [{
+				id: "0BBCA53685100306"
+				type: "checkmark"
+				title: "Finish The Nether"
+			}]
+			rewards: [
+				{
+					id: "4CD79F44F401F682"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+				{
+					id: "7FB0CDB58E6101E9"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "58DB29FDD2C9E441"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "tconstruct:cleaver"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.25f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 3.5f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.85499996f
+						"tconstruct:mining_speed": 1.3499999f
+						"tconstruct:attack_damage": 7.8374996f
+						"tconstruct:harvest_level": 4.0f
+						"tconstruct:durability": 3118.5f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:overslime"
+							level: 4s
+						}
+						{
+							name: "tconstruct:severing"
+							level: 2s
+						}
+						{
+							name: "tconstruct:overlord"
+							level: 4s
+						}
+						{
+							name: "tconstruct:silky_aoe_shears"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					tic_materials: [
+						"tconstruct:queens_slime"
+						"tconstruct:queens_slime"
+						"tconstruct:queens_slime"
+						"tconstruct:queens_slime"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:overslime_cap": 3292
+						"tconstruct:overslime_friend": 1b
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: -4.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["1272F33F2F1B59CA"]
+			size: 2.0d
+			id: "753079A0F5984B53"
+			tasks: [{
+				id: "043CAC61953241C2"
+				type: "checkmark"
+				title: "Finish Tinkers"
+			}]
+			rewards: [
+				{
+					id: "0197C252CEAD0F46"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "3861BE454616F68E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "epic"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "structurize:sceptergold"
+			x: -2.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["77803B07CB43044E"]
+			size: 2.0d
+			id: "500B948DA2138FDB"
+			tasks: [{
+				id: "676D48135E1EE8F1"
+				type: "checkmark"
+				title: "Finish Minecolonies"
+			}]
+			rewards: [
+				{
+					id: "10CE6192B22FB14F"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "196766CE499261DC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "blue_skies:bluebright_sapling"
+			x: -3.0d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["6D931A6F7F8380C4"]
+			size: 2.0d
+			id: "73E9880CAEEBC295"
+			tasks: [{
+				id: "235060C378C87342"
+				type: "checkmark"
+				title: "Finish Blue Skies"
+			}]
+			rewards: [
+				{
+					id: "0C2782F84208D83F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "7FD43F7A50DAECE9"
+					type: "ftbmoney:money"
+					ftb_money: 15000L
+				}
+				{
+					id: "17E22793981C16AD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "twilightforest:quest_ram_trophy"
+			x: -1.0d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["6DB707CB1CC0A540"]
+			size: 2.0d
+			id: "1B9047AFF9268975"
+			tasks: [{
+				id: "5B28B10B23222646"
+				type: "checkmark"
+				title: "Finish The Twilight Forest"
+			}]
+			rewards: [
+				{
+					id: "360956F58C1C76F9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 5
+				}
+				{
+					id: "72D0920D69ADC397"
+					type: "ftbmoney:money"
+					ftb_money: 30000L
+				}
+				{
+					id: "3E7E01C737FC99FA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "mysticalagriculture:supremium_sword"
+			x: -6.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["68DC192295E4E97F"]
+			size: 2.0d
+			id: "19F5A141E56522BA"
+			tasks: [{
+				id: "287191FE7B01966B"
+				type: "checkmark"
+				title: "Finish Mystical Aggriculture"
+			}]
+			rewards: [
+				{
+					id: "3399BE39DC5090CE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "646CAAC51F20A50C"
+					type: "ftbmoney:money"
+					ftb_money: 25000L
+				}
+				{
+					id: "271EE8943A65A53C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			x: -4.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["5C41287AEA134BB0"]
+			size: 2.0d
+			id: "61266496258E8A6F"
+			tasks: [{
+				id: "29E766A5CB441B3E"
+				type: "checkmark"
+				title: "Finish Botania"
+			}]
+			rewards: [
+				{
+					id: "200BA45EF74680F2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 7
+				}
+				{
+					id: "2651593EEBA3996E"
+					type: "ftbmoney:money"
+					ftb_money: 20000L
+				}
+				{
+					id: "1FF1AD083A866380"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			icon: "immersiveengineering:workbench"
+			x: -5.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["1379B997FA676D90"]
+			size: 2.0d
+			id: "25E7583751BAB7BB"
+			tasks: [{
+				id: "738E8E27FA1B5C70"
+				type: "checkmark"
+				title: "Finish Immersive Engineering"
+			}]
+			rewards: [
+				{
+					id: "42822624409FC2E7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "2B55AE3BD7B09BF5"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "671982A868406045"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			icon: "industrialforegoing:mob_imprisonment_tool"
+			x: -3.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["2B07E4E74A5B0AEE"]
+			size: 2.0d
+			id: "6FC04BCF00682108"
+			tasks: [{
+				id: "3A194322364BEE0E"
+				type: "checkmark"
+				title: "Finish Industrial Foregoing"
+			}]
+			rewards: [
+				{
+					id: "1174118C3B0820A3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "02B2F21AA8AD967D"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "3327267A8892E457"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			icon: "mekanismgenerators:wind_generator"
+			x: -1.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["612EEFE83E1EDF20"]
+			size: 2.0d
+			id: "5B199C2EA6ED0E23"
+			tasks: [{
+				id: "51A0C5858DA00739"
+				type: "checkmark"
+				title: "Finish Mekanism"
+			}]
+			rewards: [
+				{
+					id: "7F1436D716BB9F54"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "4B77747BF1A594BB"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "2D95B2066246A4E2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			icon: "appliedenergistics2:controller"
+			x: 1.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["5F4116DEAEEF2B20"]
+			size: 2.0d
+			id: "2020A415C1B08023"
+			tasks: [{
+				id: "4D89184208F53488"
+				type: "checkmark"
+				title: "Finish Applied Energistics "
+			}]
+			rewards: [
+				{
+					id: "5C9E55CECE38A7B2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "3CA2333EAE364F05"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "5B0DD4EFFB8DD5B8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			icon: "thermal:wrench"
+			x: 3.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["50AA3481D5CC2E34"]
+			size: 2.0d
+			id: "2C45A98B83A1185D"
+			tasks: [{
+				id: "3BE5C9CEDF7802E9"
+				type: "checkmark"
+				title: "Finish Thermal Expansion"
+			}]
+			rewards: [
+				{
+					id: "24892837A0ED9EE4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "12F9BC99378A3114"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "4B32B5824938F6F3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "techbox"
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			icon: "draconicevolution:reactor_core"
+			x: -6.0d
+			y: 4.0d
+			shape: "hexagon"
+			dependencies: ["2D2F070F35FBD5C6"]
+			size: 2.0d
+			id: "78DF967A063144AA"
+			tasks: [{
+				id: "094D7B7E38DA759C"
+				type: "checkmark"
+				title: "Finish Draconic Evolution"
+			}]
+			rewards: [
+				{
+					id: "5974D4C01DD642A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 15
+				}
+				{
+					id: "560E5A4EEA61939C"
+					type: "ftbmoney:money"
+					ftb_money: 100000L
+				}
+				{
+					id: "51AC5EC0DCF0FE8E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 1.0d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["1727CD8998614537"]
+			size: 2.0d
+			id: "769CF855B62038A1"
+			tasks: [{
+				id: "736798DE2ABF596E"
+				type: "checkmark"
+				title: "Finish The End"
+			}]
+			rewards: [
+				{
+					id: "7DAC75F0149C172F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "legendary"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "2AF97AA5CD313887"
+					type: "ftbmoney:money"
+					ftb_money: 50000L
+				}
+				{
+					id: "63A1F108DFF598E4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "emclottery"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+	]
+}
